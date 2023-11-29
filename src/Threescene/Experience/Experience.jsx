@@ -7,7 +7,6 @@ import { useMemo, useRef } from "react";
 import { Sphere } from "@react-three/drei";
 import { Gradient, LayerMaterial } from "lamina";
 import { PerspectiveCamera } from "@react-three/drei";
-import { ScrollControls } from "@react-three/drei";
 import { Line, Float, Environment, Text } from "@react-three/drei";
 
 const LINE_NB_POINTS = 128;
@@ -126,9 +125,20 @@ export default function Experience() {
           anchorX="left" // default
           anchorY="middle" // default
           fontSize={5}
-          font={"/Fonts/CircularStd-Medium.otf"}
+          font={"/Fonts/monument-regular.otf"}
         >
-          ABHIYANTHRIKI 2023
+          ABHIYANTHRIKI
+        </Text>
+      </group>
+      <group position={[-5, -10, -20]}>
+        <Text
+          color="black" // default
+          anchorX="left" // default
+          anchorY="middle" // default
+          fontSize={3}
+          font={"/Fonts/monument-regular.otf"}
+        >
+          2023
         </Text>
       </group>
       <group position={[-3, -25, -10]}>
@@ -164,12 +174,12 @@ export default function Experience() {
           Rajagiri School of Engineering and Technology
         </Text>
       </group>
-      <group position={[24, 0, -130]} rotation={[0,-0.25,0]}>
+      <group position={[20, 0, -130]} rotation={[0,-0.25,0]}>
         <Text
           color="black" // default
           anchorX="left" // default
           anchorY="middle" // default
-          fontSize={0.9}
+          fontSize={0.8}
           font={"/Fonts/Neue.otf"}
         >
           Abhiyanthriki, RSET's biennial technical festival, epitomizes academic{"\n"}
@@ -210,21 +220,22 @@ export default function Experience() {
           rotation={[0, 0, 0]}
           makeDefault
           lookAt={Drone}
+          far={200}
         />
         <group ref={airplane}>
           <Float floatIntensity={2} speed={2}>
             <Drone />
           </Float>
         </group>
-        <Environment resolution={256} files={"/venice_sunset_2k.hdr"} />
-        <Sphere scale={[200, 200, 200]} rotation-y={Math.PI / 2}>
+        <Environment resolution={256} files={"/venice_sunset_2k.hdr"} background />
+        <Sphere scale={[100, 100, 100]} rotation-y={Math.PI / 2}>
           <LayerMaterial
             color={"#ffffff"}
             side={THREE.BackSide}
           >
             <Gradient
-              colorA={"#87ceeb"}
-              colorB={"#ffffff"}
+              colorA={"#fec135"}
+              colorB={"#d97e0c"}
               axes={"y"}
               start={0}
               end={-0.2}
