@@ -1,0 +1,22 @@
+.content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    height: 40dvw;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 10rem;
+    font-family: Circular;
+    color: #303030;
+    margin: 0%;
+}
+.content h2{
+    font-size: 5rem;
+    mix-blend-mode: difference;
+    margin: 0%;
+    fill:none;
+    stroke: azure;
+}

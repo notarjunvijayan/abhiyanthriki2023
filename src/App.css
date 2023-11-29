@@ -1,0 +1,11 @@
+.canvas-container{
+    position: absolute;
+    width: 100dvw;
+    height: 100dvh;
+    z-index:-5;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url(/public/Fonts/CircularStd-Medium.otf);
+}
