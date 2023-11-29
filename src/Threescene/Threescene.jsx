@@ -6,7 +6,7 @@ function Threescene() {
   return (
     <>
       <Canvas>
-        <ScrollControls pages={6} damping={0.3}>
+        <ScrollControls pages={25} damping={0.3}>
           <Experience/>
         </ScrollControls>
       </Canvas>

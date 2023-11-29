@@ -10,7 +10,20 @@ import { PerspectiveCamera } from "@react-three/drei";
 import { ScrollControls } from "@react-three/drei";
 import { Line, Float, Environment, Text } from "@react-three/drei";
 
-const LINE_NB_POINTS = 64;
+const LINE_NB_POINTS = 128;
+
+const Texture = ({ texture,position,args }) => {
+  return (
+    <mesh position={position}>
+      <planeGeometry attach="geometry" args={args} />
+      <meshBasicMaterial attach="material" map={texture} />
+    </mesh>
+  );
+};
+const Image = ({ url,position,args }) => {
+  const texture = useMemo(() => new THREE.TextureLoader().load(url), [url]);
+  return <Texture position={position} texture={texture} args={args}/>;
+};
 
 export default function Experience() {
   const curve = useMemo(() => {
@@ -20,7 +33,6 @@ export default function Experience() {
         new THREE.Vector3(0, -1, 10),
         new THREE.Vector3(0, 0, 0),
         new THREE.Vector3(0, -0.5, -10),
-        new THREE.Vector3(0.2, -0.5, -15),
         new THREE.Vector3(1, -0.5, -20),
         new THREE.Vector3(2, 0, -30),
         new THREE.Vector3(3, 0, -40),
@@ -28,8 +40,15 @@ export default function Experience() {
         new THREE.Vector3(1, 0, -60),
         new THREE.Vector3(1, 0, -70),
         new THREE.Vector3(5, 0.5, -80),
-        new THREE.Vector3(6, 1, -90),
-        new THREE.Vector3(7, 0, -100),
+        new THREE.Vector3(7, 1, -90),
+        new THREE.Vector3(10, 1, -100),
+        new THREE.Vector3(15, 1, -130),
+        new THREE.Vector3(15, -1, -150),
+        new THREE.Vector3(15, -1, -160),
+        new THREE.Vector3(15, -1, -180),
+        new THREE.Vector3(15, -1, -300),
+        new THREE.Vector3(15, -4, -350),
+        new THREE.Vector3(15, -4, -400),
       ],
       false,
       "catmullrom",
@@ -97,7 +116,10 @@ export default function Experience() {
       <Cloud position={[30, 0, -50]} />
       <Cloud position={[-7, 0, -20]} />
       <Cloud position={[7, -5, -30]} />
-      <Cloud position={[0, 0, -150]} scale={5} />
+      <Cloud position={[15, 0, -150]} scale={5} />
+      <Cloud position={[20, 0, -200]} scale={2} />
+      <Line points={linePoints}/>
+      <Image url={'/Images/rset.jpg'} position={[0,0,-130]} args={[15,10]}/>
       <group position={[-25, -5, -20]}>
         <Text
           color="black" // default
@@ -142,12 +164,12 @@ export default function Experience() {
           Rajagiri School of Engineering and Technology
         </Text>
       </group>
-      <group position={[20, 0, -150]} rotation={[0,0,0]}>
+      <group position={[24, 0, -130]} rotation={[0,-0.25,0]}>
         <Text
           color="black" // default
           anchorX="left" // default
           anchorY="middle" // default
-          fontSize={1}
+          fontSize={0.9}
           font={"/Fonts/Neue.otf"}
         >
           Abhiyanthriki, RSET's biennial technical festival, epitomizes academic{"\n"}
@@ -155,8 +177,30 @@ export default function Experience() {
           it offers a spectrum of opportunities, including technical contests,{"\n"}
           workshops, and creative stalls.Emphasizing sustainability, the event{"\n"}
           incorporates inventive reuse of plastic bottles and circuit boards in{"\n"}
-          its decor. Abhiyanthriki is more than an event; it's a distinguished{"\n"}
+          its decor.{"\n"}{"\n"}Abhiyanthriki is more than an event; it's a distinguished{"\n"}
           platform embodying scholastic and technical achievement.
+        </Text>
+      </group>
+      <group position={[0, 0, -230]}>
+        <Text
+          color="black" // default
+          anchorX="left" // default
+          anchorY="middle" // default
+          fontSize={2}
+          font={"/Fonts/Neue.otf"}
+        >
+          Excited ?
+        </Text>
+      </group>
+      <group position={[12, 0, -280]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={1}
+          font={"/Fonts/Neue.otf"}
+        >
+          Get Ready For
         </Text>
       </group>
       <group ref={cameraGroup}>
