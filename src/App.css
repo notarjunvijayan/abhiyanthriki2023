@@ -4,8 +4,3 @@
     height: 100dvh;
     z-index:-5;
 }
-
-@font-face {
-    font-family: Neue;
-    src: url(/public/Fonts/Neue.otf);
-}

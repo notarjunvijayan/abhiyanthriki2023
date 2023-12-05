@@ -1,0 +1,31 @@
+.loader-container{
+    position: absolute;
+    background: rgb(135,206,235);
+    background: linear-gradient(180deg, rgba(135,206,235,1) 0%, rgba(255,255,255,1) 90%);
+    height: 100dvh;
+    width: 100dvw;
+    top: -50dvh;
+    left: -50dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader-container h1{
+    font-family: monument;
+    font-size: 6rem;
+    padding: 0%;
+    margin: 0%;
+}
+.loader-container h2{
+    font-family: monument;
+    font-size: 3.5rem;
+    padding: 0%;
+    margin-top: 1rem;
+}
+.loader-container p{
+    font-size: 1.2rem;
+}
+
+.text{
+    text-align: center;
+}

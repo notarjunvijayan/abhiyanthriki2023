@@ -4,3 +4,13 @@ body{
     color: black;
     font-family: 'Neue';
 }
+
+@font-face {
+    font-family: Neue;
+    src: url(/public/Fonts/Neue.otf);
+}
+
+@font-face {
+    font-family: Monument;
+    src: url(/public/Fonts/monument-regular.otf);
+}
