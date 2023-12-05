@@ -1,7 +1,6 @@
 import { Drone } from "./StingerDrone";
 import { Cloud } from "./Cloud";
 import { useFrame } from "@react-three/fiber";
-import { useLayoutEffect } from "react";
 import { OrbitControls, useScroll } from "@react-three/drei";
 import * as THREE from "three";
 import { useMemo, useRef } from "react";
@@ -9,12 +8,13 @@ import { Sphere } from "@react-three/drei";
 import { Gradient, LayerMaterial } from "lamina";
 import { PerspectiveCamera } from "@react-three/drei";
 import { Line, Float, Environment, Text } from "@react-three/drei";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 
-const LINE_NB_POINTS = 128;
+// Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
+const LINE_NB_POINTS = 256;
 
-const Texture = ({ texture,position,args }) => {
+
+//Images Display Setup
+const Texture = ({ texture, position, args }) => {
   return (
     <mesh position={position}>
       <planeGeometry attach="geometry" args={args} />
@@ -22,13 +22,16 @@ const Texture = ({ texture,position,args }) => {
     </mesh>
   );
 };
-const Image = ({ url,position,args }) => {
+const Image = ({ url, position, args }) => {
   const texture = useMemo(() => new THREE.TextureLoader().load(url), [url]);
-  return <Texture position={position} texture={texture} args={args}/>;
+  return <Texture position={position} texture={texture} args={args} />;
 };
 
 export default function Experience() {
+  
   const envColor = useRef();
+
+  //Set of points that define the Drone path
   const curve = useMemo(() => {
     return new THREE.CatmullRomCurve3(
       [
@@ -66,17 +69,12 @@ export default function Experience() {
     );
   }, []);
 
+
+  //Setting Linepoints
   const linePoints = useMemo(() => {
     return curve.getPoints(LINE_NB_POINTS);
   }, [curve]);
 
-  const shape = useMemo(() => {
-    const shape = new THREE.Shape();
-    shape.moveTo(0, -0.2);
-    shape.lineTo(0, 0.2);
-
-    return shape;
-  }, [curve]);
 
   const cameraGroup = useRef();
   const airplane = useRef();
@@ -93,12 +91,11 @@ export default function Experience() {
 
     const xDisplacement = (pointAhead.x - curPoint.x) * 80;
 
-    // Math.PI / 2 -> LEFT
-    // -Math.PI / 2 -> RIGHT
-
+    
+    //Functions to Set Rotation of the drone on Turn
     const angleRotation =
       (xDisplacement < 0 ? 1 : -1) *
-      Math.min(Math.abs(xDisplacement), Math.PI / 14);
+      Math.min(Math.abs(xDisplacement), Math.PI / 16);
 
     const targetAirplaneQuaternion = new THREE.Quaternion().setFromEuler(
       new THREE.Euler(
@@ -117,20 +114,22 @@ export default function Experience() {
     airplane.current.quaternion.slerp(targetAirplaneQuaternion, delta * 2);
     cameraGroup.current.quaternion.slerp(targetCameraQuaternion, delta * 2);
     cameraGroup.current.position.lerp(curPoint, delta * 24);
-
-  })
+  });
   return (
     <>
-      
       <Cloud position={[30, 0, -50]} />
       <Cloud position={[-7, 0, -20]} />
       <Cloud position={[7, -5, -30]} />
       <Cloud position={[15, 0, -150]} scale={5} />
       <Cloud position={[20, 0, -200]} scale={2} />
-      
-      <Line points={linePoints}/>
-      <Image url={'/Images/rset.jpg'} position={[0,0,-130]} args={[15,10]}/>
-      <Image url={'/Images/Hubspire.jpg'} position={[25,0,-250]} args={[5,1]}/>
+
+      <Line points={linePoints} />
+      <Image url={"/Images/rset.jpg"} position={[0, 0, -130]} args={[15, 10]} />
+      <Image
+        url={"/Images/Hubspire.jpg"}
+        position={[25, 0, -250]}
+        args={[5, 1]}
+      />
       <group position={[-25, -5, -20]}>
         <Text
           color="black" // default
@@ -186,7 +185,7 @@ export default function Experience() {
           Rajagiri School of Engineering and Technology
         </Text>
       </group>
-      <group position={[20, 0, -130]} rotation={[0,-0.25,0]}>
+      <group position={[20, 0, -130]} rotation={[0, -0.25, 0]}>
         <Text
           color="black" // default
           anchorX="left" // default
@@ -194,12 +193,18 @@ export default function Experience() {
           fontSize={0.8}
           font={"/Fonts/Neue.otf"}
         >
-          Abhiyanthriki, RSET's biennial technical festival, epitomizes academic{"\n"}
-          excellence and innovation. Spanning two meticulously organized days, {"\n"}
-          it offers a spectrum of opportunities, including technical contests,{"\n"}
-          workshops, and creative stalls.Emphasizing sustainability, the event{"\n"}
-          incorporates inventive reuse of plastic bottles and circuit boards in{"\n"}
-          its decor.{"\n"}{"\n"}Abhiyanthriki is more than an event; it's a distinguished{"\n"}
+          Abhiyanthriki, RSET's biennial technical festival, epitomizes academic
+          {"\n"}
+          excellence and innovation. Spanning two meticulously organized days,{" "}
+          {"\n"}
+          it offers a spectrum of opportunities, including technical contests,
+          {"\n"}
+          workshops, and creative stalls.Emphasizing sustainability, the event
+          {"\n"}
+          incorporates inventive reuse of plastic bottles and circuit boards in
+          {"\n"}
+          its decor.{"\n"}
+          {"\n"}Abhiyanthriki is more than an event; it's a distinguished{"\n"}
           platform embodying scholastic and technical achievement.
         </Text>
       </group>
@@ -262,11 +267,12 @@ export default function Experience() {
           </Float>
         </group>
         <Environment resolution={256} files={"/Models/venice_sunset_2k.hdr"} />
-        <Sphere scale={[100, 100, 100]} position={[0,0,0]} rotation-y={Math.PI / 2}>
-          <LayerMaterial
-            color={"#ffffff"}
-            side={THREE.BackSide}
-          >
+        <Sphere
+          scale={[100, 100, 100]}
+          position={[0, 0, 0]}
+          rotation-y={Math.PI / 2}
+        >
+          <LayerMaterial color={"#ffffff"} side={THREE.BackSide}>
             <Gradient
               ref={envColor}
               colorA={"#87ceeb"}
