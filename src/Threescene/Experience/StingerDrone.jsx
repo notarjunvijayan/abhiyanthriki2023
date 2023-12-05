@@ -8,12 +8,12 @@ import { useGLTF } from '@react-three/drei'
 import { motion } from 'framer-motion-3d'
 
 export function Drone(props) {
-  const { nodes, materials } = useGLTF('/StingerDrone.glb')
+  const { nodes, materials } = useGLTF('/Models/StingerDrone.glb')
   return (
     <group 
       animate={{x:0,y:0,z:7}}
       transition={{duration:3}}
-    {...props} rotation={[0,-1.5,0]} position={[0,0,0]} scale={1.5} dispose={null}>
+    {...props} rotation={[0,-1.5,0]} position={[0,0,0]} dispose={null}>
       <mesh geometry={nodes.mesh1129617186.geometry} material={materials.mat17} />
       <mesh geometry={nodes.mesh1129617186_1.geometry} material={materials.mat8} />
       <mesh geometry={nodes.mesh900292859.geometry} material={materials.mat8} />
@@ -35,4 +35,4 @@ export function Drone(props) {
   )
 }
 
-useGLTF.preload('/StingerDrone.glb')
+useGLTF.preload('/Models/StingerDrone.glb')

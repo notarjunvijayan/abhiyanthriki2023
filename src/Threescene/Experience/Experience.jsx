@@ -1,6 +1,7 @@
 import { Drone } from "./StingerDrone";
 import { Cloud } from "./Cloud";
 import { useFrame } from "@react-three/fiber";
+import { useLayoutEffect } from "react";
 import { OrbitControls, useScroll } from "@react-three/drei";
 import * as THREE from "three";
 import { useMemo, useRef } from "react";
@@ -8,6 +9,8 @@ import { Sphere } from "@react-three/drei";
 import { Gradient, LayerMaterial } from "lamina";
 import { PerspectiveCamera } from "@react-three/drei";
 import { Line, Float, Environment, Text } from "@react-three/drei";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 const LINE_NB_POINTS = 128;
 
@@ -25,6 +28,7 @@ const Image = ({ url,position,args }) => {
 };
 
 export default function Experience() {
+  const envColor = useRef();
   const curve = useMemo(() => {
     return new THREE.CatmullRomCurve3(
       [
@@ -44,10 +48,17 @@ export default function Experience() {
         new THREE.Vector3(15, 1, -130),
         new THREE.Vector3(15, -1, -150),
         new THREE.Vector3(15, -1, -160),
-        new THREE.Vector3(15, -1, -180),
-        new THREE.Vector3(15, -1, -300),
-        new THREE.Vector3(15, -4, -350),
-        new THREE.Vector3(15, -4, -400),
+        new THREE.Vector3(10, -1, -180),
+        new THREE.Vector3(10, -1, -190),
+        new THREE.Vector3(12, -1, -200),
+        new THREE.Vector3(12, -1, -220),
+        new THREE.Vector3(12, -1, -240),
+        new THREE.Vector3(12, -1, -250),
+        new THREE.Vector3(9, -1, -260),
+        new THREE.Vector3(9, -1, -270),
+        new THREE.Vector3(10, -1, -290),
+        new THREE.Vector3(12, -1, -300),
+        new THREE.Vector3(11, -1, -310),
       ],
       false,
       "catmullrom",
@@ -103,12 +114,11 @@ export default function Experience() {
         cameraGroup.current.rotation.z
       )
     );
-
     airplane.current.quaternion.slerp(targetAirplaneQuaternion, delta * 2);
     cameraGroup.current.quaternion.slerp(targetCameraQuaternion, delta * 2);
     cameraGroup.current.position.lerp(curPoint, delta * 24);
-  });
 
+  })
   return (
     <>
       
@@ -117,8 +127,10 @@ export default function Experience() {
       <Cloud position={[7, -5, -30]} />
       <Cloud position={[15, 0, -150]} scale={5} />
       <Cloud position={[20, 0, -200]} scale={2} />
+      
       <Line points={linePoints}/>
       <Image url={'/Images/rset.jpg'} position={[0,0,-130]} args={[15,10]}/>
+      <Image url={'/Images/Hubspire.jpg'} position={[25,0,-250]} args={[5,1]}/>
       <group position={[-25, -5, -20]}>
         <Text
           color="black" // default
@@ -141,7 +153,7 @@ export default function Experience() {
           2023
         </Text>
       </group>
-      <group position={[-3, -25, -10]}>
+      <group position={[-2.5, -25, -10]}>
         <Text
           color="black" // default
           anchorX="left" // default
@@ -149,7 +161,7 @@ export default function Experience() {
           fontSize={1}
           font={"/Fonts/Neue.otf"}
         >
-          The Revival.
+          Scroll to Fly
         </Text>
       </group>
       <group position={[-8, 2, -70]}>
@@ -196,7 +208,7 @@ export default function Experience() {
           color="black" // default
           anchorX="left" // default
           anchorY="middle" // default
-          fontSize={2}
+          fontSize={1}
           font={"/Fonts/Neue.otf"}
         >
           Excited ?
@@ -213,6 +225,28 @@ export default function Experience() {
           Get Ready For
         </Text>
       </group>
+      <group position={[3, -2, -320]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={0.8}
+          font={"/Fonts/Neue.otf"}
+        >
+          Drone Wars
+        </Text>
+      </group>
+      <group position={[15, 3, -250]}>
+        <Text
+          color="black" // default
+          anchorX="left" // default
+          anchorY="middle" // default
+          fontSize={0.8}
+          font={"/Fonts/monument-regular.otf"}
+        >
+          PLANTINUM SPONSORS
+        </Text>
+      </group>
       <group ref={cameraGroup}>
         <PerspectiveCamera
           fov={30}
@@ -224,18 +258,19 @@ export default function Experience() {
         />
         <group ref={airplane}>
           <Float floatIntensity={2} speed={2}>
-            <Drone />
+            <Drone scale={1.5} />
           </Float>
         </group>
-        <Environment resolution={256} files={"/venice_sunset_2k.hdr"} background />
-        <Sphere scale={[100, 100, 100]} rotation-y={Math.PI / 2}>
+        <Environment resolution={256} files={"/Models/venice_sunset_2k.hdr"} />
+        <Sphere scale={[100, 100, 100]} position={[0,0,0]} rotation-y={Math.PI / 2}>
           <LayerMaterial
             color={"#ffffff"}
             side={THREE.BackSide}
           >
             <Gradient
-              colorA={"#fec135"}
-              colorB={"#d97e0c"}
+              ref={envColor}
+              colorA={"#87ceeb"}
+              colorB={"#ffffff"}
               axes={"y"}
               start={0}
               end={-0.2}
