@@ -79,8 +79,23 @@ export default function Experience() {
   const cameraGroup = useRef();
   const airplane = useRef();
   const scroll = useScroll();
+  const camera = useRef();
+
 
   useFrame((_state, delta) => {
+
+    //Fov and Position Changes according to window aspect ratio
+    //(SCENE RESPONSIVITY)
+    if(window.innerWidth > window.innerHeight){
+      camera.current.fov = 30
+      camera.current.position.z = 13
+    }
+    else{
+      camera.current.fov = 60;
+      camera.current.position.z = 50
+    }
+
+
     const curPointIndex = Math.min(
       Math.round(scroll.offset * linePoints.length),
       linePoints.length - 1
@@ -254,12 +269,12 @@ export default function Experience() {
       </group>
       <group ref={cameraGroup}>
         <PerspectiveCamera
-          fov={30}
           position={[0, 1, 13]}
           rotation={[0, 0, 0]}
           makeDefault
           lookAt={Drone}
           far={200}
+          ref={camera}
         />
         <group ref={airplane}>
           <Float floatIntensity={2} speed={2}>
