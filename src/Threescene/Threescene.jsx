@@ -14,9 +14,6 @@ function Threescene() {
           <ScrollControls pages={25} damping={0.2}>
             <Experience />
           </ScrollControls>
-          <EffectComposer>
-            <Noise premultiply blendFunction={BlendFunction.ADD} opacity={0.15}/>
-          </EffectComposer>
         </Suspense>
       </Canvas>
     </>
