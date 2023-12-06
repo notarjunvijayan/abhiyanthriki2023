@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-body{
-    margin:0;
-    color: black;
-    font-family: 'Neue';
+body {
+  margin: 0;
+  color: black;
+  font-family: 'Neue';
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 @font-face {
-    font-family: Neue;
-    src: url(/public/Fonts/Neue.otf);
+  font-family: Neue;
+  src: url(/public/Fonts/Neue.otf);
 }
 
 @font-face {
-    font-family: Monument;
-    src: url(/public/Fonts/monument-regular.otf);
+  font-family: Monument;
+  src: url(/public/Fonts/monument-regular.otf);
 }
