@@ -86,13 +86,15 @@ export default function Experience() {
 
     //Fov and Position Changes according to window aspect ratio
     //(SCENE RESPONSIVITY)
-    if(window.innerWidth > window.innerHeight){
-      camera.current.fov = 30
-      camera.current.position.z = 13
-    }
-    else{
+    if(window.innerWidth < window.innerHeight){
       camera.current.fov = 50;
       camera.current.position.z = 50
+      camera.current.position.y = 5
+    }
+    else{
+      camera.current.fov = 30
+      camera.current.position.z = 13
+      camera.current.position.y = 1
     }
 
 
@@ -269,8 +271,8 @@ export default function Experience() {
       </group>
       <group ref={cameraGroup}>
         <PerspectiveCamera
-          position={[0, 1, 13]}
           rotation={[0, 0, 0]}
+          fov={30}
           makeDefault
           lookAt={Drone}
           far={200}

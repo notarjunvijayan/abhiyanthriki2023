@@ -3,8 +3,6 @@ import Experience from "./Experience/Experience";
 import { ScrollControls } from "@react-three/drei";
 import Loader from "./Loader/Loader";
 import { Suspense } from "react";
-import { EffectComposer, Noise } from "@react-three/postprocessing";
-import { BlendFunction } from "postprocessing";
 
 function Threescene() {
   return (
