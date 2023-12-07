@@ -36,6 +36,8 @@ const Contact = () => {
   }, []);
 
   return (
+    <div className="contact-container">
+      <h1>Get in Touch</h1>
     <div className='contact-cards' id='contact-cards'>
       <Tilt>
         <div className='contact-card' onClick={handleLocationLinkClick}>
@@ -48,9 +50,9 @@ const Contact = () => {
                       <ImLocation size={80} className='contact-locationLogo' />
                       <h2>
                         RSET <br />
-                        RAJAGIRI VALLEY ROAD
+                        Rajagiri Valley Road
                         <br />
-                        KAKKANAD
+                        Kakkanad
                       </h2>
                     </div>
                     <a
@@ -60,7 +62,7 @@ const Contact = () => {
                       className='contact-address-link'
                       onClick={handleLocationLinkClick}
                     >
-                      VIEW LOCATION
+                      View Location
                     </a>
                   </div>
                 </div>
@@ -89,7 +91,7 @@ const Contact = () => {
             <div className='contact-card-info-wrapper'>
               <div className='contact-social-card-info'>
                 <div className='contact-card-info-title'>
-                  <h1 className='contact-social-title'>SOCIALS</h1>
+                  <h1 className='contact-social-title'>Socials</h1>
                 </div>{' '}
                 <div className='contact-card-social-links'>
                   {' '}
@@ -140,6 +142,7 @@ const Contact = () => {
           </div>
         </div>
       </Tilt>
+    </div>
     </div>
   );
 };

@@ -1,5 +1,15 @@
-:root {
-  --card-color: rgb(23, 23, 23);
+.contact-container{
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.6796919451374299) 14%, rgba(53,92,108,0.6824930655856092) 71%), url('/Images/a3k.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15dvh 2rem;
+  display:flex;
+  align-items: center;
+}
+
+.contact-container h1{
+  font-size: 8rem;
+  width: 30dvw;
 }
 
 .contact-cards {
@@ -9,8 +19,6 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background-color: rgb(20, 20, 20);
-  padding-top: 3%;
   padding-bottom: 3%;
   gap: 2vw;
   overflow-y: hidden;
@@ -21,10 +29,14 @@
 }
 
 .contact-card {
-  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.55);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
   border-radius: 10px;
   cursor: pointer;
-  height: 28vw;
+  height: 30rem;
   width: 34vw;
 }
 
@@ -75,15 +87,10 @@
   z-index: 2;
 }
 
-h1,
-h2,
-h3,
-h4,
+.contact-container h1, .contact-cards h2,.contact-cards h3,.contact-cards h4,
 span {
   color: rgb(240, 240, 240);
-  font-family: 'Rubik', sans-serif;
-  font-weight: 400;
-  margin: 0px;
+  font-family: Neue, sans-serif;
 }
 
 i {
@@ -185,12 +192,11 @@ i {
 
 .contact-address-link {
   padding: 1vh;
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 20vw;
   border-radius: 20px;
-
+  border: 1px solid white;
   text-align: center;
-  background-color: rgb(185, 197, 8);
   color: white;
   cursor: pointer;
   text-decoration: none;
@@ -222,7 +228,6 @@ i {
 }
 
 .contact-social-title {
-  font-size: 1.5rem;
   color: white;
 }
 
