@@ -1,7 +1,6 @@
 .loader-container{
     position: absolute;
-    background: rgb(135,206,235);
-    background: linear-gradient(180deg, rgba(135,206,235,1) 0%, rgba(255,255,255,1) 90%);
+    background: linear-gradient(180deg, #f4bf07 50%, #ec662d 110%);
     height: 100dvh;
     width: 100dvw;
     top: -50dvh;
@@ -12,13 +11,13 @@
 }
 .loader-container h1{
     font-family: monument;
-    font-size: 6rem;
+    font-size: 5rem;
     padding: 0%;
     margin: 0%;
 }
 .loader-container h2{
     font-family: monument;
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 0%;
     margin-top: 1rem;
 }

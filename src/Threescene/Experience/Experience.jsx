@@ -144,8 +144,13 @@ export default function Experience() {
       <Image url={"/Images/rset.jpg"} position={[0, 0, -130]} args={[15, 10]} />
       <Image
         url={"/Images/Hubspire.jpg"}
-        position={[25, 0, -250]}
+        position={[24, -1, -250]}
         args={[5, 1]}
+      />
+      <Image
+        url={"/Images/GLOBAL_logo.jpg"}
+        position={[18, -1, -250]}
+        args={[4, 4]}
       />
       <group position={[-25, -5, -20]}>
         <Text
@@ -292,11 +297,11 @@ export default function Experience() {
           <LayerMaterial color={"#ffffff"} side={THREE.BackSide}>
             <Gradient
               ref={envColor}
-              colorA={"#87ceeb"}
-              colorB={"#ffffff"}
+              colorA={"#f4bf07"}
+              colorB={"#ec662d"}
               axes={"y"}
               start={0}
-              end={-0.2}
+              end={-0.25}
             />
           </LayerMaterial>
         </Sphere>
