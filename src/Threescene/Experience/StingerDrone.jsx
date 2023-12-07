@@ -5,7 +5,6 @@ Command: npx gltfjsx@6.2.15 StingerDrone.glb
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
-import { motion } from 'framer-motion-3d'
 
 export function Drone(props) {
   const { nodes, materials } = useGLTF('/Models/StingerDrone.glb')
