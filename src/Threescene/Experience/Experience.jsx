@@ -91,7 +91,7 @@ export default function Experience() {
       camera.current.position.z = 13
     }
     else{
-      camera.current.fov = 60;
+      camera.current.fov = 50;
       camera.current.position.z = 50
     }
 
