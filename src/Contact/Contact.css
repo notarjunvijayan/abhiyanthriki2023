@@ -1,22 +1,12 @@
 .contact-container {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.6796919451374299) 14%,
-      rgba(53, 92, 108, 0.6824930655856092) 71%
-    ),
-    url('/Images/a3k.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15dvh 2rem;
+  padding-top: 15dvh;
+  padding-left: 2em;
   display: flex;
   align-items: center;
+  height: 80vh;
 }
-
-.contact-container h1 {
-  font-size: 6rem;
-  width: 30dvw;
-}
-
 .contact-cards {
   display: flex;
   flex-direction: row;
@@ -24,7 +14,8 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
   gap: 2vw;
   overflow-y: hidden;
 }
@@ -36,7 +27,7 @@
 .contact-card {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.55);
+  background-color: rgba(0, 0, 0, 0.832);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   border-radius: 10px;
@@ -92,7 +83,6 @@
   z-index: 2;
 }
 
-.contact-container h1,
 .contact-cards h2,
 .contact-cards h3,
 .contact-cards h4,
@@ -260,6 +250,13 @@ i {
 
 .contact-social-item {
   font-size: 1.2rem;
+}
+
+.contact-main-title {
+  font-size: 6rem;
+  color: black;
+  width: 30dvw;
+  z-index: 5;
 }
 
 /*
