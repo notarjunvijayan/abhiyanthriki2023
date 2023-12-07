@@ -110,7 +110,7 @@ const Contact = () => {
         </Tilt>
         <Tilt className='contact-card contact-card3'>
           <div className='contact-card-content contact-phone'>
-            <div className=' contact-card-info-title'>
+            <div className=' phone-card-info-title'>
               <h1 className='contact-social-title'>Phone</h1>
             </div>
             <div className='contact-phone-list'>

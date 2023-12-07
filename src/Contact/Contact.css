@@ -107,7 +107,7 @@ i {
 .contact-card-info-title > h1 {
   font-size: 2em;
   line-height: 20px;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .contact-card-info-title > h4 {
@@ -157,14 +157,14 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5%;
-  gap: 10%;
   grid-area: 1 / 1 / 4 / 4;
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 9%;
 }
 
 .contact-address-text {
   display: flex;
-  gap: 1vw;
   align-items: center;
   font-size: 0.8rem;
   color: white;
@@ -173,7 +173,7 @@ i {
 .contact-address-link {
   padding: 1vh;
   font-size: 1rem;
-  width: 20vw;
+  width: 30%;
   border-radius: 20px;
   border: 1px solid white;
   text-align: center;
@@ -242,16 +242,17 @@ i {
   flex-direction: column;
   color: white;
   padding-top: 1%;
-  padding-left: 6%;
+  padding-left: 9%;
 }
 
 .contact-phone-list {
-  padding-top: 1%;
+  margin-top: -2%;
 }
 
 .contact-phone-list a {
   text-decoration: none;
   color: white;
+  padding-top: 2%;
 }
 .contact-phone-item {
   display: flex;
@@ -261,188 +262,62 @@ i {
   align-items: center;
 }
 
-/*
-
-
-.contact-container {
-	display: flex;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	justify-content: center;
-	align-items: center;
-	color: black;
-}
-
-.contact-grid {
-	display: grid;
-	height: 80%;
-	width: 80%;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(7, 1fr);
-	grid-column-gap: 1vh;
-	grid-row-gap: 1vh;
-	font-family: "Integral";
-}
-
-.contact-card {
-	background-color: #e5ff00;
-}
-
-.contact-locationLogo {
-	height: 1.5rem;
-}
-
-.contact-address {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 10%;
-	gap: 10%;
-	grid-area: 1 / 1 / 4 / 4;
-}
-
-.contact-address-text {
-	display: flex;
-	gap: 1vw;
-	align-items: center;
-	font-size: 0.8rem;
-}
-
-.contact-address-link {
-	padding: 1vh;
-	font-size: 0.8rem;
-	width: fit-content;
-	text-align: center;
-	background-color: black;
-	color: white;
-	cursor: pointer;
-}
-
-.contact-social {
-	grid-area: 4 / 1 / 8 / 4;
-	display: flex;
-	flex-direction: column;
-	padding: 10%;
-	justify-content: space-between;
-}
-
-.contact-social-title {
-	font-size: 1.5rem;
-}
-
-.contact-social-item {
-	display: flex;
-	font-size: 0.8rem;
-	gap: 1vw;
-}
-
-.contact-socialLogo {
-	height: 1.5rem;
-}
-
-.contact-title {
-	display: flex;
-	padding: 15%;
-	align-items: center;
-	justify-content: right;
-	text-align: right;
-	font-size: 4rem;
-	line-height: 4.5rem;
-	grid-area: 1 / 4 / 5 / 7;
-}
-
-.contact-phone {
-	grid-area: 5 / 4 / 8 / 7;
-	display: flex;
-	flex-direction: column;
-	padding: 10%;
-	justify-content: space-around;
-	align-items: flex-end;
-	gap: 1vw;
-}
-
-.contact-phone-title {
-	font-size: 1.5rem;
-}
-
-.contact-phone-list{
-	display: flex;
-	height: 80%;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.contact-phone-item {
-	display: flex;
-	font-size: 0.8rem;
-	gap: 1vw;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.contact-phoneLogo {
-	height: 1.5rem;
-}
-
 @media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding-top: 5dvh;
+  }
 
-	.contact-container{
-		margin: 0;
-	}
+  .contact-main-title {
+    font-size: 3rem;
+    width: 100%;
+  }
 
-	.contact-grid {
-		height: 60%;
-	}
+  .contact-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 2vw;
+    grid-row-gap: 1.5vw;
+    width: 100%;
+    height: 80%;
+  }
 
-	.contact-address {
-		flex-direction: column;
-		justify-content: center;
-	}
+  .contact-card1 {
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .contact-card2 {
+    grid-area: 4 / 1 / 6 / 2;
+  }
+  .contact-card3 {
+    grid-area: 6 / 1 / 9 / 2;
+  }
 
-	.contact-address-text {
-		font-size: 0.7rem;
-	}
+  .contact-card-info-title > h1 {
+    font-size: 2rem;
+  }
 
-	.contact-address-link {
-		font-size: 0.7rem;
-	}
+  .contact-card-info-title > h4 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+    margin-top: 8px;
+  }
 
-	.contact-title {
-		font-size: 2rem;
-		line-height: 2.5rem;
-	}
+  .contact-social-title {
+    font-size: 2rem;
+  }
 
-	.contact-social{
-		justify-content: space-around;
-	}
+  .contact-social-item {
+    display: flex;
+    font-size: 1.2rem;
+  }
 
-	.contact-social-title{
-		font-size: 1.5rem;
-	}
+  .contact-card-social-links {
+    padding-top: 1%;
+  }
 
-	.contact-socialLogo{
-		height: 5vw;
-	}
-
-	.contact-social-item{
-		font-size: 0.7rem;
-	}
-
-	.contact-phone-title{
-		font-size: 1.5rem;
-	}
-
-	.contact-phoneLogo{
-		height: 3vw;
-	}
-
-	.contact-phone-item{
-		font-size: 0.5rem;
-	}
-
-
+  .contact-phone-item {
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+  }
 }
-
-
-*/
