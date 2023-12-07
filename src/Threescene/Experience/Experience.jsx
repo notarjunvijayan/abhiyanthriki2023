@@ -8,6 +8,7 @@ import { Sphere } from "@react-three/drei";
 import { Gradient, LayerMaterial } from "lamina";
 import { PerspectiveCamera } from "@react-three/drei";
 import { Line, Float, Environment, Text } from "@react-three/drei";
+import Balloon from './Balloon'
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
 const LINE_NB_POINTS = 256;
@@ -137,8 +138,12 @@ export default function Experience() {
       <Cloud position={[30, 0, -50]} />
       <Cloud position={[-7, 0, -20]} />
       <Cloud position={[7, -5, -30]} />
+      <Cloud position={[0, 0, -250]} scale={3}/>
       <Cloud position={[15, 0, -150]} scale={5} />
-      <Cloud position={[20, 0, -200]} scale={2} />
+
+      <Float>
+      <Balloon position={[15,0,-20]} scale={0.005}/> 
+      </Float>
 
       <Line points={linePoints} />
       <Image url={"/Images/rset.jpg"} position={[0, 0, -130]} args={[15, 10]} />
