@@ -1,14 +1,19 @@
-.contact-container{
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.6796919451374299) 14%, rgba(53,92,108,0.6824930655856092) 71%), url('/Images/a3k.jpg');
+.contact-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6796919451374299) 14%,
+      rgba(53, 92, 108, 0.6824930655856092) 71%
+    ),
+    url('/Images/a3k.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15dvh 2rem;
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
-.contact-container h1{
-  font-size: 8rem;
+.contact-container h1 {
+  font-size: 6rem;
   width: 30dvw;
 }
 
@@ -36,7 +41,7 @@
   border: 1px solid rgba(255, 255, 255, 0.125);
   border-radius: 10px;
   cursor: pointer;
-  height: 30rem;
+  height: 20vw;
   width: 34vw;
 }
 
@@ -87,7 +92,10 @@
   z-index: 2;
 }
 
-.contact-container h1, .contact-cards h2,.contact-cards h3,.contact-cards h4,
+.contact-container h1,
+.contact-cards h2,
+.contact-cards h3,
+.contact-cards h4,
 span {
   color: rgb(240, 240, 240);
   font-family: Neue, sans-serif;
@@ -213,8 +221,8 @@ i {
 
 .contact-social-card-info {
   display: flex;
+  padding-left: 10%;
   flex-direction: column;
-  padding: 10%;
 }
 
 .contact-social {
@@ -245,7 +253,6 @@ i {
 }
 
 .contact-card-social-links {
-  padding-top: 20%;
   display: flex;
   flex-direction: column;
   gap: 1vh;
