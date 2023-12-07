@@ -36,110 +36,116 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className='contact-cards' id='contact-cards'>
-      <Tilt>
-        <div className='contact-card' onClick={handleLocationLinkClick}>
-          <div className='contact-card-content'>
-            <div className='contact-card-info-wrapper'>
-              <div className='contact-card-info'>
-                <div className='contact-card-info-title'>
-                  <div className='contact-address'>
-                    <div className='contact-address-text'>
-                      <ImLocation size={80} className='contact-locationLogo' />
-                      <h2>
-                        RSET <br />
-                        RAJAGIRI VALLEY ROAD
-                        <br />
-                        KAKKANAD
-                      </h2>
+    <div className='contact-container'>
+      <h1 className='contact-main-title'>Get in Touch</h1>
+      <div className='contact-cards' id='contact-cards'>
+        <Tilt>
+          <div className='contact-card' onClick={handleLocationLinkClick}>
+            <div className='contact-card-content'>
+              <div className='contact-card-info-wrapper'>
+                <div className='contact-card-info'>
+                  <div className='contact-card-info-title'>
+                    <div className='contact-address'>
+                      <div className='contact-address-text'>
+                        <ImLocation
+                          size={80}
+                          className='contact-locationLogo'
+                        />
+                        <h2>
+                          RSET <br />
+                          Rajagiri Valley Road
+                          <br />
+                          Kakkanad
+                        </h2>
+                      </div>
+                      <a
+                        href='https://maps.app.goo.gl/XV6Aa93BajNyTDoX9'
+                        target='_blank'
+                        rel='noreferrer'
+                        className='contact-address-link'
+                        onClick={handleLocationLinkClick}
+                      >
+                        View Location
+                      </a>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Tilt>
+        <Tilt>
+          <div className='contact-card'>
+            <div className='contact-card-content'>
+              <div className='contact-card-info-wrapper'>
+                <div className='contact-card-info'>
+                  <div className='contact-card-info-title'>
+                    <h3>test</h3>
+                    <h4>test</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Tilt>
+        <Tilt>
+          <div className='contact-card contact-socials'>
+            <div className='contact-card-content'>
+              <div className='contact-card-info-wrapper'>
+                <div className='contact-social-card-info'>
+                  <div className='contact-card-info-title'>
+                    <h1 className='contact-social-title'>Socials</h1>
+                  </div>{' '}
+                  <div className='contact-card-social-links'>
+                    {' '}
                     <a
-                      href='https://maps.app.goo.gl/XV6Aa93BajNyTDoX9'
+                      href='https://instagram.com/abhiyanthriki'
                       target='_blank'
                       rel='noreferrer'
-                      className='contact-address-link'
-                      onClick={handleLocationLinkClick}
+                      className='contact-social-item'
                     >
-                      VIEW LOCATION
+                      <FaInstagram size={40} className='contact-socialLogo' />
+                      @abhiyanthriki
+                    </a>
+                    <a
+                      href='https://whatsapp.com/channel/0029VaDnLn29sBI0M3UGR20H'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='contact-social-item'
+                    >
+                      <FaWhatsapp size={40} className='contact-socialLogo' />
+                      Whatsapp
+                    </a>
+                    <a
+                      href='https://www.facebook.com/abhiyanthriki/'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='contact-social-item'
+                    >
+                      <FaFacebook size={40} className='contact-socialLogo' />
+                      @abhiyanthriki
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </Tilt>
-      <Tilt>
-        <div className='contact-card'>
-          <div className='contact-card-content'>
-            <div className='contact-card-info-wrapper'>
-              <div className='contact-card-info'>
-                <div className='contact-card-info-title'>
-                  <h3>test</h3>
-                  <h4>test</h4>
+        </Tilt>
+        <Tilt>
+          <div className='contact-card'>
+            <div className='contact-card-content'>
+              <div className='contact-card-info-wrapper'>
+                <div className='contact-card-info'>
+                  <div className='contact-card-info-title'>
+                    <h3>test</h3>
+                    <h4>test</h4>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </Tilt>
-      <Tilt>
-        <div className='contact-card contact-socials'>
-          <div className='contact-card-content'>
-            <div className='contact-card-info-wrapper'>
-              <div className='contact-social-card-info'>
-                <div className='contact-card-info-title'>
-                  <h1 className='contact-social-title'>SOCIALS</h1>
-                </div>{' '}
-                <div className='contact-card-social-links'>
-                  {' '}
-                  <a
-                    href='https://instagram.com/abhiyanthriki'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='contact-social-item'
-                  >
-                    <FaInstagram size={40} className='contact-socialLogo' />
-                    @abhiyanthriki
-                  </a>
-                  <a
-                    href='https://whatsapp.com/channel/0029VaDnLn29sBI0M3UGR20H'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='contact-social-item'
-                  >
-                    <FaWhatsapp size={40} className='contact-socialLogo' />
-                    Whatsapp
-                  </a>
-                  <a
-                    href='https://www.facebook.com/abhiyanthriki/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='contact-social-item'
-                  >
-                    <FaFacebook size={40} className='contact-socialLogo' />
-                    @abhiyanthriki
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Tilt>
-      <Tilt>
-        <div className='contact-card'>
-          <div className='contact-card-content'>
-            <div className='contact-card-info-wrapper'>
-              <div className='contact-card-info'>
-                <div className='contact-card-info-title'>
-                  <h3>test</h3>
-                  <h4>test</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Tilt>
+        </Tilt>
+      </div>
     </div>
   );
 };
