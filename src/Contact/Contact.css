@@ -1,6 +1,5 @@
 .contact-container {
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(180deg, #f4bf07 50%, #ec662d 110%);
   /* margin-top: 10dvh; */
   padding-left: 2em;
   display: flex;

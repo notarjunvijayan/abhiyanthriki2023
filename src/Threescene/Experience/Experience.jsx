@@ -1,7 +1,7 @@
 import { Drone } from "./StingerDrone";
 import { Cloud } from "./Cloud";
 import { useFrame } from "@react-three/fiber";
-import { OrbitControls, useScroll } from "@react-three/drei";
+import { OrbitControls, Plane, useScroll } from "@react-three/drei";
 import * as THREE from "three";
 import { useMemo, useRef } from "react";
 import { Sphere } from "@react-three/drei";
@@ -9,9 +9,12 @@ import { Gradient, LayerMaterial } from "lamina";
 import { PerspectiveCamera } from "@react-three/drei";
 import { Line, Float, Environment, Text } from "@react-three/drei";
 import Balloon from './Balloon'
+import { Telescope } from "./Telescope";
+import { Astronaut } from "./Astronaut";
+import Drumset from './Drumset'
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
-const LINE_NB_POINTS = 256;
+const LINE_NB_POINTS = 600;
 
 
 //Images Display Setup
@@ -63,6 +66,13 @@ export default function Experience() {
         new THREE.Vector3(10, -1, -290),
         new THREE.Vector3(12, -1, -300),
         new THREE.Vector3(11, -1, -310),
+        new THREE.Vector3(10, -1, -320),
+        new THREE.Vector3(9, 1 , -330),
+        new THREE.Vector3(8, 2 , -340),
+        new THREE.Vector3(8, 2 , -350),
+        new THREE.Vector3(8, 1 , -370),
+        new THREE.Vector3(6, 0 , -390),
+        new THREE.Vector3(5, -1 , -400),
       ],
       false,
       "catmullrom",
@@ -88,7 +98,7 @@ export default function Experience() {
     //Fov and Position Changes according to window aspect ratio
     //(SCENE RESPONSIVITY)
     if(window.innerWidth < window.innerHeight){
-      camera.current.fov = 50;
+      camera.current.fov = 45;
       camera.current.position.z = 50
       camera.current.position.y = 5
     }
@@ -137,16 +147,26 @@ export default function Experience() {
     <>
       <Cloud position={[30, 0, -50]} />
       <Cloud position={[-7, 0, -20]} />
+      <Cloud position={[50, 0, -100]} />
       <Cloud position={[7, -5, -30]} />
       <Cloud position={[0, 0, -250]} scale={3}/>
       <Cloud position={[15, 0, -150]} scale={5} />
+      <Cloud position={[5.5, -2.75, -330]} />
+      <Cloud position={[15, -2.75, -350]} />
+
+      <Telescope scale={2} position={[6,-2,-330]} rotation={[0,1,0]}/>
+      <Astronaut position={[-5,4,-340]} rotation={[1,-1,1]} scale={0.01}/>
+
+      <Drumset position={[5.5,-1,-405]} scale={2}/>
+      <Cloud position={[5, -4, -408]} scale={3.5}/>
 
       <Float>
-      <Balloon position={[15,0,-20]} scale={0.005}/> 
+      <Balloon position={[15,0,-15]} scale={0.005}/> 
       </Float>
-
-      <Line points={linePoints} />
-      <Image url={"/Images/rset.jpg"} position={[0, 0, -130]} args={[15, 10]} />
+      <Float floatIntensity={1} speed={0.005} floatingRange={0.0001}>
+      <Balloon position={[10,-20,-220]} scale={0.005}/> 
+      </Float>
+      <Image url={"/Images/rset.jpg"} position={[5, 0, -130]} args={[15, 10]} />
       <Image
         url={"/Images/Hubspire.jpg"}
         position={[24, -1, -250]}
@@ -212,7 +232,7 @@ export default function Experience() {
           Rajagiri School of Engineering and Technology
         </Text>
       </group>
-      <group position={[20, 0, -130]} rotation={[0, -0.25, 0]}>
+      <group position={[17, 0, -130]} rotation={[0, -0.25, 0]}>
         <Text
           color="black" // default
           anchorX="left" // default
@@ -257,7 +277,7 @@ export default function Experience() {
           Get Ready For
         </Text>
       </group>
-      <group position={[3, -2, -320]}>
+      <group position={[3, -5, -325]}>
         <Text
           color="black" // default
           anchorX="middle" // default
@@ -265,7 +285,40 @@ export default function Experience() {
           fontSize={0.8}
           font={"/Fonts/Neue.otf"}
         >
-          Drone Wars
+          Galactic Gaze
+        </Text>
+      </group>
+      <group position={[4, -6, -325]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={0.5}
+          font={"/Fonts/Neue.otf"}
+        >
+          15/12/2023
+        </Text>
+      </group>
+      <group position={[3, -2, -400]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={0.8}
+          font={"/Fonts/Neue.otf"}
+        >
+          Battle of Bands
+        </Text>
+      </group>
+      <group position={[4, -3, -400]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={0.5}
+          font={"/Fonts/Neue.otf"}
+        >
+          xx/12/2023
         </Text>
       </group>
       <group position={[15, 3, -250]}>
@@ -282,7 +335,7 @@ export default function Experience() {
       <group ref={cameraGroup}>
         <PerspectiveCamera
           rotation={[0, 0, 0]}
-          fov={30}
+          fov={window.innerWidth<window.innerHeight?45:30}
           makeDefault
           lookAt={Drone}
           far={200}
