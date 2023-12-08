@@ -1,5 +1,5 @@
-import { Drone } from "./StingerDrone";
-import { Cloud } from "./Cloud";
+import { Drone } from "./ModelComponents/StingerDrone";
+import { Cloud } from "./ModelComponents/Cloud";
 import { useFrame } from "@react-three/fiber";
 import { OrbitControls, Plane, RoundedBox, useScroll } from "@react-three/drei";
 import * as THREE from "three";
@@ -8,10 +8,10 @@ import { Sphere } from "@react-three/drei";
 import { Gradient, LayerMaterial } from "lamina";
 import { PerspectiveCamera } from "@react-three/drei";
 import { Line, Float, Environment, Text } from "@react-three/drei";
-import Balloon from './Balloon'
-import { Telescope } from "./Telescope";
-import { Astronaut } from "./Astronaut";
-import Drumset from './Drumset'
+import Balloon from './ModelComponents/Balloon'
+import { Telescope } from "./ModelComponents/Telescope";
+import { Astronaut } from "./ModelComponents/Astronaut";
+import Drumset from './ModelComponents/Drumset'
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
 const LINE_NB_POINTS = 600;
