@@ -12,7 +12,7 @@ export function Drone(props) {
     <group 
       animate={{x:0,y:0,z:7}}
       transition={{duration:3}}
-    {...props} rotation={[0,-1.5,0]} position={[0,0,0]} dispose={null}>
+    {...props} dispose={null}>
       <mesh geometry={nodes.mesh1129617186.geometry} material={materials.mat17} />
       <mesh geometry={nodes.mesh1129617186_1.geometry} material={materials.mat8} />
       <mesh geometry={nodes.mesh900292859.geometry} material={materials.mat8} />

@@ -81,10 +81,7 @@ const Contact = () => {
             </div>
           </div>
         </Tilt>
-        <Tilt
-          className='contact-card contact-card2'
-          onClick={handleLocationLinkClick}
-        >
+        <Tilt className='contact-card contact-card2'>
           <div className='contact-card-content'>
             <div className='contact-address'>
               <div className='contact-address-text'>
@@ -96,22 +93,19 @@ const Contact = () => {
                   Kakkanad.
                 </h2>
               </div>
-              <a
-                href='https://maps.app.goo.gl/XV6Aa93BajNyTDoX9'
-                target='_blank'
-                rel='noreferrer'
+              <div
                 className='contact-address-link'
                 onClick={handleLocationLinkClick}
               >
                 View Location
-              </a>
+              </div>
             </div>
           </div>
         </Tilt>
         <Tilt className='contact-card contact-card3'>
           <div className='contact-card-content contact-phone'>
             <div className=' phone-card-info-title'>
-              <h1 className='contact-social-title'>Phone</h1>
+              <h1 className='contact-phone-title'>Phone</h1>
             </div>
             <div className='contact-phone-list'>
               <a
@@ -153,10 +147,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-/*
-
-
-		</div>
-
-*/
