@@ -7,7 +7,7 @@
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deleniti eveniet, ipsum sint, dolor inventore perferendis optio incidunt hic harum ut, corporis non? Perferendis quae modi unde cumque velit nostrum qui cum natus expedita saepe laboriosam amet vitae aliquam accusantium voluptatum illum voluptas, quos laborum ipsam impedit. Doloremque. ",
 		"date": "",
 		"time": "",
-		"imageurl": "",
+		"imageurl": "/Images/event1.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["hello", "hi"],
@@ -23,7 +23,7 @@
 		"date": "",
 		"time": "",
 		"technical": false,
-		"imageurl": "",
+		"imageurl": "/Images/event2.jpg",
 		"poc": {
 			"name": ["hello", "hi"],
 			"no": ["1234567890", "98765453210"]
@@ -87,6 +87,36 @@
 		"poc": {
 			"name": ["hello", "hi"],
 			"no": ["1234567890", "98765453210"]
+		}
+	},
+	{
+		"id": 7,
+		"no": "07",
+		"title": "Create with an E (E-Waste Art Gallery Competition)",
+		"route": "Create-with-an-E",
+		"description": "E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery. This event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
+		"date": "15 December 2023",
+		"time": "11 AM",
+		"imageurl": "",
+		"technical": false,
+		"poc": {
+			"name": ["Soju Eappan", "Sagar Suresh"],
+			"no": ["9400386423", "8086957037"]
+		}
+	},
+	{
+		"id": 8,
+		"no": "08",
+		"title": "Sculptoria (3D Printing and rapid prototyping)",
+		"route": "Sculptoria",
+		"description": "Join us for an exciting workshop called Sculptoria, hosted by the STEAG Centre at RSET, where you'll get hands-on experience with 3D printing, laser cutting, and CNC machines. Discover the basics of these cool technologies, create your own 3D-printed objects, design intricate patterns with laser cutting, and explore the precision of CNC machining. Our experts will guide you through the process, and you'll learn about how these technologies are used in real-world applications. Whether you're a beginner or an enthusiast, Sculptoria is the place to unleash your creativity and gain valuable skills in the fascinating world of digital fabrication. Don't miss out on this unique opportunity where innovation meets hands-on fun!",
+		"date": "19 December 2023",
+		"time": "9:30AM - 4:30PM",
+		"imageurl": "",
+		"technical": true,
+		"poc": {
+			"name": ["Soju Eappan", "Muhammed Nihal"],
+			"no": ["9400386423", "8848083654"]
 		}
 	}
 ]
