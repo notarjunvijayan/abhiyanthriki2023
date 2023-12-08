@@ -81,9 +81,7 @@ const Contact = () => {
             </div>
           </div>
         </Tilt>
-        <Tilt
-          className='contact-card contact-card2'
-        >
+        <Tilt className='contact-card contact-card2'>
           <div className='contact-card-content'>
             <div className='contact-address'>
               <div className='contact-address-text'>
@@ -107,7 +105,7 @@ const Contact = () => {
         <Tilt className='contact-card contact-card3'>
           <div className='contact-card-content contact-phone'>
             <div className=' phone-card-info-title'>
-              <h1 className='contact-social-title'>Phone</h1>
+              <h1 className='contact-phone-title'>Phone</h1>
             </div>
             <div className='contact-phone-list'>
               <a
@@ -149,10 +147,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-/*
-
-
-		</div>
-
-*/
