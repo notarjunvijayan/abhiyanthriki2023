@@ -11,6 +11,7 @@ import { Line, Float, Environment, Text } from "@react-three/drei";
 import Balloon from './Balloon'
 import { Telescope } from "./Telescope";
 import { Astronaut } from "./Astronaut";
+import Drumset from './Drumset'
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
 const LINE_NB_POINTS = 600;
@@ -97,7 +98,7 @@ export default function Experience() {
     //Fov and Position Changes according to window aspect ratio
     //(SCENE RESPONSIVITY)
     if(window.innerWidth < window.innerHeight){
-      camera.current.fov = 50;
+      camera.current.fov = 45;
       camera.current.position.z = 50
       camera.current.position.y = 5
     }
@@ -150,14 +151,15 @@ export default function Experience() {
       <Cloud position={[7, -5, -30]} />
       <Cloud position={[0, 0, -250]} scale={3}/>
       <Cloud position={[15, 0, -150]} scale={5} />
+      <Cloud position={[5.5, -2.75, -330]} />
+      <Cloud position={[15, -2.75, -350]} />
 
       <Telescope scale={2} position={[6,-2,-330]} rotation={[0,1,0]}/>
-      <Astronaut position={[0,3,-330]} rotation={[1,-1,1]} scale={0.01}/>
+      <Astronaut position={[-5,4,-340]} rotation={[1,-1,1]} scale={0.01}/>
 
-      <Plane position={[6,-3,-330]}  scale={15} rotation={[-1,0,0]}>
-        <LayerMaterial color={"#ffffff"} />
-      </Plane>
-      <Line points={linePoints}/>
+      <Drumset position={[5.5,-1,-405]} scale={2}/>
+      <Cloud position={[5, -4, -408]} scale={3.5}/>
+
       <Float>
       <Balloon position={[15,0,-15]} scale={0.005}/> 
       </Float>
@@ -333,7 +335,7 @@ export default function Experience() {
       <group ref={cameraGroup}>
         <PerspectiveCamera
           rotation={[0, 0, 0]}
-          fov={30}
+          fov={window.innerWidth<window.innerHeight?45:30}
           makeDefault
           lookAt={Drone}
           far={200}
