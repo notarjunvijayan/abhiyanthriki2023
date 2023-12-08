@@ -1,8 +1,12 @@
 .navbar {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
   /* padding: 2rem; */
   justify-content: space-around;
   height: 10dvh;
+  width: 100dvw;
 }
 .navbar ul {
   display: flex;

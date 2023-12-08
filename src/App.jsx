@@ -27,10 +27,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className='canvas-container'>
         <RouterProvider router={router} />
-      </div>
-      <div className='container-page'></div>
     </>
   );
 }
