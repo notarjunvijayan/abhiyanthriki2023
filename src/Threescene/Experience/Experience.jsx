@@ -12,7 +12,6 @@ import Balloon from './Balloon'
 import { Telescope } from "./Telescope";
 import { Astronaut } from "./Astronaut";
 import Drumset from './Drumset'
-import Earth from './Earth'
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
 const LINE_NB_POINTS = 600;
