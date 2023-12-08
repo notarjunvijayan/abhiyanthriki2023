@@ -11,6 +11,7 @@ import { Line, Float, Environment, Text } from "@react-three/drei";
 import Balloon from './Balloon'
 import { Telescope } from "./Telescope";
 import { Astronaut } from "./Astronaut";
+import Drumset from './Drumset'
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
 const LINE_NB_POINTS = 600;
@@ -66,12 +67,16 @@ export default function Experience() {
         new THREE.Vector3(12, -1, -300),
         new THREE.Vector3(11, -1, -310),
         new THREE.Vector3(10, -1, -320),
-        new THREE.Vector3(9, 1 , -330),
-        new THREE.Vector3(8, 2 , -340),
-        new THREE.Vector3(8, 2 , -350),
+        new THREE.Vector3(9, 0 , -330),
+        new THREE.Vector3(8, 1 , -340),
+        new THREE.Vector3(8, 1 , -350),
         new THREE.Vector3(8, 1 , -370),
         new THREE.Vector3(6, 0 , -390),
         new THREE.Vector3(5, -1 , -400),
+        new THREE.Vector3(5, -2 , -420),
+        new THREE.Vector3(5, -2 , -440),
+        new THREE.Vector3(2, -2 , -470),
+        new THREE.Vector3(-1, -2 , -490),
       ],
       false,
       "catmullrom",
@@ -97,7 +102,7 @@ export default function Experience() {
     //Fov and Position Changes according to window aspect ratio
     //(SCENE RESPONSIVITY)
     if(window.innerWidth < window.innerHeight){
-      camera.current.fov = 50;
+      camera.current.fov = 45;
       camera.current.position.z = 50
       camera.current.position.y = 5
     }
@@ -150,20 +155,28 @@ export default function Experience() {
       <Cloud position={[7, -5, -30]} />
       <Cloud position={[0, 0, -250]} scale={3}/>
       <Cloud position={[15, 0, -150]} scale={5} />
+      <Cloud position={[5.5, -2.75, -330]} />
+      <Cloud position={[15, -2.75, -350]} />
+
+      <Line points={linePoints}/>
 
       <Telescope scale={2} position={[6,-2,-330]} rotation={[0,1,0]}/>
-      <Astronaut position={[0,3,-330]} rotation={[1,-1,1]} scale={0.01}/>
+      <Astronaut position={[-5,4,-340]} rotation={[1,-1,1]} scale={0.01}/>
+      
+      <Drone position={[-5,0,-480]} scale={2} rotation={[0.25,2.2,0]}/>
+      <Cloud position={[-5, -4, -482]} scale={3.5}/>
 
-      <Plane position={[6,-3,-330]}  scale={15} rotation={[-1,0,0]}>
-        <LayerMaterial color={"#ffffff"} />
-      </Plane>
-      <Line points={linePoints}/>
-      <Float>
+      <Drumset position={[5.5,-1,-405]} scale={2}/>
+      <Cloud position={[5, -4, -408]} scale={3.5}/>
+
+      <Float floatIntensity={[1]}>
       <Balloon position={[15,0,-15]} scale={0.005}/> 
       </Float>
+
       <Float floatIntensity={1} speed={0.005} floatingRange={0.0001}>
       <Balloon position={[10,-20,-220]} scale={0.005}/> 
       </Float>
+
       <Image url={"/Images/rset.jpg"} position={[5, 0, -130]} args={[15, 10]} />
       <Image
         url={"/Images/Hubspire.jpg"}
@@ -316,7 +329,29 @@ export default function Experience() {
           fontSize={0.5}
           font={"/Fonts/Neue.otf"}
         >
-          xx/12/2023
+          15/12/2023
+        </Text>
+      </group>
+      <group position={[-5, -2, -470]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={0.8}
+          font={"/Fonts/Neue.otf"}
+        >
+          Drone Show
+        </Text>
+      </group>
+      <group position={[-4.5, -3, -470]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={0.5}
+          font={"/Fonts/Neue.otf"}
+        >
+          16/12/2023
         </Text>
       </group>
       <group position={[15, 3, -250]}>
@@ -327,13 +362,13 @@ export default function Experience() {
           fontSize={0.8}
           font={"/Fonts/monument-regular.otf"}
         >
-          PLANTINUM SPONSORS
+          PLATINUM SPONSORS
         </Text>
       </group>
       <group ref={cameraGroup}>
         <PerspectiveCamera
           rotation={[0, 0, 0]}
-          fov={30}
+          fov={window.innerWidth<window.innerHeight?45:30}
           makeDefault
           lookAt={Drone}
           far={200}
@@ -341,7 +376,7 @@ export default function Experience() {
         />
         <group ref={airplane}>
           <Float floatIntensity={2} speed={2}>
-            <Drone scale={1.5} />
+            <Drone scale={1.5}  rotation={[0,-1.5,0]} position={[0,0,0]}/>
           </Float>
         </group>
         <Environment resolution={256} files={"/Models/venice_sunset_2k.hdr"} />
