@@ -7,8 +7,8 @@ export default function Loader() {
     <Html center>
       <div className="loader-container">
         <div className="text">
-          <h1>ABHIYANTHRIKI</h1>
-          <h2>2023</h2>
+          <h1 className="select-none">ABHIYANTHRIKI</h1>
+          <h2 className="select-none">2023</h2>
           <p>{parseInt(progress)}</p>
         </div>
       </div>
