@@ -1,7 +1,7 @@
 import { Drone } from "./StingerDrone";
 import { Cloud } from "./Cloud";
 import { useFrame } from "@react-three/fiber";
-import { OrbitControls, Plane, useScroll } from "@react-three/drei";
+import { OrbitControls, Plane, RoundedBox, useScroll } from "@react-three/drei";
 import * as THREE from "three";
 import { useMemo, useRef } from "react";
 import { Sphere } from "@react-three/drei";
@@ -180,7 +180,7 @@ export default function Experience() {
       <Image url={"/Images/rset.jpg"} position={[5, 0, -130]} args={[15, 10]} />
       <Image
         url={"/Images/Hubspire.jpg"}
-        position={[24, -1, -250]}
+        position={[23, -1, -250]}
         args={[5, 1]}
       />
       <Image
@@ -188,6 +188,9 @@ export default function Experience() {
         position={[18, -1, -250]}
         args={[4, 4]}
       />
+
+      <RoundedBox args={[12,5,0.5]} radius={0.15} position={[21,-1,-251]}/>
+      
       <group position={[-25, -5, -20]}>
         <Text
           color="black" // default
@@ -354,7 +357,7 @@ export default function Experience() {
           16/12/2023
         </Text>
       </group>
-      <group position={[15, 3, -250]}>
+      <group position={[15, 2.5, -250]}>
         <Text
           color="black" // default
           anchorX="left" // default
