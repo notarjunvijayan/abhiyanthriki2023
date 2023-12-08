@@ -329,7 +329,7 @@ export default function Experience() {
           fontSize={0.8}
           font={"/Fonts/monument-regular.otf"}
         >
-          PLANTINUM SPONSORS
+          PLATINUM SPONSORS
         </Text>
       </group>
       <group ref={cameraGroup}>

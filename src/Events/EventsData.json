@@ -17,7 +17,7 @@
 	{
 		"id": 2,
 		"no": "02",
-		"title": "Call for Ambassadors",
+		"title": "Photography",
 		"route": "photography",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deleniti eveniet, ipsum sint, dolor inventore perferendis optio incidunt hic harum ut, corporis non? Perferendis quae modi unde cumque velit nostrum qui cum natus expedita saepe laboriosam amet vitae aliquam accusantium voluptatum illum voluptas, quos laborum ipsam impedit. Doloremque. ",
 		"date": "",
@@ -32,8 +32,8 @@
 	{
 		"id": 3,
 		"no": "03",
-		"title": "Call for Ambassadors",
-		"route": "photography",
+		"title": "Battle of the Bands",
+		"route": "bands",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deleniti eveniet, ipsum sint, dolor inventore perferendis optio incidunt hic harum ut, corporis non? Perferendis quae modi unde cumque velit nostrum qui cum natus expedita saepe laboriosam amet vitae aliquam accusantium voluptatum illum voluptas, quos laborum ipsam impedit. Doloremque. ",
 		"date": "",
 		"time": "",
@@ -47,8 +47,8 @@
 	{
 		"id": 4,
 		"no": "03",
-		"title": "Call for Ambassadors",
-		"route": "photography",
+		"title": "workshop",
+		"route": "workshop",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deleniti eveniet, ipsum sint, dolor inventore perferendis optio incidunt hic harum ut, corporis non? Perferendis quae modi unde cumque velit nostrum qui cum natus expedita saepe laboriosam amet vitae aliquam accusantium voluptatum illum voluptas, quos laborum ipsam impedit. Doloremque. ",
 		"date": "",
 		"time": "",
