@@ -83,7 +83,6 @@ const Contact = () => {
         </Tilt>
         <Tilt
           className='contact-card contact-card2'
-          onClick={handleLocationLinkClick}
         >
           <div className='contact-card-content'>
             <div className='contact-address'>
@@ -96,15 +95,12 @@ const Contact = () => {
                   Kakkanad.
                 </h2>
               </div>
-              <a
-                href='https://maps.app.goo.gl/XV6Aa93BajNyTDoX9'
-                target='_blank'
-                rel='noreferrer'
+              <div
                 className='contact-address-link'
                 onClick={handleLocationLinkClick}
               >
                 View Location
-              </a>
+              </div>
             </div>
           </div>
         </Tilt>
