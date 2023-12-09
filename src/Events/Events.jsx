@@ -18,6 +18,15 @@ function Events() {
 
   const handleClick = (buttonType) => {
     setFilterEvents(buttonType);
+    const handleClick = () => {
+      const contentWindow = document.getElementById("event-content");
+      contentWindow.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    };
+    handleClick();
   };
 
   const handleEventClick = (index) => {
@@ -65,7 +74,7 @@ function Events() {
           </button>
         </div>
       </div>
-      <div className='event-content'>
+      <div className='event-content' id="event-content">
         {filteredEvents.map((event, index) => (
           <div
             key={event.id}
