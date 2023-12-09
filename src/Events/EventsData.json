@@ -1,411 +1,438 @@
 [
-	{
-		"id": 1,
-		"no": "01",
-		"title": "Mephistopheles: An Escape Room",
-		"route": "Mephistopheles-An-Escape-Room",
-		"description": "An Escape Room to foster creativity among students. Participants solve intricate puzzles and decode messages to escape from the clutches of a self-aware AI. It is a blend of mystery and technical skills.",
-		"date": "16th December 2023",
-		"time": "10 am",
-		"imageurl": "/EventAssets/escaperoom.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Nirupama Nair", "S5 CSBS"],
-			"no": ["9611703655"]
-		}
-	},
-	{
-		"id": 2,
-		"no": "02",
-		"title": "Blitzbanter (Tech Debate)",
-		"route": "blitzbanter",
-		"description": "Blitzbanter event description.",
-		"date": "16th December 2023",
-		"time": "Full day",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Nil"],
-			"no": []
-		}
-	},
-	{
-		"id": 3,
-		"no": "03",
-		"title": "IPL Auction",
-		"route": "iPl-auction",
-		"description": [
-			"Round 1 - In the first stage all the teams will compete in an IPL based quiz with the top 20 teams being promoted to the next round.",
-			"\nRound 2 - In this round, there will be a Higher-Lower game based on the stats of players in IPL T20 2023 matches. After this round, the top 10 teams will advance to the next round. Each question in this round will have images and names of 2 cricket players, along with a specific stat of one player. Then, the teams will have to guess whether that particular unknown stat of the second player is higher or lower.",
-			"\nRound 3 - Auction: Each team will be given a purse balance of 100cr, with which they have to build a team of 15-17 players from a designated pool of 160 players. Each player is assigned a rating based on their stats in IPL T20 matches in 2023. Teams with the highest ratings in their starting 11 will be crowned champions."
-		],
-		"date": "16th December 2023",
-		"time": "10am to 4.30pm ",
-		"imageurl": "/EventAssets/iplauction.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Ansel"],
-			"no": [" 9633728638"]
-		}
-	},
-	{
-		"id": 4,
-		"no": "04",
-		"title": "Arduino Arcade Bash",
-		"route": "arduino-arcade-bash",
-		"description": "Onboard into a comprehensive two-round program that seamlessly blends education and competition. Participants partake in an immersive workshop, delving into the intricacies of Arduino-based arcade game development. Covering coding, hardware integration, and game design, this session equips attendees with essential skills. In the Challenge phase unfolds, tasking participants with crafting innovative games. Adjudicated on creativity, functionality, and user engagement, projects are evaluated by discerning judges. This event promises a professional platform for skill enhancement, collaboration, and the showcase of ingenuity in the realm of Arduino game development.",
-		"date": "16th December 2023",
-		"time": "9 am to 2 pm",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Niveditha", "Nisy"],
-			"no": ["7306914271", "8281227834"]
-		}
-	},
-	{
-		"id": 5,
-		"no": "05",
-		"title": "Techy Showdown: Mastering the Digital Arena",
-		"route": "techy-showdown",
-		"description": "Techy Showdown is a venue for tech enthusiasts to showcase their technological and marketing skills. The competition aims to identify all-rounders in the technology field by testing participants' knowledge across a wide array of disciplines. Contestants engage in rounds of debate, technical showdowns, group discussions, and presentations to validate their points and demonstrate their expertise",
-		"date": "15 December 2023",
-		"time": "",
-		"imageurl": "/EventAssets/techyshowdown.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Geevarghese Regi"],
-			"no": ["8113029191"]
-		}
-	},
-	{
-		"id": 6,
-		"no": "06",
-		"title": "Scenius 2.0",
-		"route": "scenius",
-		"description": "Scenius 2.0 presents an engaging technical game featuring four rounds centered around general knowledge in the field of civil engineering. Participants will embark on a journey that includes rounds such as JAM and Bridge Bust, where they will challenge their skills by constructing a bridge. This immersive event culminates in a virtual reality experience. Immerse yourself in breathtaking virtual worlds, from heart-pounding adventures to serene escapes. Feel the rush of excitement as reality blurs, and your senses are transported to new dimensions. We extend a warm invitation to participants from all engineering branches to partake in this thrilling competition, fostering collaboration and innovation.",
-		"date": "15th and 16th December 2023",
-		"time": "9am to 4 pm",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Hima", "Catherine"],
-			"no": ["8156908971", "8301929414"]
-		}
-	},
-	{
-		"id": 7,
-		"no": "07",
-		"title": "Galactic Gaze",
-		"route": "galactic-gaze",
-		"description": "Galactic Gaze: Astronomy Telescope Seminar and Night Sky Exploration",
-		"date": "15 December, 2023",
-		"time": "6:00-8:30pm",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Abhiram", "Bride"],
-			"no": ["9315280907", "8137070797"]
-		}
-	},
-	{
-		"id": 8,
-		"no": "08",
-		"title": "Create with an E",
-		"route": "create-with-an-e",
-		"description": "Create with an E is an E-Waste Art Gallery Competition where E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery. This event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
-		"date": "15 December 2023",
-		"time": "11 AM",
-		"imageurl": "/EventAssets/ewaste.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Soju Eappan", "Sagar Suresh"],
-			"no": ["9400386423", "8086957037"]
-		}
-	},
-	{
-		"id": 9,
-		"no": "09",
-		"title": "Sculptoria",
-		"route": "sculptoria",
-		"description": "Join us for an exciting workshop called Sculptoria, hosted by the STEAG Centre at RSET, where you'll get hands-on experience with 3D printing, laser cutting, and CNC machines. Discover the basics of these cool technologies, create your own 3D-printed objects, design intricate patterns with laser cutting, and explore the precision of CNC machining. Our experts will guide you through the process, and you'll learn about how these technologies are used in real-world applications. Whether you're a beginner or an enthusiast, Sculptoria is the place to unleash your creativity and gain valuable skills in the fascinating world of digital fabrication. Don't miss out on this unique opportunity where innovation meets hands-on fun!\nSeize the opportunity to be a part of SCULPTORIA - where innovation meets imagination. Limited slots available, so register now to secure your spot!\nJoin us in sculpting the future of technology and design! ✨ #Sculptoria2023 #InnovationUnleashed #Abhiyanthriki23",
-		"date": "19 December 2023",
-		"time": "9:30AM - 4:30PM",
-		"imageurl": "/EventAssets/sculptoria.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Soju Eappan", "Muhammed Nihal"],
-			"no": ["9400386423", "8848083654"]
-		}
-	},
-	{
-		"id": 10,
-		"no": "10",
-		"title": "Metaverse Marvels - Embracing Web3 Revolution",
-		"route": "metaverse-marvels",
-		"description": "Explore the future of the internet and immerse yourself in the Metaverse Marvels event. Embrace the Web3 revolution as we delve into the latest advancements in decentralized technologies, blockchain, and virtual reality. Join us for insightful discussions, hands-on experiences, and a glimpse into the evolving landscape of the digital world. Be a part of this transformative journey and discover the endless possibilities that the Metaverse holds.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": [],
-			"no": []
-		}
-	},
-	{
-		"id": 11,
-		"no": "11",
-		"title": "Circuit Race",
-		"route": "Circuit-Race",
-		"description": "The Circuit Race event evaluates the ability of participants to design and implement a circuit using the components provided by the organizers. The event comprises a quiz round and an implementation round. Each team comprises 3 members with a prize pool of Rs. 2250.",
-		"date": "15th December 2023",
-		"time": "10am to 1pm",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Vimalraj Vijayamohan Thampi", "Savio Amantius"],
-			"no": ["8943499336", "9207494808"]
-		}
-	},
-	{
-		"id": 12,
-		"no": "12",
-		"title": "Maestro de Circuito",
-		"route": "maestro-de-circuito",
-		"description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. These tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
-		"date": "16th December 2023",
-		"time": "8:30am-12pm",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Mikhael Sunil"],
-			"no": ["9605535994"]
-		}
-	},
-	{
-		"id": 13,
-		"no": "13",
-		"title": "ElectroHunt",
-		"route": "ElectroHunt",
-		"description": "ElectroHunt event description.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Nil"],
-			"no": []
-		}
-	},
-	{
-		"id": 14,
-		"no": "14",
-		"title": "Uncharted Cipher's Quest (Technical Treasure Hunt)",
-		"route": "Uncharted-Ciphers-Quest-Technical-Treasure-Hunt",
-		"description": "Uncharted Cipher's Quest event description.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": true,
-		"poc": {
-			"name": ["Nil"],
-			"no": []
-		}
-	},
-	{
-		"id": 15,
-		"no": "15",
-		"title": "Flash a Fractal 📸",
-		"route": "flash-a-fractal",
-		"description": "Eager to showcase your photography prowess ? Look no further! Join us for 'Flash a Fractal📸' a photography extravaganza that promises to be a shutterbug's delight.\nGet ready to snap your way to glory at 'Flash a Fractal📸,' where every click tells a story. Let's freeze the moments together! ",
-		"date": "12th December 2023",
-		"time": "",
-		"imageurl": "/EventAssets/flashafractal.jpg",
-		"technical": false,
-		"poc": {
-			"name": ["Vaysakh M", "Renil Paulson"],
-			"no": ["9744372575", "9385816950"]
-		}
-	},
-	{
-		"id": 16,
-		"no": "16",
-		"title": "🎬 Start Camera Action 🎥",
-		"route": "short-film",
-		"description": "Get ready to unleash your creativity and cinematic flair! 🌟\nSee you at Start Camera Action - where your story begins! 🚀 #StartCameraAction2023 #ShortFilmCompetition",
-		"date": "",
-		"time": "",
-		"imageurl": "/EventAssets/shortfilm.jpg",
-		"technical": false,
-		"poc": {
-			"name": ["Anindhit Babu", "Arjun Dinukumar"],
-			"no": ["9072923147", "9074576212"]
-		}
-	},
-	{
-		"id": 17,
-		"no": "17",
-		"title": "3s Football",
-		"route": "3s-football",
-		"description": "3s Football event description.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": false,
-		"poc": {
-			"name": [],
-			"no": []
-		}
-	},
-	{
-		"id": 18,
-		"no": "18",
-		"title": "County Cricket",
-		"route": "county-cricket",
-		"description": "County Cricket event description.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": false,
-		"poc": {
-			"name": [],
-			"no": []
-		}
-	},
-	{
-		"id": 19,
-		"no": "19",
-		"title": "Theme show",
-		"route": "theme-show",
-		"description": "Theme Show event description.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": false,
-		"poc": {
-			"name": [],
-			"no": []
-		}
-	},
-	{
-		"id": 20,
-		"no": "20",
-		"title": "Rhythmic Resonance",
-		"route": "rhythmic-resonance",
-		"description": "Join the captivating 'Rhythmic Resonance' at Tech Fest Abhiyanthriki, RSET, on December 16th. This independent event invites eastern musical bands to showcase their talent alongside skilled musicians from various colleges. Unleash your best performance and seize the opportunity to win an impressive prize pool of Rs.17k!",
-		"date": "16th December 2023",
-		"time": "1 pm - 4 pm",
-		"imageurl": "/EventAssets/resonance.jpg",
-		"technical": false,
-		"poc": {
-			"name": ["Jyothir", " Minnu"],
-			"no": ["8089733554", "9447004534"]
-		}
-	},
-	{
-		"id": 21,
-		"no": "21",
-		"title": "Disco Divas",
-		"route": "disco-divas",
-		"description": "Dance into the spotlight at our Spot Choreo showdown! Unleash your creativity in this vibrant, quick-paced dance event that's all about choreographic brilliance!",
-		"date": "15th December 2023",
-		"time": "9:00 A.M",
-		"imageurl": "/EventAssets/disco.jpg",
-		"technical": false,
-		"poc": {
-			"name": ["Anusree Samson", "Sandra Sunil"],
-			"no": ["8078425495", "9778324325"]
-		}
-	},
-	{
-		"id": 22,
-		"no": "22",
-		"title": "Escape Room - Non Tech",
-		"route": "escape-room-non-tech",
-		"description": "Escape Room - Non Tech event description.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": false,
-		"poc": {
-			"name": [],
-			"no": []
-		}
-	},
-	{
-		"id": 23,
-		"no": "23",
-		"title": "Ethical Hacking Workshop",
-		"route": "ethical-hacking",
-		"description": "💡What to Expect: Join us for an immersive Ethical Hacking Workshop featuring Mr. Ajal from Offenso Hackers Academy. Gain insights into: \nHands-on hacking demos, \nPro tips on ethical hacking \nNetworking with cybersecurity pros.\nDon't miss the cybersecurity revolution!  #EthicalHacking #TechEvent",
-		"date": "25th November 2023",
-		"time": "9 am - 4 pm",
-		"imageurl": "/EventAssets/ethicalhacking.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Bhadra S Anand", "Raphael Tony"],
-			"no": ["7025065615", "9072652467"]
-		}
-	},
-	{
-		"id": 24,
-		"no": "24",
-		"title": "manAIge",
-		"route": "manaige",
-		"description": "Are you aspiring to build a thriving career in management? Then here's your opportunity!\nAs part of ABHIYANTHRIKI 2023, we present to you the opportunity to gain valuable industry insights through our upcoming session \n ✨ manAIge ✨ \nHow to Build a Successful Career in Management",
-		"date": "25 November 2023",
-		"time": "10.30 AM-12.30 PM",
-		"imageurl": "/EventAssets/manaige.jpg",
-		"technical": false,
-		"poc": {
-			"name": ["Muhammed Nihal C", "Sayujya Salim"],
-			"no": ["8078188354", "7736449302"]
-		}
-	},
-	{
-		"id": 25,
-		"no": "25",
-		"title": "Toyota Hybrid Workshop",
-		"route": "toyota-hybrid-workshop",
-		"description": "Uncover secrets of green mobility with us!\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
-		"date": "9th December 2023",
-		"time": "9:00 a.m to 12:00",
-		"imageurl": "/EventAssets/toyotaworkshop.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Jeevan Thomas", "Thomas Varghese"],
-			"no": ["9846162521", "9207741944"]
-		}
-	},
-	{
-		"id": 26,
-		"no": "26",
-		"title": "HackS'US - Edition III",
-		"route": "hacksus",
-		"description": "Join the excitement as RSET IEDC in association with Abhiyanthriki '23 unveils the thrilling\nHackS'US - Edition III \n an All Kerala 24-hour Inter-College Hackathon\n Compete for internship opportunities, startup incubation, and more. Benefit from exclusive mentorship and special training sessions from communities and alumni.\n Elevate your skills and teamwork for a chance at the impressive ₹1,30,000 prize pool.\n Prepare for excitement with a lineup of entertaining programs to keep you engaged throughout the event.\n",
-		"date": "15th & 16th December 2023 ",
-		"time": "6 PM Onwards",
-		"imageurl": "/EventAssets/hacks'us.jpg",
-		"technical": true,
-		"poc": {
-			"name": [],
-			"no": []
-		}
-	},
-	{
-		"id": 27,
-		"no": "27",
-		"title": "QuickQuery\n Seek and you shall find!",
-		"route": "quick-query",
-		"description": " Are you ready for the Ultimate Google Challenge?\nQuickQuery\nWhere time dances to the rhythm of your intellect. Two electrifying minutes, 15 questions that weave through the tapestry of history, currents of affairs, and the intricate threads of tech. No lifeline, no chat bots - just your raw Google skills!\nUnleash the abstract brilliance within!",
-		"date": "24th November 2023",
-		"time": "11:30 am to 12:30 pm",
-		"imageurl": "/EventAssets/quickquery.jpg",
-		"technical": true,
-		"poc": {
-			"name": ["Benison", "Bhadra S Anand"],
-			"no": ["9995921803", "7025065615"]
-		}
-	}
+  {
+    "id": 1,
+    "no": "01",
+    "title": "Mephistopheles: An Escape Room",
+    "route": "Mephistopheles-An-Escape-Room",
+    "description": "An Escape Room to foster creativity among students. Participants solve intricate puzzles and decode messages to escape from the clutches of a self-aware AI. It is a blend of mystery and technical skills.",
+    "date": "16th December 2023",
+    "time": "10 am",
+    "imageurl": "/EventAssets/escaperoom.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Nirupama Nair", "S5 CSBS"],
+      "no": ["9611703655"]
+    },
+    "active": 1
+  },
+  {
+    "id": 2,
+    "no": "02",
+    "title": "Blitzbanter (Tech Debate)",
+    "route": "blitzbanter",
+    "description": "Blitzbanter event description.",
+    "date": "16th December 2023",
+    "time": "Full day",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Nil"],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 3,
+    "no": "03",
+    "title": "IPL Auction",
+    "route": "iPl-auction",
+    "description": [
+      "Round 1 - In the first stage all the teams will compete in an IPL based quiz with the top 20 teams being promoted to the next round.",
+      "\nRound 2 - In this round, there will be a Higher-Lower game based on the stats of players in IPL T20 2023 matches. After this round, the top 10 teams will advance to the next round. Each question in this round will have images and names of 2 cricket players, along with a specific stat of one player. Then, the teams will have to guess whether that particular unknown stat of the second player is higher or lower.",
+      "\nRound 3 - Auction: Each team will be given a purse balance of 100cr, with which they have to build a team of 15-17 players from a designated pool of 160 players. Each player is assigned a rating based on their stats in IPL T20 matches in 2023. Teams with the highest ratings in their starting 11 will be crowned champions."
+    ],
+    "date": "16th December 2023",
+    "time": "10am to 4.30pm ",
+    "imageurl": "/EventAssets/iplauction.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Ansel"],
+      "no": [" 9633728638"]
+    },
+    "active": 1
+  },
+  {
+    "id": 4,
+    "no": "04",
+    "title": "Arduino Arcade Bash",
+    "route": "arduino-arcade-bash",
+    "description": "Onboard into a comprehensive two-round program that seamlessly blends education and competition. Participants partake in an immersive workshop, delving into the intricacies of Arduino-based arcade game development. Covering coding, hardware integration, and game design, this session equips attendees with essential skills. In the Challenge phase unfolds, tasking participants with crafting innovative games. Adjudicated on creativity, functionality, and user engagement, projects are evaluated by discerning judges. This event promises a professional platform for skill enhancement, collaboration, and the showcase of ingenuity in the realm of Arduino game development.",
+    "date": "16th December 2023",
+    "time": "9 am to 2 pm",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Niveditha", "Nisy"],
+      "no": ["7306914271", "8281227834"]
+    },
+    "active": 1
+  },
+  {
+    "id": 5,
+    "no": "05",
+    "title": "Techy Showdown: Mastering the Digital Arena",
+    "route": "techy-showdown",
+    "description": "Techy Showdown is a venue for tech enthusiasts to showcase their technological and marketing skills. The competition aims to identify all-rounders in the technology field by testing participants' knowledge across a wide array of disciplines. Contestants engage in rounds of debate, technical showdowns, group discussions, and presentations to validate their points and demonstrate their expertise",
+    "date": "15 December 2023",
+    "time": "",
+    "imageurl": "/EventAssets/techyshowdown.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Geevarghese Regi"],
+      "no": ["8113029191"]
+    },
+    "active": 1
+  },
+  {
+    "id": 6,
+    "no": "06",
+    "title": "Scenius 2.0",
+    "route": "scenius",
+    "description": "Scenius 2.0 presents an engaging technical game featuring four rounds centered around general knowledge in the field of civil engineering. Participants will embark on a journey that includes rounds such as JAM and Bridge Bust, where they will challenge their skills by constructing a bridge. This immersive event culminates in a virtual reality experience. Immerse yourself in breathtaking virtual worlds, from heart-pounding adventures to serene escapes. Feel the rush of excitement as reality blurs, and your senses are transported to new dimensions. We extend a warm invitation to participants from all engineering branches to partake in this thrilling competition, fostering collaboration and innovation.",
+    "date": "15th and 16th December 2023",
+    "time": "9am to 4 pm",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Hima", "Catherine"],
+      "no": ["8156908971", "8301929414"]
+    },
+    "active": 1
+  },
+  {
+    "id": 7,
+    "no": "07",
+    "title": "Galactic Gaze",
+    "route": "galactic-gaze",
+    "description": "Galactic Gaze: Astronomy Telescope Seminar and Night Sky Exploration",
+    "date": "15 December, 2023",
+    "time": "6:00-8:30pm",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Abhiram", "Bride"],
+      "no": ["9315280907", "8137070797"]
+    },
+    "active": 1
+  },
+  {
+    "id": 8,
+    "no": "08",
+    "title": "Create with an E",
+    "route": "create-with-an-e",
+    "description": "Create with an E is an E-Waste Art Gallery Competition where E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery. This event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
+    "date": "15 December 2023",
+    "time": "11 AM",
+    "imageurl": "/EventAssets/ewaste.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Soju Eappan", "Sagar Suresh"],
+      "no": ["9400386423", "8086957037"]
+    },
+    "active": 1
+  },
+  {
+    "id": 9,
+    "no": "09",
+    "title": "Sculptoria",
+    "route": "sculptoria",
+    "description": "Join us for an exciting workshop called Sculptoria, hosted by the STEAG Centre at RSET, where you'll get hands-on experience with 3D printing, laser cutting, and CNC machines. Discover the basics of these cool technologies, create your own 3D-printed objects, design intricate patterns with laser cutting, and explore the precision of CNC machining. Our experts will guide you through the process, and you'll learn about how these technologies are used in real-world applications. Whether you're a beginner or an enthusiast, Sculptoria is the place to unleash your creativity and gain valuable skills in the fascinating world of digital fabrication. Don't miss out on this unique opportunity where innovation meets hands-on fun!\nSeize the opportunity to be a part of SCULPTORIA - where innovation meets imagination. Limited slots available, so register now to secure your spot!\nJoin us in sculpting the future of technology and design! ✨ #Sculptoria2023 #InnovationUnleashed #Abhiyanthriki23",
+    "date": "19 December 2023",
+    "time": "9:30AM - 4:30PM",
+    "imageurl": "/EventAssets/sculptoria.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Soju Eappan", "Muhammed Nihal"],
+      "no": ["9400386423", "8848083654"]
+    },
+    "active": 1
+  },
+  {
+    "id": 10,
+    "no": "10",
+    "title": "Metaverse Marvels - Embracing Web3 Revolution",
+    "route": "metaverse-marvels",
+    "description": "Explore the future of the internet and immerse yourself in the Metaverse Marvels event. Embrace the Web3 revolution as we delve into the latest advancements in decentralized technologies, blockchain, and virtual reality. Join us for insightful discussions, hands-on experiences, and a glimpse into the evolving landscape of the digital world. Be a part of this transformative journey and discover the endless possibilities that the Metaverse holds.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": [],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 11,
+    "no": "11",
+    "title": "Circuit Race",
+    "route": "Circuit-Race",
+    "description": "The Circuit Race event evaluates the ability of participants to design and implement a circuit using the components provided by the organizers. The event comprises a quiz round and an implementation round. Each team comprises 3 members with a prize pool of Rs. 2250.",
+    "date": "15th December 2023",
+    "time": "10am to 1pm",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Vimalraj Vijayamohan Thampi", "Savio Amantius"],
+      "no": ["8943499336", "9207494808"]
+    },
+    "active": 1
+  },
+  {
+    "id": 12,
+    "no": "12",
+    "title": "Maestro de Circuito",
+    "route": "maestro-de-circuito",
+    "description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. These tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
+    "date": "16th December 2023",
+    "time": "8:30am-12pm",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Mikhael Sunil"],
+      "no": ["9605535994"]
+    },
+    "active": 1
+  },
+  {
+    "id": 13,
+    "no": "13",
+    "title": "ElectroHunt",
+    "route": "ElectroHunt",
+    "description": "ElectroHunt event description.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Nil"],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 14,
+    "no": "14",
+    "title": "Uncharted Cipher's Quest (Technical Treasure Hunt)",
+    "route": "Uncharted-Ciphers-Quest-Technical-Treasure-Hunt",
+    "description": "Uncharted Cipher's Quest event description.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Nil"],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 15,
+    "no": "15",
+    "title": "Flash a Fractal 📸",
+    "route": "flash-a-fractal",
+    "description": "Eager to showcase your photography prowess ? Look no further! Join us for 'Flash a Fractal📸' a photography extravaganza that promises to be a shutterbug's delight.\nGet ready to snap your way to glory at 'Flash a Fractal📸,' where every click tells a story. Let's freeze the moments together! ",
+    "date": "12th December 2023",
+    "time": "",
+    "imageurl": "/EventAssets/flashafractal.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Vaysakh M", "Renil Paulson"],
+      "no": ["9744372575", "9385816950"]
+    },
+    "active": 2
+  },
+  {
+    "id": 16,
+    "no": "16",
+    "title": "🎬 Start Camera Action 🎥",
+    "route": "short-film",
+    "description": "Get ready to unleash your creativity and cinematic flair! 🌟\nSee you at Start Camera Action - where your story begins! 🚀 #StartCameraAction2023 #ShortFilmCompetition",
+    "date": "",
+    "time": "",
+    "imageurl": "/EventAssets/shortfilm.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Anindhit Babu", "Arjun Dinukumar"],
+      "no": ["9072923147", "9074576212"]
+    },
+    "active": 2
+  },
+  {
+    "id": 17,
+    "no": "17",
+    "title": "3s Football",
+    "route": "3s-football",
+    "description": "3s Football event description.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": false,
+    "poc": {
+      "name": [],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 18,
+    "no": "18",
+    "title": "County Cricket",
+    "route": "county-cricket",
+    "description": "County Cricket event description.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": false,
+    "poc": {
+      "name": [],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 19,
+    "no": "19",
+    "title": "Theme show",
+    "route": "theme-show",
+    "description": "Theme Show event description.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": false,
+    "poc": {
+      "name": [],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 20,
+    "no": "20",
+    "title": "Rhythmic Resonance",
+    "route": "rhythmic-resonance",
+    "description": "Join the captivating 'Rhythmic Resonance' at Tech Fest Abhiyanthriki, RSET, on December 16th. This independent event invites eastern musical bands to showcase their talent alongside skilled musicians from various colleges. Unleash your best performance and seize the opportunity to win an impressive prize pool of Rs.17k!",
+    "date": "16th December 2023",
+    "time": "1 pm - 4 pm",
+    "imageurl": "/EventAssets/resonance.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Jyothir", " Minnu"],
+      "no": ["8089733554", "9447004534"]
+    },
+    "active": 1
+  },
+  {
+    "id": 21,
+    "no": "21",
+    "title": "Disco Divas",
+    "route": "disco-divas",
+    "description": "Dance into the spotlight at our Spot Choreo showdown! Unleash your creativity in this vibrant, quick-paced dance event that's all about choreographic brilliance!",
+    "date": "15th December 2023",
+    "time": "9:00 A.M",
+    "imageurl": "/EventAssets/disco.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Anusree Samson", "Sandra Sunil"],
+      "no": ["8078425495", "9778324325"]
+    },
+    "active": 1
+  },
+  {
+    "id": 22,
+    "no": "22",
+    "title": "Escape Room - Non Tech",
+    "route": "escape-room-non-tech",
+    "description": "Escape Room - Non Tech event description.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": false,
+    "poc": {
+      "name": [],
+      "no": []
+    },
+    "active": 2
+  },
+  {
+    "id": 23,
+    "no": "23",
+    "title": "Ethical Hacking Workshop",
+    "route": "ethical-hacking",
+    "description": "💡What to Expect: Join us for an immersive Ethical Hacking Workshop featuring Mr. Ajal from Offenso Hackers Academy. Gain insights into: \nHands-on hacking demos, \nPro tips on ethical hacking \nNetworking with cybersecurity pros.\nDon't miss the cybersecurity revolution!  #EthicalHacking #TechEvent",
+    "date": "25th November 2023",
+    "time": "9 am - 4 pm",
+    "imageurl": "/EventAssets/ethicalhacking.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Bhadra S Anand", "Raphael Tony"],
+      "no": ["7025065615", "9072652467"]
+    },
+    "active": 0
+  },
+  {
+    "id": 24,
+    "no": "24",
+    "title": "manAIge",
+    "route": "manaige",
+    "description": "Are you aspiring to build a thriving career in management? Then here's your opportunity!\nAs part of ABHIYANTHRIKI 2023, we present to you the opportunity to gain valuable industry insights through our upcoming session \n ✨ manAIge ✨ \nHow to Build a Successful Career in Management",
+    "date": "25 November 2023",
+    "time": "10.30 AM-12.30 PM",
+    "imageurl": "/EventAssets/manaige.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Muhammed Nihal C", "Sayujya Salim"],
+      "no": ["8078188354", "7736449302"]
+    },
+    "active": 0
+  },
+  {
+    "id": 25,
+    "no": "25",
+    "title": "Toyota Hybrid Workshop",
+    "route": "toyota-hybrid-workshop",
+    "description": "Uncover secrets of green mobility with us!\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
+    "date": "9th December 2023",
+    "time": "9:00 a.m to 12:00",
+    "imageurl": "/EventAssets/toyotaworkshop.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Jeevan Thomas", "Thomas Varghese"],
+      "no": ["9846162521", "9207741944"]
+    },
+    "active": 0
+  },
+  {
+    "id": 26,
+    "no": "26",
+    "title": "HackS'US - Edition III",
+    "route": "hacksus",
+    "description": "Join the excitement as RSET IEDC in association with Abhiyanthriki '23 unveils the thrilling\nHackS'US - Edition III \n an All Kerala 24-hour Inter-College Hackathon\n Compete for internship opportunities, startup incubation, and more. Benefit from exclusive mentorship and special training sessions from communities and alumni.\n Elevate your skills and teamwork for a chance at the impressive ₹1,30,000 prize pool.\n Prepare for excitement with a lineup of entertaining programs to keep you engaged throughout the event.\n",
+    "date": "15th & 16th December 2023 ",
+    "time": "6 PM Onwards",
+    "imageurl": "/EventAssets/hacks'us.jpg",
+    "technical": true,
+    "poc": {
+      "name": [],
+      "no": []
+    },
+    "active": 1
+  },
+  {
+    "id": 27,
+    "no": "27",
+    "title": "QuickQuery\n Seek and you shall find!",
+    "route": "quick-query",
+    "description": " Are you ready for the Ultimate Google Challenge?\nQuickQuery\nWhere time dances to the rhythm of your intellect. Two electrifying minutes, 15 questions that weave through the tapestry of history, currents of affairs, and the intricate threads of tech. No lifeline, no chat bots - just your raw Google skills!\nUnleash the abstract brilliance within!",
+    "date": "24th November 2023",
+    "time": "11:30 am to 12:30 pm",
+    "imageurl": "/EventAssets/quickquery.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Benison", "Bhadra S Anand"],
+      "no": ["9995921803", "7025065615"]
+    },
+    "active": 0
+  }
 ]
