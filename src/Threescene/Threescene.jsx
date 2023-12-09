@@ -32,7 +32,7 @@ function Threescene() {
       </div>)}
       <Canvas gl={{ antialias: true, toneMapping: THREE.NoToneMapping }}
     linear>
-          <ScrollControls pages={25} damping={0.2}>
+          <ScrollControls pages={window.innerHeight<window.innerwidth?10:25} damping={window.innerHeight<window.innerWidth?0.5:0.2}>
             <Experience />
           </ScrollControls>
       </Canvas>
