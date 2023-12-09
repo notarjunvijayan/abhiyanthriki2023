@@ -38,7 +38,6 @@ function Events() {
   const filteredEvents = events.filter((event) => {
     return filterEvents === 'technical' ? event.technical : !event.technical;
   });
-
   const handleRegClick = (reglink) => {
     window.open(reglink, '_blank');
   };
@@ -103,7 +102,7 @@ function Events() {
                     {' '}
                     <button
                       className='event-card-button event-register-button'
-                      onClick={handleRegClick(event.reglink)}
+                      onClick={() => handleRegClick(event.reglink)}
                     >
                       Register
                     </button>
