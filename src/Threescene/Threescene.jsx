@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import  Loader  from "./Loader/Loader"
 import { useProgress } from "@react-three/drei";
 import * as THREE from 'three'
+import Navbar from "../Navbar/Navbar";
+import '../Home/Home.css'
 
 function Threescene() {
 
@@ -25,7 +27,9 @@ function Threescene() {
 
   return (
     <>
-      {loading?(<Loader/>):(<></>)}
+      {loading?(<Loader/>):(<div className="navbar-threescene">
+        <Navbar/>
+      </div>)}
       <Canvas gl={{ antialias: true, toneMapping: THREE.NoToneMapping }}
     linear>
           <ScrollControls pages={25} damping={0.2}>

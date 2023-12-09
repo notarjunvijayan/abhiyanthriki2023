@@ -49,7 +49,6 @@ function App() {
 				</div>
 			) : ( */}
 			<>
-				<Navbar />
 				<RouterProvider router={router} />
 			</>
 			{/* )} */}
