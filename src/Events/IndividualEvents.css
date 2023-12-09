@@ -4,7 +4,8 @@
     top: 0;
     height: 100dvh;
     width: 100dvw;
-    background: linear-gradient(225deg, #ffffff 30%, #898989 120%);
+    background: linear-gradient(to right, #0f172a, #581c87, #0f172a);
+    color: white;
     z-index: -1;
 }
 
