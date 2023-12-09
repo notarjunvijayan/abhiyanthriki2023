@@ -83,7 +83,7 @@ export default function Experience() {
         new THREE.Vector3(2, -2, -470),
         new THREE.Vector3(0, -2, -490),
         new THREE.Vector3(-3, -2, -510),
-        new THREE.Vector3(-6, -2, -522),
+        new THREE.Vector3(-6, -2, -525),
       ],
       false,
       'catmullrom',
@@ -154,20 +154,20 @@ export default function Experience() {
       <Cloud position={[-7, 0, -20]} />
       <Cloud position={[50, 0, -100]} />
       <Cloud position={[7, -5, -30]} />
-      <Cloud position={[0, 0, -250]} scale={3} />
-      <Cloud position={[15, 0, -150]} scale={5} />
+      <Cloud position={[0, 0, -250]} scale={2} />
+      <Cloud position={[15, 0, -150]} scale={2.5} />
       <Cloud position={[-27, 3, -330]} />
-      <Cloud position={[5.5, -2.75, -330]} />
+      <Cloud position={[5.5, -5, -330]}  scale={1.5}/>
       <Cloud position={[15, -2.75, -350]} />
 
       <Telescope scale={2} position={[6, -2, -330]} rotation={[0, 1, 0]} />
       <Astronaut position={[-5, 4, -340]} rotation={[1, -1, 1]} scale={0.01} />
 
       <Drone position={[-5, 0, -480]} scale={2} rotation={[0.25, 2.2, 0]} />
-      <Cloud position={[-5, -4, -482]} scale={3.5} />
+      <Cloud position={[-5, -4, -482]} scale={1.5} />
 
       <Drumset position={[5.5, -1, -405]} scale={2} />
-      <Cloud position={[5, -4, -408]} scale={3.5} />
+      <Cloud position={[5, -3, -408]} scale={1.5} />
 
       <Float floatIntensity={[1]}>
         <Balloon position={[15, 0, -15]} scale={0.005} />
@@ -311,7 +311,7 @@ export default function Experience() {
           fontSize={0.8}
           font={'/Fonts/Neue.otf'}
         >
-          Galactic Gaze
+          Orion's Watch
         </Text>
       </group>
       <group position={[4, -6, -325]}>
@@ -347,7 +347,7 @@ export default function Experience() {
           15/12/2023
         </Text>
       </group>
-      <group position={[-5, -2, -470]}>
+      <group position={[-5.5, -3, -470]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -358,7 +358,7 @@ export default function Experience() {
           Drone Show
         </Text>
       </group>
-      <group position={[-4.5, -3, -470]}>
+      <group position={[-5, -4, -470]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -420,6 +420,7 @@ export default function Experience() {
           makeDefault
           lookAt={Drone}
           far={200}
+          near={window.innerWidth < window.innerHeight ? 20:5}
           ref={camera}
         />
         <group ref={airplane}>
