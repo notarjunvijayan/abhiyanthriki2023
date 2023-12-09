@@ -1,5 +1,5 @@
 import { Drone } from './ModelComponents/StingerDrone';
-import { Cloud } from './ModelComponents/Cloud';
+import { Cloud } from './ModelComponents/Model';
 import { useFrame } from '@react-three/fiber';
 import { OrbitControls, Plane, RoundedBox, Stars, useScroll } from '@react-three/drei';
 import * as THREE from 'three';

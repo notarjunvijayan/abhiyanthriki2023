@@ -131,6 +131,7 @@
 @media (max-width: 786px){
     .event-details-content{
       flex-direction: column;
+      padding: 0;
     }
 
     .event-details-poster{
@@ -140,6 +141,7 @@
     .event-details-textcontent{
       height: 50dvh;
       padding-right: 0;
+      padding: 2dvh;
     }
 
     .event-details-info{
@@ -155,6 +157,12 @@
       height: 25dvh;
       font-size: 1rem;
       padding: 1%;
+      
+    }
+
+    .event-details-description-text{
+      height: 100%;
+      width: 100%;
       overflow-y: scroll;
     }
 

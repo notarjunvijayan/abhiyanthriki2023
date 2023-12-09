@@ -11,10 +11,10 @@ function IndividualEvent() {
   if (!event) {
     return <div>Event does not exist</div>;
   }
+
   const handleRegClick = (reglink) => {
     window.open(reglink, '_blank');
   };
-
   return (
     <>
       <Navbar />
@@ -32,7 +32,9 @@ function IndividualEvent() {
             <div className='event-details-info'>
               <div className='event-details-title'> {event.title}</div>
               <div className='event-details-description'>
-                {event.description}
+                <div className='event-details-description-text'>
+                  {event.description}
+                </div>
               </div>
             </div>
             <div className='event-details-regdetails'>
