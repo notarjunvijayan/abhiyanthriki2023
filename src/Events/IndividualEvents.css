@@ -104,6 +104,9 @@
   color: #ffffff;
   outline: none;
   border: none;
+  font-family: Monument;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
   font-size: 1.5rem;
   /* border-radius: 1rem; */
   transition: all 0.2s ease-in-out;
@@ -119,7 +122,10 @@
   color: #ffffff;
   outline: none;
   border: none;
-  font-size: 1.5rem;
+  font-family: Monument;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 1.25rem;
 }
 
 .event-details-register-button:hover {
@@ -180,6 +186,7 @@
 
     .event-details-register-button{
       border-radius: 0.5rem;
-      font-size: 1.25rem;
+      width: 35dvw;
+      font-size: 1rem;
     }
 }
