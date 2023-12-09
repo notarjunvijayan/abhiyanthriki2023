@@ -97,7 +97,7 @@
 .event-details-register-button{
     display: flex;
     width: 80%;
-    padding: 1rem;
+    padding: 0.5rem;
     justify-content: center;
     align-items: center;
     background-color: black;

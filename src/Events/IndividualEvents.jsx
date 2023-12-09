@@ -33,7 +33,7 @@ function IndividualEvent() {
 						<div className="event-details-poc">{event.time}</div>
 						<div className="event-details-register">
 							<button className="event-details-register-button">
-								REGISTER
+								Register
 							</button>
 						</div>
 					</div>
