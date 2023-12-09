@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import eventsData from './EventsData.json';
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 function Events() {
 	const navigate = useNavigate();
@@ -34,28 +34,38 @@ function Events() {
 	});
 
 	return (
-		<div className="flex flex-col bg-gradient-to-r from-gray-200 via-gray-400 to-gray-600 items-center justify-around  gap-20 my-20 w-screen mx-auto">
-			<div className="text-7xl select-none font-['monument']">Events</div>
-
-			<div className="flex flex-row justify-evenly items-center w-screen">
-				<div className="bg-[#e5ff00] p-2 rounded-xl ">
+		<div className="event-container flex flex-col items-center justify-around  gap-20 my-20 w-screen mx-auto">
+			<div className="flex flex-row justify-evenly items-center w-screen mt-4">
+				<div
+					className={`  p-2 rounded-md w-full basis-1/2 text-center ${
+						filterEvents === 'technical'
+							? 'bg-[#e5ff00] text-black'
+							: 'text-white bg-black'
+					}`}
+				>
 					<button
-						className="text-black font-bold md:text-2xl text-base font-['monument']"
+						className="font-bold md:text-2xl text-base font-['monument']"
 						onClick={() => handleClick('technical')}
 					>
 						TECHNICAL
 					</button>
 				</div>
-				<div className="bg-[#e5ff00] p-2 rounded-xl">
+				<div
+					className={`  p-2 rounded-md w-full basis-1/2 text-center ${
+						filterEvents === 'non-technical'
+							? 'bg-[#e5ff00] text-black'
+							: 'text-white bg-black'
+					}`}
+				>
 					<button
-						className="text-black font-bold md:text-2xl text-base font-['monument']"
+						className="font-bold md:text-2xl text-base font-['monument']"
 						onClick={() => handleClick('non-technical')}
 					>
 						NON-TECHNICAL
 					</button>
 				</div>
 			</div>
-			<div className="grid md:grid-cols-3 grid-cols-1 w-full gap-10 md:pl-8 md:px-10 px-4">
+			<div className="grid md:grid-cols-3 grid-cols-1 w-5/6 gap-10 md:pl-8 md:px-10 px-4">
 				{filteredEvents.map((event, index) => (
 					<div
 						key={event.id}
@@ -64,23 +74,26 @@ function Events() {
 					>
 						<div className="relative w-full h-full overflow-hidden rounded-2xl ">
 							<img
-								src="/Images/event2.jpg"
+								src={event.imageurl}
 								className="w-full h-full object-cover"
-								alt="Event"
+								alt="Event Image"
 							/>
-							<div className="absolute inset-0 flex flex-col items-center justify-end bg-[rgba(0,0,0,0.5)] transition-all duration-300 ease-out opacity-0 group-hover:opacity-100">
-								<div className="text-white text-center mb-2 transition-all duration-300 ease-out transform group-hover:translate-y-[-550%]">
+							<div className="absolute inset-0 flex flex-col items-center justify-end bg-[#e5ff00] transition-all duration-300 ease-out opacity-0 group-hover:opacity-80">
+								<div className="text-black text-center mb-2 transition-all duration-300 ease-out transform md:group-hover:-translate-y-44 group-hover:-translate-y-28 md:text-4xl text-3xl font-bold">
 									{event.title}
 								</div>
 							</div>
 						</div>
-						<div className="flex w-full mt-2">
+						<div className="flex w-full mt-2 md:text-2xl text-lg">
 							<button className="flex-1 text-white bg-[#343434] px-4 py-2 rounded-md hover:bg-gray-800 transition-all duration-300 ease-out">
 								Register
 							</button>
-							<button onClick={() => {
-            navigate(`/events/${event.route}`);
-          }} className="flex-1 text-white bg-[#343434] px-4 py-2 rounded-md hover:bg-gray-800 transition-all duration-300 ease-out">
+							<button
+								onClick={() => {
+									navigate(`/events/${event.route}`);
+								}}
+								className="flex-1 text-white bg-[#343434] px-4 py-2 rounded-md hover:bg-gray-800 transition-all duration-300 ease-out"
+							>
 								Explore
 							</button>
 						</div>

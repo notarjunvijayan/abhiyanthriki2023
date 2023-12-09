@@ -1,5 +1,6 @@
 .contact-container {
   /* margin-top: 10dvh; */
+  background: linear-gradient(180deg, #f4bf07 50%, #ec662d 110%); 
   padding-left: 2em;
   display: flex;
   align-items: center;
@@ -89,6 +90,7 @@
   position: absolute;
   z-index: 2;
 }
+
 
 .contact-cards h2,
 .contact-cards h3,
