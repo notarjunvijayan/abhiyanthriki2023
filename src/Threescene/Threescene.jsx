@@ -4,6 +4,7 @@ import { ScrollControls } from "@react-three/drei";
 import { useEffect, useState } from "react";
 import  Loader  from "./Loader/Loader"
 import { useProgress } from "@react-three/drei";
+import * as THREE from 'three'
 
 function Threescene() {
 
@@ -25,7 +26,8 @@ function Threescene() {
   return (
     <>
       {loading?(<Loader/>):(<></>)}
-      <Canvas linear={true}>
+      <Canvas gl={{ antialias: true, toneMapping: THREE.NoToneMapping }}
+    linear>
           <ScrollControls pages={25} damping={0.2}>
             <Experience />
           </ScrollControls>

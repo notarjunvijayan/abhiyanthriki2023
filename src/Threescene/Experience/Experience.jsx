@@ -27,7 +27,14 @@ const Texture = ({ texture, position, args }) => {
 };
 const Image = ({ url, position, args }) => {
   const texture = useMemo(() => new THREE.TextureLoader().load(url), [url]);
-  return <Texture position={position} texture={texture} args={args} />;
+  return (
+    <Texture
+      toneMapped={true}
+      position={position}
+      texture={texture}
+      args={args}
+    />
+  );
 };
 
 export default function Experience() {
@@ -151,8 +158,6 @@ export default function Experience() {
       <Cloud position={[-27, 3, -330]} />
       <Cloud position={[5.5, -2.75, -330]} />
       <Cloud position={[15, -2.75, -350]} />
-
-      <Line points={linePoints} />
 
       <Telescope scale={2} position={[6, -2, -330]} rotation={[0, 1, 0]} />
       <Astronaut position={[-5, 4, -340]} rotation={[1, -1, 1]} scale={0.01} />
@@ -439,7 +444,6 @@ export default function Experience() {
           </LayerMaterial>
         </Sphere>
       </group>
-      <OrbitControls enableZoom={false} />
     </>
   );
 }

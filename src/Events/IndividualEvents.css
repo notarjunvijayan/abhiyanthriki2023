@@ -10,6 +10,7 @@
     display: flex;
     margin-top: 10dvh;
     height: 90dvh;
+    width: 100dvw;
     align-items: center;
     padding: 1.5rem;
     gap: 2rem;
@@ -36,6 +37,7 @@
 .event-details-textcontent{
     display: flex;
     height: 90%;
+    width: 100%;
     padding-right: 2rem;
     flex-direction: column; 
     justify-content: space-between;
@@ -64,6 +66,7 @@
     align-items: center;
     text-align: justify;
     font-size: 1.25rem;
+    white-space: pre-wrap;
 }
 
 .event-details-regdetails{
