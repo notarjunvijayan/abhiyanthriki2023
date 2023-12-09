@@ -19,11 +19,11 @@ function Events() {
   const handleClick = (buttonType) => {
     setFilterEvents(buttonType);
     const handleClick = () => {
-      const contentWindow = document.getElementById("event-content");
+      const contentWindow = document.getElementById('event-content');
       contentWindow.scrollTo({
         top: 0,
         left: 0,
-        behavior: "smooth",
+        behavior: 'smooth',
       });
     };
     handleClick();
@@ -39,84 +39,90 @@ function Events() {
     return filterEvents === 'technical' ? event.technical : !event.technical;
   });
 
+  const handleRegClick = (reglink) => {
+    window.open(reglink, '_blank');
+  };
   return (
     <>
-    <Navbar/>
-    <div className='event-container'>
-      <div className='event-title'>EVENTS</div>
-      <div className='event-toggle-container'>
-        <div
-          className={`event-toggle event-technical ${
-            filterEvents === 'technical'
-              ? 'bg-[#e5ff00] text-black'
-              : 'text-white bg-black'
-          }`}
-        >
-          <button
-            className='event-toggle-button'
-            onClick={() => handleClick('technical')}
-          >
-            TECHNICAL
-          </button>
-        </div>
-        <div
-          className={`event-toggle event-nontechnical ${
-            filterEvents === 'non-technical'
-              ? 'bg-[#e5ff00] text-black'
-              : 'text-white bg-black'
-          }`}
-        >
-          <button
-            className='event-toggle-button'
-            onClick={() => handleClick('non-technical')}
-          >
-            NON-TECHNICAL
-          </button>
-        </div>
-      </div>
-      <div className='event-content' id="event-content">
-        {filteredEvents.map((event, index) => (
+      <Navbar />
+      <div className='event-container'>
+        <div className='event-title'>EVENTS</div>
+        <div className='event-toggle-container'>
           <div
-            key={event.id}
-            className='event-card'
-            onClick={() => handleEventClick(index)}
+            className={`event-toggle event-technical ${
+              filterEvents === 'technical'
+                ? 'bg-[#e5ff00] text-black'
+                : 'text-white bg-black'
+            }`}
           >
-            <div className='event-image-container'>
-              <img src={event.imageurl} className='event-image' alt='' />
-              <div className='event-image-overlay'>
-                <div className='event-overlay-title'>{event.title}</div>
+            <button
+              className='event-toggle-button'
+              onClick={() => handleClick('technical')}
+            >
+              TECHNICAL
+            </button>
+          </div>
+          <div
+            className={`event-toggle event-nontechnical ${
+              filterEvents === 'non-technical'
+                ? 'bg-[#e5ff00] text-black'
+                : 'text-white bg-black'
+            }`}
+          >
+            <button
+              className='event-toggle-button'
+              onClick={() => handleClick('non-technical')}
+            >
+              NON-TECHNICAL
+            </button>
+          </div>
+        </div>
+        <div className='event-content' id='event-content'>
+          {filteredEvents.map((event, index) => (
+            <div
+              key={event.id}
+              className='event-card'
+              onClick={() => handleEventClick(index)}
+            >
+              <div className='event-image-container'>
+                <img src={event.imageurl} className='event-image' alt='' />
+                <div className='event-image-overlay'>
+                  <div className='event-overlay-title'>{event.title}</div>
+                </div>
+              </div>
+              <div className='event-card-buttons'>
+                {(event.active == 1 || event.active == 2) && (
+                  <>
+                    {' '}
+                    <button
+                      className='event-card-button event-register-button'
+                      onClick={handleRegClick(event.reglink)}
+                    >
+                      Register
+                    </button>
+                  </>
+                )}
+                {event.active == 0 && (
+                  <>
+                    {' '}
+                    <div className='event-card-button event-register-button'>
+                      Event ended!
+                    </div>
+                  </>
+                )}
+                <button
+                  onClick={() => {
+                    navigate(`/events/${event.route}`);
+                  }}
+                  className='event-card-button event-explore-button'
+                >
+                  Explore
+                </button>
               </div>
             </div>
-            <div className='event-card-buttons'>
-              {(event.active == 1 || event.active == 2) && (
-                <>
-                  {' '}
-                  <button className='event-card-button event-register-button'>
-                    Register
-                  </button>
-                </>
-              )}
-              {event.active == 0 && (
-                <>
-                  {' '}
-                  <div className='event-card-button event-register-button'>
-                    Event ended!
-                  </div>
-                </>
-              )}
-              <button
-                onClick={() => {
-                  navigate(`/events/${event.route}`);
-                }}
-                className='event-card-button event-explore-button'
-              >
-                Explore
-              </button>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
     </>
   );
 }
