@@ -98,7 +98,7 @@ function Events() {
                 {event.active == 2 && (
                   <>
                     {' '}
-                    <div className='event-card-button event-register-button'>
+                    <div className='event-card-button coming-soon-button'>
                       Coming soon!
                     </div>
                   </>

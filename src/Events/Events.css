@@ -137,6 +137,11 @@
 	transition: all 0.2s ease-in-out;
 }
 
+.coming-soon-button{
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+
 .event-card-button:hover {
 	background-color: yellow;
 	color: black;
