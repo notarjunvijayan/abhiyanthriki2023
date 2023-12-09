@@ -137,6 +137,14 @@
 	transition: all 0.2s ease-in-out;
 }
 
+.coming-soon-button{
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+.coming-soon-button:hover{
+	cursor: default;
+}
+
 .event-card-button:hover {
 	background-color: yellow;
 	color: black;
@@ -148,6 +156,10 @@
 
 .event-explore-button {
 	border-bottom-right-radius: 1rem;
+}
+
+.event-ended-button:hover{
+	cursor: default;
 }
 
 
