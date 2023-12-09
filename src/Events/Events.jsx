@@ -5,33 +5,28 @@ import {useNavigate} from 'react-router-dom';
 function Events() {
 	const navigate = useNavigate();
 
-	const [filterEvents, setFilterEvents] = useState('technical');
-	const [events, setEvents] = useState([]);
-	const [showRegisterSections, setShowRegisterSections] = useState([]);
+  const [filterEvents, setFilterEvents] = useState('technical');
+  const [events, setEvents] = useState([]);
+  const [showRegisterSections, setShowRegisterSections] = useState([]);
 
-	useEffect(() => {
-		setEvents(eventsData);
-		setShowRegisterSections(Array(eventsData.length).fill(false));
-	}, []);
+  useEffect(() => {
+    setEvents(eventsData);
+    setShowRegisterSections(Array(eventsData.length).fill(false));
+  }, []);
 
-	const handleClick = buttonType => {
-		setFilterEvents(buttonType);
-	};
+  const handleClick = (buttonType) => {
+    setFilterEvents(buttonType);
+  };
 
-	const handleEventClick = index => {
-		const newShowRegisterSections = Array(eventsData.length).fill(false);
-		newShowRegisterSections[index] = !showRegisterSections[index];
-		setShowRegisterSections(newShowRegisterSections);
-	};
+  const handleEventClick = (index) => {
+    const newShowRegisterSections = Array(eventsData.length).fill(false);
+    newShowRegisterSections[index] = !showRegisterSections[index];
+    setShowRegisterSections(newShowRegisterSections);
+  };
 
-	const filteredEvents = events.filter(event => {
-		if (filterEvents === 'technical') {
-			return event.technical;
-		} else if (filterEvents === 'non-technical') {
-			return !event.technical;
-		}
-		return true;
-	});
+  const filteredEvents = events.filter((event) => {
+    return filterEvents === 'technical' ? event.technical : !event.technical;
+  });
 
 	return (
 		<div className="event-container flex flex-col items-center justify-around  gap-20 my-20 w-screen mx-auto">
