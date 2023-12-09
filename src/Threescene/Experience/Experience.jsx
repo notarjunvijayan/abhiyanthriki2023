@@ -78,7 +78,7 @@ export default function Experience() {
         new THREE.Vector3(2, -2 , -470),
         new THREE.Vector3(0, -2 , -490),
         new THREE.Vector3(-3, -2 , -510),
-        new THREE.Vector3(-6, -2 , -520),
+        new THREE.Vector3(-6, -2 , -522),
       ],
       false,
       "catmullrom",
@@ -403,6 +403,17 @@ export default function Experience() {
           font={"/Fonts/Neue.otf"}
         >
           Register for events from the events section
+        </Text>
+      </group>
+      <group position={[-15, -20, -600]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={1}
+          font={"/Fonts/Neue.otf"}
+        >
+          Made by the Abhiyanthriki 2023 Website team
         </Text>
       </group>
       <group ref={cameraGroup}>

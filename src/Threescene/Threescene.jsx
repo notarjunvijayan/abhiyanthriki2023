@@ -11,7 +11,6 @@ function Threescene() {
   const [ready,setReady] = useState(false)
 
   const progress = useProgress()
-  console.log(progress.progress)
 
   useEffect(()=>{
     setLoading(true)
