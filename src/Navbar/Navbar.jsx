@@ -16,7 +16,7 @@ export default function Navbar() {
 						<a href="/events">Events</a>
 					</div>
 					<div className="link">
-						<a href="contact-us">Contact</a>
+						<a href="/contact-us">Contact</a>
 					</div>
 				</div>
 			</nav>
