@@ -20,8 +20,8 @@
 
 .event-toggle-container {
 	display: flex;
-	height: 10dvh;
-	width: 60%;
+	height: 5dvh;
+	width: 40%;
 }
 
 .event-toggle {
@@ -30,6 +30,7 @@
 	height: 100%;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 .event-toggle-button {
@@ -54,7 +55,7 @@
 .event-content {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	margin-top: 5dvh;
+	margin-top: 2dvh;
 	padding-left: 5dvh;
 	padding-right: 5dvh;
 	padding-bottom: 5dvh;
@@ -72,7 +73,7 @@
 	justify-content: center;
 	flex-direction: column;
 	/* background-color: red; */
-    transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
 }
 
 .event-card:hover {
@@ -85,7 +86,7 @@
 	aspect-ratio: 1;
 	justify-content: center;
 	align-items: center;
-    position: relative;
+	position: relative;
 }
 
 .event-image {
@@ -97,26 +98,26 @@
 	transition: all 0.2s;
 }
 
-.event-image-overlay{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    padding: 1rem;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    opacity: 0;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    background-color: black;
-    color: #e5ff00;
-    font-size: 2rem;
-    transition: all 0.35s ease-in-out;
+.event-image-overlay {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	padding: 1rem;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	background-color: black;
+	color: #e5ff00;
+	font-size: 2rem;
+	transition: all 0.35s ease-in-out;
 }
-.event-image-overlay:hover{
-    position: absolute;
-    opacity: 0.8;
+.event-image-overlay:hover {
+	position: absolute;
+	opacity: 0.8;
 }
 
 .event-card-buttons {

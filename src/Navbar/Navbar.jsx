@@ -1,26 +1,25 @@
-import './Navbar.css';
-import logo from './a3k.png';
+import "./Navbar.css";
+import logo from "./a3k.png";
 export default function Navbar() {
-  return (
-    <>
-      <nav className='navbar'>
-        <ul>
-          <li className='logo'>
-            <a href='/'>
-              {' '}
-              <img src={logo} />
-            </a>
-          </li>
-          <div className='links'>
-            <li>
-              <a href='/events'>Events</a>
-            </li>
-            <li>
-              <a href='contact-us'>Contact</a>
-            </li>
-          </div>
-        </ul>
-      </nav>
-    </>
-  );
+	return (
+		<>
+			<nav className="navbar">
+				<div className="logo">
+					<a href="/">
+						{" "}
+						<img src={logo} />
+					</a>
+				</div>
+
+				<div className="links">
+					<div className="link">
+						<a href="/events">Events</a>
+					</div>
+					<div className="link">
+						<a href="contact-us">Contact</a>
+					</div>
+				</div>
+			</nav>
+		</>
+	);
 }
