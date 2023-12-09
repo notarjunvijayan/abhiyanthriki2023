@@ -4,6 +4,12 @@
   justify-content: space-around;
   height: 10dvh;
 }
+.logo{
+  height: 5vh;
+}
+.logo img{
+  height: 5vh;
+}
 .navbar ul {
   display: flex;
   list-style-type: none;
@@ -19,7 +25,7 @@
   display: block;
   text-decoration: none;
   width: 7rem;
-  color: black;
+  color: white;
   font-size: 1.4rem;
   padding: 2rem;
 }
