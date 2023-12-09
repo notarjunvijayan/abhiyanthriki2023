@@ -7,7 +7,7 @@
 		"description": "An Escape Room to foster creativity among students. Participants solve intricate puzzles and decode messages to escape from the clutches of a self-aware AI. It is a blend of mystery and technical skills.",
 		"date": "16th December 2023",
 		"time": "10 am",
-		"imageurl": "/Events/escaperoom.jpg",
+		"imageurl": "/EventAssets/escaperoom.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Nirupama Nair", "S5 CSBS"],
@@ -41,7 +41,7 @@
 		],
 		"date": "16th December 2023",
 		"time": "10am to 4.30pm ",
-		"imageurl": "/Events/iplauction.jpg",
+		"imageurl": "/EventAssets/iplauction.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Ansel"],
@@ -71,7 +71,7 @@
 		"description": "Techy Showdown is a venue for tech enthusiasts to showcase their technological and marketing skills. The competition aims to identify all-rounders in the technology field by testing participants' knowledge across a wide array of disciplines. Contestants engage in rounds of debate, technical showdowns, group discussions, and presentations to validate their points and demonstrate their expertise",
 		"date": "15 December 2023",
 		"time": "",
-		"imageurl": "/Events/techyshowdown.jpg",
+		"imageurl": "/EventAssets/techyshowdown.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Geevarghese Regi"],
@@ -116,7 +116,7 @@
 		"description": "Create with an E is an E-Waste Art Gallery Competition where E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery. This event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
 		"date": "15 December 2023",
 		"time": "11 AM",
-		"imageurl": "/Events/ewaste.jpg",
+		"imageurl": "/EventAssets/ewaste.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Soju Eappan", "Sagar Suresh"],
@@ -131,7 +131,7 @@
 		"description": "Join us for an exciting workshop called Sculptoria, hosted by the STEAG Centre at RSET, where you'll get hands-on experience with 3D printing, laser cutting, and CNC machines. Discover the basics of these cool technologies, create your own 3D-printed objects, design intricate patterns with laser cutting, and explore the precision of CNC machining. Our experts will guide you through the process, and you'll learn about how these technologies are used in real-world applications. Whether you're a beginner or an enthusiast, Sculptoria is the place to unleash your creativity and gain valuable skills in the fascinating world of digital fabrication. Don't miss out on this unique opportunity where innovation meets hands-on fun!\nSeize the opportunity to be a part of SCULPTORIA - where innovation meets imagination. Limited slots available, so register now to secure your spot!\nJoin us in sculpting the future of technology and design! ✨ #Sculptoria2023 #InnovationUnleashed #Abhiyanthriki23",
 		"date": "19 December 2023",
 		"time": "9:30AM - 4:30PM",
-		"imageurl": "/Events/sculptoria.jpg",
+		"imageurl": "/EventAssets/sculptoria.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Soju Eappan", "Muhammed Nihal"],
@@ -221,7 +221,7 @@
 		"description": "Eager to showcase your photography prowess ? Look no further! Join us for 'Flash a Fractal📸' a photography extravaganza that promises to be a shutterbug's delight.\nGet ready to snap your way to glory at 'Flash a Fractal📸,' where every click tells a story. Let's freeze the moments together! ",
 		"date": "12th December 2023",
 		"time": "",
-		"imageurl": "/Events/flashafractal.jpg",
+		"imageurl": "/EventAssets/flashafractal.jpg",
 		"technical": false,
 		"poc": {
 			"name": ["Vaysakh M", "Renil Paulson"],
@@ -236,7 +236,7 @@
 		"description": "Get ready to unleash your creativity and cinematic flair! 🌟\nSee you at Start Camera Action - where your story begins! 🚀 #StartCameraAction2023 #ShortFilmCompetition",
 		"date": "",
 		"time": "",
-		"imageurl": "/Events/shortfilm.jpg",
+		"imageurl": "/EventAssets/shortfilm.jpg",
 		"technical": false,
 		"poc": {
 			"name": ["Anindhit Babu", "Arjun Dinukumar"],
@@ -296,7 +296,7 @@
 		"description": "Join the captivating 'Rhythmic Resonance' at Tech Fest Abhiyanthriki, RSET, on December 16th. This independent event invites eastern musical bands to showcase their talent alongside skilled musicians from various colleges. Unleash your best performance and seize the opportunity to win an impressive prize pool of Rs.17k!",
 		"date": "16th December 2023",
 		"time": "1 pm - 4 pm",
-		"imageurl": "/Events/resonance.jpg",
+		"imageurl": "/EventAssets/resonance.jpg",
 		"technical": false,
 		"poc": {
 			"name": ["Jyothir", " Minnu"],
@@ -311,7 +311,7 @@
 		"description": "Dance into the spotlight at our Spot Choreo showdown! Unleash your creativity in this vibrant, quick-paced dance event that's all about choreographic brilliance!",
 		"date": "15th December 2023",
 		"time": "9:00 A.M",
-		"imageurl": "/Events/disco.jpg",
+		"imageurl": "/EventAssets/disco.jpg",
 		"technical": false,
 		"poc": {
 			"name": ["Anusree Samson", "Sandra Sunil"],
@@ -341,7 +341,7 @@
 		"description": "💡What to Expect: Join us for an immersive Ethical Hacking Workshop featuring Mr. Ajal from Offenso Hackers Academy. Gain insights into: \nHands-on hacking demos, \nPro tips on ethical hacking \nNetworking with cybersecurity pros.\nDon't miss the cybersecurity revolution!  #EthicalHacking #TechEvent",
 		"date": "25th November 2023",
 		"time": "9 am - 4 pm",
-		"imageurl": "/Events/ethicalhacking.jpg",
+		"imageurl": "/EventAssets/ethicalhacking.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Bhadra S Anand", "Raphael Tony"],
@@ -356,7 +356,7 @@
 		"description": "Are you aspiring to build a thriving career in management? Then here's your opportunity!\nAs part of ABHIYANTHRIKI 2023, we present to you the opportunity to gain valuable industry insights through our upcoming session \n ✨ manAIge ✨ \nHow to Build a Successful Career in Management",
 		"date": "25 November 2023",
 		"time": "10.30 AM-12.30 PM",
-		"imageurl": "/Events/manaige.jpg",
+		"imageurl": "/EventAssets/manaige.jpg",
 		"technical": false,
 		"poc": {
 			"name": ["Muhammed Nihal C", "Sayujya Salim"],
@@ -371,7 +371,7 @@
 		"description": "Uncover secrets of green mobility with us!\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
 		"date": "9th December 2023",
 		"time": "9:00 a.m to 12:00",
-		"imageurl": "/Events/toyotaworkshop.jpg",
+		"imageurl": "/EventAssets/toyotaworkshop.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Jeevan Thomas", "Thomas Varghese"],
@@ -386,7 +386,7 @@
 		"description": "Join the excitement as RSET IEDC in association with Abhiyanthriki '23 unveils the thrilling\nHackS'US - Edition III \n an All Kerala 24-hour Inter-College Hackathon\n Compete for internship opportunities, startup incubation, and more. Benefit from exclusive mentorship and special training sessions from communities and alumni.\n Elevate your skills and teamwork for a chance at the impressive ₹1,30,000 prize pool.\n Prepare for excitement with a lineup of entertaining programs to keep you engaged throughout the event.\n",
 		"date": "15th & 16th December 2023 ",
 		"time": "6 PM Onwards",
-		"imageurl": "/Events/hacks'us.jpg",
+		"imageurl": "/EventAssets/hacks'us.jpg",
 		"technical": true,
 		"poc": {
 			"name": [],
@@ -401,7 +401,7 @@
 		"description": " Are you ready for the Ultimate Google Challenge?\nQuickQuery\nWhere time dances to the rhythm of your intellect. Two electrifying minutes, 15 questions that weave through the tapestry of history, currents of affairs, and the intricate threads of tech. No lifeline, no chat bots - just your raw Google skills!\nUnleash the abstract brilliance within!",
 		"date": "24th November 2023",
 		"time": "11:30 am to 12:30 pm",
-		"imageurl": "/Events/quickquery.jpg",
+		"imageurl": "/EventAssets/quickquery.jpg",
 		"technical": true,
 		"poc": {
 			"name": ["Benison", "Bhadra S Anand"],
