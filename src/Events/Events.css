@@ -54,7 +54,7 @@
 .event-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 5dvh;
+  margin-top: 8dvh;
   padding-left: 5dvh;
   padding-right: 5dvh;
   padding-bottom: 5dvh;
