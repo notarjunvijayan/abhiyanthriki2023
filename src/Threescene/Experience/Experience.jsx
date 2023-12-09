@@ -179,7 +179,7 @@ export default function Experience() {
         <Balloon position={[10, -20, -220]} scale={0.005} />
       </Float>
 
-      <Image url={'/Images/rset.jpg'} position={[5, 0, -130]} args={[15, 10]} />
+      <Image url={'/Images/rset.jpg'} position={window.innerHeight>window.innerWidth?[15,10,-130]:[5, 0, -130]} args={window.innerHeight>window.innerWidth?[25,15]:[15, 10]} />
       <Image
         url={'/Images/Hubspire.jpg'}
         position={[23, -1, -250]}
@@ -258,12 +258,12 @@ export default function Experience() {
           Rajagiri School of Engineering and Technology
         </Text>
       </group>
-      <group position={[17, 0, -130]} rotation={[0, -0.25, 0]}>
+      <group position={window.innerHeight>window.innerWidth?[0,-5,-130]:[17, 0, -130]} rotation={[0, -0.25, 0]}>
         <Text
           color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
-          fontSize={0.8}
+          fontSize={window.innerHeight>window.innerWidth?1.1:0.8}
           font={'/Fonts/Neue.otf'}
         >
           Abhiyanthriki, RSET's biennial technical festival, epitomizes academic
