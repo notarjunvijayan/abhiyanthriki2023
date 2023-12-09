@@ -76,7 +76,9 @@ export default function Experience() {
         new THREE.Vector3(5, -2 , -420),
         new THREE.Vector3(5, -2 , -440),
         new THREE.Vector3(2, -2 , -470),
-        new THREE.Vector3(-1, -2 , -490),
+        new THREE.Vector3(0, -2 , -490),
+        new THREE.Vector3(-3, -2 , -510),
+        new THREE.Vector3(-6, -2 , -520),
       ],
       false,
       "catmullrom",
@@ -159,7 +161,7 @@ export default function Experience() {
       <Cloud position={[5.5, -2.75, -330]} />
       <Cloud position={[15, -2.75, -350]} />
 
-      
+      <Line points={linePoints}/>
 
       <Telescope scale={2} position={[6,-2,-330]} rotation={[0,1,0]}/>
       <Astronaut position={[-5,4,-340]} rotation={[1,-1,1]} scale={0.01}/>
@@ -190,6 +192,16 @@ export default function Experience() {
         url={"/Images/GLOBAL_logo.jpg"}
         position={[18, -1, -250]}
         args={[4, 4]}
+      />
+      <Image
+        url={"/Images/a3k217.jpg"}
+        position={[10, 8, -600]}
+        args={[16, 9]}
+      />
+      <Image
+        url={"/Images/a3kvintage3.jpg"}
+        position={[10, -3, -600]}
+        args={[16, 10]}
       />
 
       <RoundedBox args={[12,5,0.5]} radius={0.15} position={[21,-1,-251]}/>
@@ -369,6 +381,28 @@ export default function Experience() {
           font={"/Fonts/monument-regular.otf"}
         >
           PLATINUM SPONSORS
+        </Text>
+      </group>
+      <group position={[-35, 3, -600]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={3}
+          font={"/Fonts/monument-regular.otf"}
+        >
+          BE A PART OF {"\n"}ABHIYANTHRIKI
+        </Text>
+      </group>
+      <group position={[-35, -3, -600]}>
+        <Text
+          color="black" // default
+          anchorX="middle" // default
+          anchorY="middle" // default
+          fontSize={1.5}
+          font={"/Fonts/Neue.otf"}
+        >
+          Register for events from the events section
         </Text>
       </group>
       <group ref={cameraGroup}>
