@@ -141,6 +141,9 @@
 	border-bottom-left-radius: 1rem;
 	border-bottom-right-radius: 1rem;
 }
+.coming-soon-button:hover{
+	cursor: default;
+}
 
 .event-card-button:hover {
 	background-color: yellow;
@@ -153,6 +156,10 @@
 
 .event-explore-button {
 	border-bottom-right-radius: 1rem;
+}
+
+.event-ended-button:hover{
+	cursor: default;
 }
 
 

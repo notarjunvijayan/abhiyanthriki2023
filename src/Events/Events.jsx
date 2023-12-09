@@ -90,7 +90,7 @@ function Events() {
                 {event.active == 0 && (
                   <>
                     {' '}
-                    <div className='event-card-button event-register-button'>
+                    <div className='event-card-button event-register-button event-ended-button'>
                       Event ended!
                     </div>
                   </>
