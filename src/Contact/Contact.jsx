@@ -149,6 +149,8 @@ const Contact = () => {
 										className="contact-phone-item"
 									>
 										<FaPhoneAlt />
+										<div className="contact-phone-text">+91 90376-51691</div>
+										<div className="contact-phone-text">Haidrin Joseph</div>
 									</a>
 								</div>
 							</div>
