@@ -230,7 +230,7 @@
   {
     "id": 15,
     "no": "15",
-    "title": "Flash a Fractal 📸",
+    "title": "Flash a Fractal",
     "route": "flash-a-fractal",
     "description": "Eager to showcase your photography prowess ? Look no further! Join us for 'Flash a Fractal📸' a photography extravaganza that promises to be a shutterbug's delight.\nGet ready to snap your way to glory at 'Flash a Fractal📸,' where every click tells a story. Let's freeze the moments together! ",
     "date": "12th December 2023",
@@ -241,12 +241,12 @@
       "name": ["Vaysakh M", "Renil Paulson"],
       "no": ["9744372575", "9385816950"]
     },
-    "active": 2
+    "active": 0
   },
   {
     "id": 16,
     "no": "16",
-    "title": "🎬 Start Camera Action 🎥",
+    "title": "Start Camera Action",
     "route": "short-film",
     "description": "Get ready to unleash your creativity and cinematic flair! 🌟\nSee you at Start Camera Action - where your story begins! 🚀 #StartCameraAction2023 #ShortFilmCompetition",
     "date": "",
@@ -257,7 +257,7 @@
       "name": ["Anindhit Babu", "Arjun Dinukumar"],
       "no": ["9072923147", "9074576212"]
     },
-    "active": 2
+    "active": 1
   },
   {
     "id": 17,
