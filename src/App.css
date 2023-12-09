@@ -4,4 +4,32 @@
     height: 100dvh;
     z-index:-5;
     top: 0;
+    scrollbar-color: black orange;
+    scrollbar-width: thin;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: orange;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+    border:3px solid transparent;
+    background-clip: content-box;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+  }
