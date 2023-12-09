@@ -118,6 +118,7 @@
 }
 
 .event-details-register-button:hover{
-    background-color: rgb(25, 25, 25);
+    background-color: yellow;
+    color: black;
     scale: 1.01;
 }
