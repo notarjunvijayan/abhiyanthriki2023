@@ -35,7 +35,7 @@
     "id": 3,
     "no": "03",
     "title": "IPL Auction",
-    "route": "iPl-auction",
+    "route": "ipl-auction",
     "description": [
       "Round 1 - In the first stage all the teams will compete in an IPL based quiz with the top 20 teams being promoted to the next round.",
       "\nRound 2 - In this round, there will be a Higher-Lower game based on the stats of players in IPL T20 2023 matches. After this round, the top 10 teams will advance to the next round. Each question in this round will have images and names of 2 cricket players, along with a specific stat of one player. Then, the teams will have to guess whether that particular unknown stat of the second player is higher or lower.",
@@ -65,7 +65,7 @@
       "name": ["Niveditha", "Nisy"],
       "no": ["7306914271", "8281227834"]
     },
-    "active": 1
+    "active": 2
   },
   {
     "id": 5,
@@ -97,7 +97,7 @@
       "name": ["Hima", "Catherine"],
       "no": ["8156908971", "8301929414"]
     },
-    "active": 1
+    "active": 2
   },
   {
     "id": 7,
@@ -113,7 +113,7 @@
       "name": ["Abhiram", "Bride"],
       "no": ["9315280907", "8137070797"]
     },
-    "active": 1
+    "active": 2
   },
   {
     "id": 8,
@@ -177,7 +177,7 @@
       "name": ["Vimalraj Vijayamohan Thampi", "Savio Amantius"],
       "no": ["8943499336", "9207494808"]
     },
-    "active": 1
+    "active": 2
   },
   {
     "id": 12,
@@ -193,7 +193,7 @@
       "name": ["Mikhael Sunil"],
       "no": ["9605535994"]
     },
-    "active": 1
+    "active": 2
   },
   {
     "id": 13,
