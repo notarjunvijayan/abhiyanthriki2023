@@ -228,32 +228,32 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="basis-1/4 rounded-lg bg-black text-white p-4 text-base whitespace-nowrap mb-2">
-						<div className="text-3xl mb-2"> Phone</div>
+						<div className="text-2xl mb-2"> Phone</div>
 						<a
 							href="https://wa.link/qvqzfu"
 							target="_blank"
 							rel="noreferrer"
-							className="contact-phone-item"
+							className=" flex gap-4 items-center"
 						>
 							<FaPhoneAlt />
 							<div className="">+91 97783-39959</div>
-							<div className="ml-2">Adhil P J</div>
+							<div className="">Adhil P J</div>
 						</a>
 						<a
 							href="https://wa.link/ku72cf"
 							target="_blank"
 							rel="noreferrer"
-							className="contact-phone-item"
+							className=" flex gap-4 items-center"
 						>
 							<FaPhoneAlt />
 							<div className="">+91 77364-39959</div>
-							<div className="ml-2">Sayujya Salim</div>
+							<div className="">Sayujya Salim</div>
 						</a>
 						<a
 							href="https://wa.link/3ll3nh"
 							target="_blank"
 							rel="noreferrer"
-							className="contact-phone-item"
+							className=" flex gap-4 items-center"
 						>
 							<FaPhoneAlt />
 							<div className="">+91 90376-51691</div>
