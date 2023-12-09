@@ -36,8 +36,8 @@
 		"route": "iPl-auction",
 		"description": [
 			"Round 1 - In the first stage all the teams will compete in an IPL based quiz with the top 20 teams being promoted to the next round.",
-			"Round 2 - In this round, there will be a Higher-Lower game based on the stats of players in IPL T20 2023 matches. After this round, the top 10 teams will advance to the next round. Each question in this round will have images and names of 2 cricket players, along with a specific stat of one player. Then, the teams will have to guess whether that particular unknown stat of the second player is higher or lower.",
-			"Round 3 - Auction: Each team will be given a purse balance of 100cr, with which they have to build a team of 15-17 players from a designated pool of 160 players. Each player is assigned a rating based on their stats in IPL T20 matches in 2023. Teams with the highest ratings in their starting 11 will be crowned champions."
+			"\nRound 2 - In this round, there will be a Higher-Lower game based on the stats of players in IPL T20 2023 matches. After this round, the top 10 teams will advance to the next round. Each question in this round will have images and names of 2 cricket players, along with a specific stat of one player. Then, the teams will have to guess whether that particular unknown stat of the second player is higher or lower.",
+			"\nRound 3 - Auction: Each team will be given a purse balance of 100cr, with which they have to build a team of 15-17 players from a designated pool of 160 players. Each player is assigned a rating based on their stats in IPL T20 matches in 2023. Teams with the highest ratings in their starting 11 will be crowned champions."
 		],
 		"date": "16th December 2023",
 		"time": "10am to 4.30pm ",

@@ -64,6 +64,7 @@
     align-items: center;
     text-align: justify;
     font-size: 1.25rem;
+    white-space: pre-wrap;
 }
 
 .event-details-regdetails{
