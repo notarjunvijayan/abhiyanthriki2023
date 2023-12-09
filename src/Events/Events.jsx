@@ -91,7 +91,14 @@ function Events() {
                 </div>
               </div>
               <div className='event-card-buttons'>
-                {(event.active == 1 || event.active == 2) && (
+                {event.active == 2 && (
+                  <>
+                    <div className='event-card-button coming-soon-button event-register-button'>
+                      Coming Soon!
+                    </div>
+                  </>
+                )}
+                {event.active == 1 && (
                   <>
                     {' '}
                     <button
@@ -110,14 +117,19 @@ function Events() {
                     </div>
                   </>
                 )}
-                <button
-                  onClick={() => {
-                    navigate(`/events/${event.route}`);
-                  }}
-                  className='event-card-button event-explore-button'
-                >
-                  Explore
-                </button>
+                {event.active !== 2 && (
+                  <>
+                    {' '}
+                    <button
+                      onClick={() => {
+                        navigate(`/events/${event.route}`);
+                      }}
+                      className='event-card-button event-explore-button'
+                    >
+                      Explore
+                    </button>
+                  </>
+                )}
               </div>
             </div>
           ))}
