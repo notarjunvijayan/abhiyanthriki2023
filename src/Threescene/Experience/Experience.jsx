@@ -28,7 +28,7 @@ const Texture = ({ texture, position, args }) => {
 };
 const Image = ({ url, position, args }) => {
   const texture = useMemo(() => new THREE.TextureLoader().load(url), [url]);
-  return <Texture position={position} texture={texture} args={args} />;
+  return <Texture toneMapped={true} position={position} texture={texture} args={args} />;
 };
 
 export default function Experience() {
@@ -447,8 +447,7 @@ export default function Experience() {
             />
           </LayerMaterial>
         </Sphere>
-      </group>
-      <OrbitControls enableZoom={false} />
+      </group>  
     </>
   );
 }
