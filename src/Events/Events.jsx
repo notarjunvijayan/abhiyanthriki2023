@@ -75,11 +75,11 @@ function Events() {
 								className="event-image"
 								alt=""
 							/>
-							{/* <div className="">
-								<div className="">
+							<div className="event-image-overlay">
+								<div className="event-overlay-title">
 									{event.title}
 								</div>
-							</div> */}
+							</div>
 						</div>
 						<div className="event-card-buttons">
 							<button className="event-card-button event-register-button">

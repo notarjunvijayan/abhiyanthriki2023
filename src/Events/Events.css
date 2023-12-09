@@ -72,6 +72,11 @@
 	justify-content: center;
 	flex-direction: column;
 	/* background-color: red; */
+    transition: all 0.35s ease-in-out;
+}
+
+.event-card:hover {
+	scale: 1.05;
 }
 
 .event-image-container {
@@ -80,6 +85,7 @@
 	aspect-ratio: 1;
 	justify-content: center;
 	align-items: center;
+    position: relative;
 }
 
 .event-image {
@@ -89,6 +95,28 @@
 	border-top-right-radius: 1rem;
 	border-top-left-radius: 1rem;
 	transition: all 0.2s;
+}
+
+.event-image-overlay{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: black;
+    color: #e5ff00;
+    font-size: 2rem;
+    transition: all 0.35s ease-in-out;
+}
+.event-image-overlay:hover{
+    position: absolute;
+    opacity: 0.8;
 }
 
 .event-card-buttons {
