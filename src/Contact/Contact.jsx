@@ -139,7 +139,7 @@ const Contact = () => {
                     className='contact-phone-item'
                   >
                     <FaPhoneAlt />
-                    <div className='contact-phone-text'>+91 77364-39959</div>
+                    <div className='contact-phone-text'>+91 77364-49302</div>
                     <div className='contact-phone-text'>Sayujya Salim</div>
                   </a>
                   <a
@@ -230,7 +230,7 @@ const Contact = () => {
 					<div className="basis-1/4 rounded-lg bg-black text-white p-4 text-base whitespace-nowrap mb-2">
 						<div className="text-2xl mb-2"> Phone</div>
 						<a
-							href="https://wa.link/qvqzfu"
+							href="https://wa.link/5qzg7p"
 							target="_blank"
 							rel="noreferrer"
 							className=" flex gap-4 items-center"
@@ -240,17 +240,17 @@ const Contact = () => {
 							<div className="">Adhil P J</div>
 						</a>
 						<a
-							href="https://wa.link/ku72cf"
+							href="https://wa.link/o4gchx"
 							target="_blank"
 							rel="noreferrer"
 							className=" flex gap-4 items-center"
 						>
 							<FaPhoneAlt />
-							<div className="">+91 77364-39959</div>
+							<div className="">+91 77364-49302</div>
 							<div className="">Sayujya Salim</div>
 						</a>
 						<a
-							href="https://wa.link/3ll3nh"
+							href="https://wa.link/yyhtw8"
 							target="_blank"
 							rel="noreferrer"
 							className=" flex gap-4 items-center"
