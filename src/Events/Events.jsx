@@ -80,14 +80,14 @@ function Events() {
 							</div>
 						</div>
 						<div className="flex w-full mt-2 md:text-2xl text-lg">
-							<button className="flex-1 text-white bg-[#343434] px-4 py-2 rounded-md hover:bg-gray-800 transition-all duration-300 ease-out">
+							<button className="flex-1 text-white bg-[#343434 px-4 py-2 rounded-md hover:bg-[#e5ff00] hover:text-black transition-all duration-300 ease-out">
 								Register
 							</button>
 							<button
 								onClick={() => {
 									navigate(`/events/${event.route}`);
 								}}
-								className="flex-1 text-white bg-[#343434] px-4 py-2 rounded-md hover:bg-gray-800 transition-all duration-300 ease-out"
+								className="flex-1 text-white bg-[#343434] px-4 py-2 rounded-md hover:bg-[#e5ff00] hover:text-black transition-all duration-300 ease-out"
 							>
 								Explore
 							</button>
