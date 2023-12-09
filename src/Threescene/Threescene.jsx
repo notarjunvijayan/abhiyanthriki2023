@@ -7,6 +7,10 @@ import { useProgress } from "@react-three/drei";
 import * as THREE from 'three'
 import Navbar from "../Navbar/Navbar";
 import '../Home/Home.css'
+import { EffectComposer } from "@react-three/postprocessing";
+import { Glitch } from '@react-three/postprocessing'
+import { GlitchMode } from 'postprocessing'
+import { Noise } from "lamina";
 
 function Threescene() {
 
@@ -35,6 +39,7 @@ function Threescene() {
           <ScrollControls pages={window.innerHeight<window.innerwidth?10:25} damping={window.innerHeight<window.innerWidth?0.5:0.2}>
             <Experience />
           </ScrollControls>
+          <Noise></Noise>
       </Canvas>
     </>
   );

@@ -9,6 +9,7 @@ import { Line, Float, Environment, Text } from '@react-three/drei';
 import { Telescope } from './ModelComponents/Telescope';
 import { Astronaut } from './ModelComponents/Astronaut';
 import Drumset from './ModelComponents/Drumset';
+import {Spaceship} from './ModelComponents/Spaceship'
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
 const LINE_NB_POINTS = 600;
@@ -411,7 +412,7 @@ export default function Experience() {
         />
         <group ref={airplane}>
           <Float floatIntensity={2} speed={2}>
-            <Drone scale={window.innerHeight>window.innerWidth?5:1.5} rotation={[0, -1.5, 0]} position={[0, 0, 0]} />
+            <Spaceship scale={0.004} rotation={[0,3.14,0]}/>  
           </Float>
         </group>
         <Environment resolution={256} files={'/Models/venice_sunset_2k.hdr'} />
