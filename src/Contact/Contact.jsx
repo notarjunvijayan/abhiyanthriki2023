@@ -39,7 +39,7 @@ const Contact = () => {
 	}, []);
 
 	return (
-		<div className='bg-gradient-to-r from-[#0f172a] via-[#581c87] to-[#0f172a] text-white'>
+		<div className="bg-gradient-to-r from-[#0f172a] via-[#581c87] to-[#0f172a] text-white">
 			<div className=" md:block hidden">
 				<Navbar />
 				<div className="contact-container ">
@@ -129,8 +129,8 @@ const Contact = () => {
 										className="contact-phone-item"
 									>
 										<FaPhoneAlt />
-										<div className="contact-phone-text">+91 90726-52467</div>
-										<div className="contact-phone-text">Raphael Tony</div>
+										<div className="contact-phone-text">+91 97783-39959</div>
+										<div className="contact-phone-text">Adhil P J</div>
 									</a>
 									<a
 										href="https://wa.link/ku72cf"
@@ -139,8 +139,8 @@ const Contact = () => {
 										className="contact-phone-item"
 									>
 										<FaPhoneAlt />
-										<div className="contact-phone-text">+91 85898-50153</div>
-										<div className="contact-phone-text">Sanjana Nair</div>
+										<div className="contact-phone-text">+91 77364-39959</div>
+										<div className="contact-phone-text">Sayujya Salim</div>
 									</a>
 									<a
 										href="https://wa.link/3ll3nh"
@@ -149,8 +149,6 @@ const Contact = () => {
 										className="contact-phone-item"
 									>
 										<FaPhoneAlt />
-										<div className="contact-phone-text">+91 77366-93388</div>
-										<div className="contact-phone-text">Newin Antony</div>
 									</a>
 								</div>
 							</div>
@@ -211,35 +209,33 @@ const Contact = () => {
 					</div>
 					<div className="basis-1/4 rounded-lg flex flex-row bg-black text-white p-4">
 						<div className="flex flex-col items-center  justify-center basis-1/4">
-							<ImLocation size={40}  className="" />
-							
+							<ImLocation size={40} className="" />
 						</div>
 
 						<div className="flex flex-col items-center justify-center text-center mx-auto">
 							<div className="text-lg">
 								RSET, <br />
-								Rajagiri Valley Road,
-								Kakkanad.
+								Rajagiri Valley Road, Kakkanad.
 							</div>
 						</div>
-            <div
-								className="flex items-center text-center border-2 p-1 rounded-md h-1/2 my-auto"
-								onClick={handleLocationLinkClick}
-							>
-								View Location
-							</div>
+						<div
+							className="flex items-center text-center border-2 p-1 rounded-md h-1/2 my-auto"
+							onClick={handleLocationLinkClick}
+						>
+							View Location
+						</div>
 					</div>
 					<div className="basis-1/4 rounded-lg bg-black text-white p-4 text-base whitespace-nowrap mb-2">
-          <div className="text-3xl mb-2"> Phone</div>
-            <a
+						<div className="text-3xl mb-2"> Phone</div>
+						<a
 							href="https://wa.link/qvqzfu"
 							target="_blank"
 							rel="noreferrer"
 							className="contact-phone-item"
 						>
 							<FaPhoneAlt />
-							<div className="">+91 90726-52467</div>
-							<div className="ml-2">Raphael Tony</div>
+							<div className="">+91 97783-39959</div>
+							<div className="ml-2">Adhil P J</div>
 						</a>
 						<a
 							href="https://wa.link/ku72cf"
@@ -248,8 +244,8 @@ const Contact = () => {
 							className="contact-phone-item"
 						>
 							<FaPhoneAlt />
-							<div className="">+91 85898-50153</div>
-							<div className="ml-2">Sanjana Nair</div>
+							<div className="">+91 77364-39959</div>
+							<div className="ml-2">Sayujya Salim</div>
 						</a>
 						<a
 							href="https://wa.link/3ll3nh"
@@ -258,8 +254,8 @@ const Contact = () => {
 							className="contact-phone-item"
 						>
 							<FaPhoneAlt />
-							<div className="">+91 77366-93388</div>
-							<div className="ml-2">Newin Antony</div>
+							<div className="">+91 90376-51691</div>
+							<div className="ml-2">Haidrin Joseph</div>
 						</a>
 					</div>
 				</div>

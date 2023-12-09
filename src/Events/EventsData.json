@@ -24,7 +24,7 @@
     "description": "Blitzbanter event description.",
     "date": "16th December 2023",
     "time": "Full day",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/Images/blitzbanter.png",
     "technical": true,
     "poc": {
       "name": ["Nil"],
