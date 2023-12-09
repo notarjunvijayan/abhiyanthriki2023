@@ -1,11 +1,15 @@
 .contact-container {
   /* margin-top: 10dvh; */
   background: linear-gradient(180deg, #f4bf07 50%, #ec662d 110%); 
+  position: absolute;
+  top: 0;
   padding-left: 2em;
   display: flex;
   align-items: center;
   height: 100dvh;
+  width: 100dvw;
   overflow: hidden;
+  z-index: -1;
 }
 .contact-cards {
   display: grid;
@@ -241,7 +245,7 @@ i {
   display: flex;
   flex-direction: column;
   color: white;
-  padding-top: 6%;
+  padding-top: 3%;
   padding-left: 9%;
 }
 
