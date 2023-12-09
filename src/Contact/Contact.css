@@ -291,7 +291,7 @@ i {
     grid-column-gap: 2vw;
     grid-row-gap: 1.5vw;
     width: 100%;
-    height: 80%;
+    height: 100dvh;
     margin-right: 0;
     padding: 1rem;
   }
