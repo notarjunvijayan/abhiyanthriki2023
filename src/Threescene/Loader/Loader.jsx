@@ -1,17 +1,26 @@
-import { Html, useProgress } from "@react-three/drei";
-import "./Loader.css";
-export default function Loader() {
-  const { progress } = useProgress();
+import {useEffect, useRef} from 'react';
+import lottie from 'lottie-web';
+import animationData from './logo_animation.json'; 
+import './Loader.css'
 
-  return (
-    <Html center>
-      <div className="loader-container">
-        <div className="text">
-          <h1 className="select-none">ABHIYANTHRIKI</h1>
-          <h2 className="select-none">2023</h2>
-          <p>{parseInt(progress)}</p>
-        </div>
+  export default function Loader() {
+    const lottieContainer = useRef(null);
+  
+    useEffect(() => {
+        const instance = lottie.loadAnimation({
+          container: lottieContainer.current,
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          animationData: animationData,
+        });
+        instance.setSpeed(5);
+          return () => instance.destroy();
+    }, []);
+  
+    return (
+      <div className="flex justify-center items-center w-full h-full loader">
+        <div className="md:h-[75vh] md:w-full w-[70vh]" ref={lottieContainer} />
       </div>
-    </Html>
-  );
-}
+    );
+  }
