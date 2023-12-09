@@ -6,6 +6,7 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaPhoneAlt } from 'react-icons/fa';
+import { CiLinkedin } from 'react-icons/ci';
 
 const Contact = () => {
   const handleLocationLinkClick = () => {
@@ -75,6 +76,15 @@ const Contact = () => {
                   >
                     <FaFacebook size={40} className='contact-socialLogo' />
                     @abhiyanthriki
+                  </a>
+                  <a
+                    href='https://www.linkedin.com/company/abhiyanthriki/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='contact-social-item'
+                  >
+                    <CiLinkedin size={40} className='contact-socialLogo' />
+                    abhiyanthriki
                   </a>
                 </div>
               </div>
