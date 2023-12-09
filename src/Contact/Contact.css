@@ -1,9 +1,9 @@
 .contact-container {
   /* margin-top: 10dvh; */
-  background: linear-gradient(to right, #0f172a, #581c87, #0f172a);
-  color: white;
   position: absolute;
   top: 0;
+  background: linear-gradient(to right, #0f172a, #581c87, #0f172a);
+  color: white;
   padding-left: 2em;
   display: flex;
   align-items: center;
@@ -273,12 +273,15 @@ i {
   .contact-container {
     flex-direction: column;
     padding-top: 5dvh;
+    padding-left: 0;  
   }
 
   .contact-main-title {
     font-size: 3rem;
-    padding-top: 5%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     width: 100%;
+    padding-left: 1rem;
   }
 
   .contact-cards {
@@ -289,6 +292,8 @@ i {
     grid-row-gap: 1.5vw;
     width: 100%;
     height: 80%;
+    margin-right: 0;
+    padding: 1rem;
   }
 
   .contact-card1 {
@@ -301,8 +306,13 @@ i {
     grid-area: 6 / 1 / 9 / 2;
   }
 
+  .contact-social-card-info{
+    padding: 1rem;
+  }
+
   .contact-card-info-title > h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
   }
 
   .contact-card-info-title > h4 {
@@ -311,13 +321,13 @@ i {
     margin-top: 8px;
   }
 
-  .contact-social-title {
-    font-size: 2rem;
-  }
-
   .contact-social-item {
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+
+  .contact-socialLogo{
+    height: 2rem;
   }
 
   .contact-card-social-links {
