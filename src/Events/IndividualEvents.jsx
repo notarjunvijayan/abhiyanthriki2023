@@ -29,7 +29,9 @@ function IndividualEvent() {
 						<div className="event-details-info">
 							<div className="event-details-title"> {event.title}</div>
 							<div className="event-details-description">
-								{event.description}
+								<div className="event-details-description-text">
+									{event.description}
+								</div>
 							</div>
 						</div>
 						<div className="event-details-regdetails">
