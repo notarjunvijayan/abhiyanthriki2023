@@ -1,6 +1,7 @@
 .contact-container {
   /* margin-top: 10dvh; */
-  background: linear-gradient(180deg, #f4bf07 50%, #ec662d 110%); 
+  background: linear-gradient(to right, #0f172a, #581c87, #0f172a);
+  color: white;
   padding-left: 2em;
   display: flex;
   align-items: center;
@@ -90,7 +91,6 @@
   position: absolute;
   z-index: 2;
 }
-
 
 .contact-cards h2,
 .contact-cards h3,
@@ -232,7 +232,7 @@ i {
 
 .contact-main-title {
   font-size: 6rem;
-  color: black;
+  color: white;
   width: 30dvw;
   z-index: 5;
 }
