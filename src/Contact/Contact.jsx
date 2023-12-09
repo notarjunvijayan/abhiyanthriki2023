@@ -7,6 +7,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { CiLinkedin } from 'react-icons/ci';
+import Navbar from "../Navbar/Navbar";
 
 const Contact = () => {
   const handleLocationLinkClick = () => {
@@ -38,7 +39,9 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className='contact-container'>
+    <>
+      <Navbar/>
+      <div className='contact-container'>
       <h1 className='contact-main-title'>Get in Touch</h1>
       <div className='contact-cards' id='contact-cards'>
         <Tilt className='contact-card contact-card1 contact-socials'>
@@ -153,6 +156,8 @@ const Contact = () => {
         </Tilt>
       </div>
     </div>
+    </>
+    
   );
 };
 

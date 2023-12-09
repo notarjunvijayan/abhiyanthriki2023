@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './Events.css';
 import eventsData from './EventsData.json';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
 
 function Events() {
   const navigate = useNavigate();
@@ -30,6 +31,8 @@ function Events() {
   });
 
   return (
+    <>
+    <Navbar/>
     <div className='event-container'>
       <div className='event-title'>EVENTS</div>
       <div className='event-toggle-container'>
@@ -105,6 +108,7 @@ function Events() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
