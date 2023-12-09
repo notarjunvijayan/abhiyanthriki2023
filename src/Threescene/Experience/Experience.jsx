@@ -107,7 +107,7 @@ export default function Experience() {
     //(SCENE RESPONSIVITY)
     if (window.innerWidth < window.innerHeight) {
       camera.current.fov = 45;
-      camera.current.position.z = 50;
+      camera.current.position.z = 60;
       camera.current.position.y = 5;
 
     } else {
