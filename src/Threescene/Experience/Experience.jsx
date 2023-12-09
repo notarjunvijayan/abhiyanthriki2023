@@ -100,6 +100,7 @@ export default function Experience() {
   const airplane = useRef();
   const scroll = useScroll();
   const camera = useRef();
+  const drone = useRef();
 
   useFrame((_state, delta) => {
     //Fov and Position Changes according to window aspect ratio
@@ -108,12 +109,12 @@ export default function Experience() {
       camera.current.fov = 45;
       camera.current.position.z = 50;
       camera.current.position.y = 5;
+
     } else {
       camera.current.fov = 30;
       camera.current.position.z = 13;
       camera.current.position.y = 1;
     }
-
     const curPointIndex = Math.min(
       Math.round(scroll.offset * linePoints.length),
       linePoints.length - 1
@@ -423,7 +424,7 @@ export default function Experience() {
         />
         <group ref={airplane}>
           <Float floatIntensity={2} speed={2}>
-            <Drone scale={1.5} rotation={[0, -1.5, 0]} position={[0, 0, 0]} />
+            <Drone scale={window.innerHeight>window.innerWidth?5:1.5} rotation={[0, -1.5, 0]} position={[0, 0, 0]} />
           </Float>
         </group>
         <Environment resolution={256} files={'/Models/venice_sunset_2k.hdr'} />
