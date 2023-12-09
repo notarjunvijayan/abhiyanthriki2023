@@ -1,7 +1,7 @@
 import { Drone } from './ModelComponents/StingerDrone';
 import { Cloud } from './ModelComponents/Cloud';
 import { useFrame } from '@react-three/fiber';
-import { OrbitControls, Plane, RoundedBox, useScroll } from '@react-three/drei';
+import { OrbitControls, Plane, RoundedBox, Stars, useScroll } from '@react-three/drei';
 import * as THREE from 'three';
 import { useMemo, useRef } from 'react';
 import { Sphere } from '@react-three/drei';
@@ -204,7 +204,7 @@ export default function Experience() {
 
       <group position={[-25, -5, -20]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={5}
@@ -215,7 +215,7 @@ export default function Experience() {
       </group>
       <group position={[-5, -10, -20]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={3}
@@ -226,7 +226,7 @@ export default function Experience() {
       </group>
       <group position={[-2.5, -25, -10]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={1}
@@ -237,7 +237,7 @@ export default function Experience() {
       </group>
       <group position={[-8, 2, -70]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={1}
@@ -248,7 +248,7 @@ export default function Experience() {
       </group>
       <group position={[-13, 0, -70]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={0.6}
@@ -259,7 +259,7 @@ export default function Experience() {
       </group>
       <group position={[17, 0, -130]} rotation={[0, -0.25, 0]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={0.8}
@@ -282,7 +282,7 @@ export default function Experience() {
       </group>
       <group position={[0, 0, -230]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={1}
@@ -293,7 +293,7 @@ export default function Experience() {
       </group>
       <group position={[12, 0, -280]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={1}
@@ -304,7 +304,7 @@ export default function Experience() {
       </group>
       <group position={[3, -5, -325]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.8}
@@ -315,7 +315,7 @@ export default function Experience() {
       </group>
       <group position={[4, -6, -325]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.5}
@@ -326,7 +326,7 @@ export default function Experience() {
       </group>
       <group position={[3, -2, -400]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.8}
@@ -337,7 +337,7 @@ export default function Experience() {
       </group>
       <group position={[4, -3, -400]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.5}
@@ -348,7 +348,7 @@ export default function Experience() {
       </group>
       <group position={[-5, -2, -470]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.8}
@@ -359,7 +359,7 @@ export default function Experience() {
       </group>
       <group position={[-4.5, -3, -470]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.5}
@@ -370,7 +370,7 @@ export default function Experience() {
       </group>
       <group position={[15, 2.5, -250]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={0.8}
@@ -381,7 +381,7 @@ export default function Experience() {
       </group>
       <group position={[-35, 3, -600]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={3}
@@ -392,7 +392,7 @@ export default function Experience() {
       </group>
       <group position={[-35, -3, -600]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={1.5}
@@ -403,7 +403,7 @@ export default function Experience() {
       </group>
       <group position={[-15, -20, -600]}>
         <Text
-          color='black' // default
+          color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={1}
@@ -435,14 +435,15 @@ export default function Experience() {
           <LayerMaterial color={'#ffffff'} side={THREE.BackSide}>
             <Gradient
               ref={envColor}
-              colorA={'#e5ff00'}
-              colorB={'white'}
+              colorA={'#0f172a'}
+              colorB={'#581c87'}
               axes={'y'}
               start={0}
-              end={-0.25}
+              end={-0.2}
             />
           </LayerMaterial>
         </Sphere>
+        <ambientLight/>
       </group>
     </>
   );
