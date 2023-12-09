@@ -1,38 +1,37 @@
-import './App.css';
+import "./App.css";
 // import {useEffect, useState} from 'react';
-import Navbar from './Navbar/Navbar';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import Contact from './Contact/Contact';
-import Events from './Events/Events';
-import Home from './Home/Home';
-import IndividualEvents from './Events/IndividualEvents';
+import Navbar from "./Navbar/Navbar";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Contact from "./Contact/Contact";
+import Events from "./Events/Events";
+import Home from "./Home/Home";
+import IndividualEvents from "./Events/IndividualEvents";
 // import Loader from './Threescene/Loader/Loader';
 
 const router = createBrowserRouter([
 	{
-		path: '/',
+		path: "/",
 		element: <Home />,
 		errorElement: <div>Something went wrong</div>,
 	},
 	{
-		path: '/contact-us',
+		path: "/contact-us",
 		element: <Contact />,
 		errorElement: <div>Something went wrong</div>,
 	},
 	{
-		path: '/events',
+		path: "/events",
 		element: <Events />,
 		errorElement: <div>Something went wrong</div>,
 	},
 	{
-		path: '/events/:route',
+		path: "/events/:route",
 		element: <IndividualEvents />,
 		errorElement: <div>Something went wrong</div>,
 	},
 ]);
 
 function App() {
-
 	// const [loading, setLoading] = useState(true);
 
 	// useEffect(() => {
@@ -49,13 +48,10 @@ function App() {
 					<Loader />
 				</div>
 			) : ( */}
-				<>
-					<Navbar />
-					<div className="canvas-container">
-						<RouterProvider router={router} />
-					</div>
-					<div className="container-page"></div>
-				</>
+			<>
+				<Navbar />
+				<RouterProvider router={router} />
+			</>
 			{/* )} */}
 		</>
 	);
