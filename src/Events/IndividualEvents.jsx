@@ -56,7 +56,7 @@ function IndividualEvent() {
               {event.active == 0 && (
                 <>
                   {' '}
-                  <div className='event-card-button-ended	'>Event ended!</div>
+                  <div className='event-card-button-ended	'>Closed!</div>
                 </>
               )}
             </div>

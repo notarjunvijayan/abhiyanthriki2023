@@ -112,7 +112,7 @@ function Events() {
                   <>
                     {' '}
                     <div className='event-card-button event-register-button'>
-                      Event ended!
+                      closed!
                     </div>
                   </>
                 )}
