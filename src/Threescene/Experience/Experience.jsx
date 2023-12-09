@@ -1,14 +1,11 @@
 import { Drone } from './ModelComponents/StingerDrone';
 import { Cloud } from './ModelComponents/Model';
 import { useFrame } from '@react-three/fiber';
-import { OrbitControls, Plane, RoundedBox, Stars, useScroll } from '@react-three/drei';
+import {  RoundedBox, useScroll } from '@react-three/drei';
 import * as THREE from 'three';
 import { useMemo, useRef } from 'react';
-import { Sphere } from '@react-three/drei';
-import { Gradient, LayerMaterial } from 'lamina';
 import { PerspectiveCamera } from '@react-three/drei';
 import { Line, Float, Environment, Text } from '@react-three/drei';
-import Balloon from './ModelComponents/Balloon';
 import { Telescope } from './ModelComponents/Telescope';
 import { Astronaut } from './ModelComponents/Astronaut';
 import Drumset from './ModelComponents/Drumset';
@@ -38,7 +35,6 @@ const Image = ({ url, position, args }) => {
 };
 
 export default function Experience() {
-  const envColor = useRef();
 
   //Set of points that define the Drone path
   const curve = useMemo(() => {
@@ -168,16 +164,6 @@ export default function Experience() {
 
       <Drumset position={[5.5, -1, -405]} scale={2} />
       <Cloud position={[5, -3, -408]} scale={1.5} />
-
-      <Float floatIntensity={[1]}>
-        <Balloon position={[15, 0, -15]} scale={0.005} />
-      </Float>
-
-      <Balloon position={[40, -10, -430]} scale={0.005} />
-
-      <Float floatIntensity={1} speed={0.005} floatingRange={0.0001}>
-        <Balloon position={[10, -20, -220]} scale={0.005} />
-      </Float>
 
       <Image url={'/Images/rset.jpg'} position={window.innerHeight>window.innerWidth?[15,10,-130]:[5, 0, -130]} args={window.innerHeight>window.innerWidth?[25,15]:[15, 10]} />
       <Image
@@ -419,7 +405,7 @@ export default function Experience() {
           fov={window.innerWidth < window.innerHeight ? 45 : 30}
           makeDefault
           lookAt={Drone}
-          far={200}
+          far={125}
           near={window.innerWidth < window.innerHeight ? 20:5}
           ref={camera}
         />
