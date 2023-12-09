@@ -39,7 +39,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className='bg-gradient-to-r from-[#0f172a] via-[#581c87] to-[#0f172a] text-white'>
+    <>
       <div className=' md:block hidden'>
         <Navbar />
         <div className='contact-container '>
@@ -262,7 +262,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
