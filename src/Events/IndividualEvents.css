@@ -25,16 +25,11 @@
   aspect-ratio: 1;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s;
 }
 
 .event-details-posterImg {
   height: 100%;
   /* border-radius: 1rem; */
-}
-
-.event-details-poster:hover {
-  scale: 1.005;
 }
 
 .event-details-textcontent {
@@ -131,4 +126,52 @@
   background-color: yellow;
   color: black;
   scale: 1.01;
+}
+
+@media (max-width: 786px){
+    .event-details-content{
+      flex-direction: column;
+    }
+
+    .event-details-poster{
+      height: 35dvh;
+    }
+
+    .event-details-textcontent{
+      height: 50dvh;
+      padding-right: 0;
+    }
+
+    .event-details-info{
+      gap: 1rem;
+    }
+
+    .event-details-title{
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+
+    .event-details-description{
+      height: 25dvh;
+      font-size: 1rem;
+      padding: 1%;
+      overflow-y: scroll;
+    }
+
+    .event-details-regdetails{
+      padding: 1dvh;
+    }
+
+    .event-details-date{
+      font-size: 1rem;
+    }
+
+    .event-details-poc{
+      font-size: 1rem;
+    }
+
+    .event-details-register-button{
+      border-radius: 0.5rem;
+      font-size: 1.25rem;
+    }
 }
