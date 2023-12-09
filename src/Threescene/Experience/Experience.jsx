@@ -155,6 +155,7 @@ export default function Experience() {
       <Cloud position={[7, -5, -30]} />
       <Cloud position={[0, 0, -250]} scale={3}/>
       <Cloud position={[15, 0, -150]} scale={5} />
+      <Cloud position={[-27, 3 , -330]} />
       <Cloud position={[5.5, -2.75, -330]} />
       <Cloud position={[15, -2.75, -350]} />
 
@@ -172,6 +173,8 @@ export default function Experience() {
       <Float floatIntensity={[1]}>
       <Balloon position={[15,0,-15]} scale={0.005}/> 
       </Float>
+
+      <Balloon position={[40,-10,-430]} scale={0.005}/> 
 
       <Float floatIntensity={1} speed={0.005} floatingRange={0.0001}>
       <Balloon position={[10,-20,-220]} scale={0.005}/> 
