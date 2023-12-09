@@ -42,7 +42,7 @@ const Contact = () => {
 		<div className='bg-gradient-to-r from-[#0f172a] via-[#581c87] to-[#0f172a] text-white'>
 			<div className=" md:block hidden">
 				<Navbar />
-				<div className="contact-container">
+				<div className="contact-container ">
 					<h1 className="contact-main-title">Get in Touch</h1>
 					<div className="contact-cards" id="contact-cards">
 						<Tilt className="contact-card contact-card1 contact-socials">
@@ -161,11 +161,11 @@ const Contact = () => {
 			<div className="md:hidden block mx-auto h-screen">
 				<Navbar />
 				<div className="text-4xl w-full px-8">Get in Touch</div>
-				<div className="flex flex-col gap-6  w-5/6 mx-auto my-4">
+				<div className="flex flex-col gap-3  w-5/6 mx-auto max:[400px]:my-5 my-6 ">
 					<div className="basis-1/2 rounded-lg flex flex-col text-white text-center bg-black p-4 gap-2 text-xl">
-						<div className="text-3xl mb-2 flex"> Socials</div>
+						<div className="text-3  xl mb-2 flex"> Socials</div>
 						<div className="flex flex-row gap-10 items-center">
-							<FaInstagram size={40} className="" />
+							<FaInstagram className="" />
 							<a
 								href="https://instagram.com/abhiyanthriki"
 								target="_blank"
@@ -176,7 +176,7 @@ const Contact = () => {
 							</a>
 						</div>
 						<div className="flex flex-row gap-10 items-center">
-							<FaWhatsapp size={40} className="" />
+							<FaWhatsapp className="" />
 							<a
 								href="https://whatsapp.com/channel/0029VaDnLn29sBI0M3UGR20H"
 								target="_blank"
@@ -187,7 +187,7 @@ const Contact = () => {
 							</a>
 						</div>
 						<div className="flex flex-row gap-10 items-center">
-							<FaFacebook size={40} className="" />
+							<FaFacebook className="" />
 							<a
 								href="https://www.facebook.com/abhiyanthriki/"
 								target="_blank"
@@ -198,7 +198,7 @@ const Contact = () => {
 							</a>
 						</div>
 						<div className="flex flex-row gap-10 items-center">
-							<CiLinkedin size={40} className="" />
+							<CiLinkedin className="" />
 							<a
 								href="https://www.linkedin.com/company/abhiyanthriki/"
 								target="_blank"
@@ -210,26 +210,26 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="basis-1/4 rounded-lg flex flex-row bg-black text-white p-4">
-						<div className="flex flex-col items-center basis-1/3">
-							<ImLocation size={80} className="w-1/3" />
-							<div
-								className=" text-center border-2 p-1 rounded-md"
+						<div className="flex flex-col items-center  justify-center basis-1/4">
+							<ImLocation size={40}  className="" />
+							
+						</div>
+
+						<div className="flex flex-col items-center justify-center text-center mx-auto">
+							<div className="text-lg">
+								RSET, <br />
+								Rajagiri Valley Road,
+								Kakkanad.
+							</div>
+						</div>
+            <div
+								className="flex items-center text-center border-2 p-1 rounded-md h-1/2 my-auto"
 								onClick={handleLocationLinkClick}
 							>
 								View Location
 							</div>
-						</div>
-
-						<div className="flex flex-col items-center justify-center text-center mx-auto">
-							<div className="text-xl">
-								RSET, <br />
-								Rajagiri Valley Road,
-								<br />
-								Kakkanad.
-							</div>
-						</div>
 					</div>
-					<div className="basis-1/4 rounded-lg bg-black text-white p-4">
+					<div className="basis-1/4 rounded-lg bg-black text-white p-4 text-base whitespace-nowrap mb-2">
           <div className="text-3xl mb-2"> Phone</div>
             <a
 							href="https://wa.link/qvqzfu"
@@ -239,7 +239,7 @@ const Contact = () => {
 						>
 							<FaPhoneAlt />
 							<div className="">+91 90726-52467</div>
-							<div className="ml-6">Raphael Tony</div>
+							<div className="ml-2">Raphael Tony</div>
 						</a>
 						<a
 							href="https://wa.link/ku72cf"
@@ -249,7 +249,7 @@ const Contact = () => {
 						>
 							<FaPhoneAlt />
 							<div className="">+91 85898-50153</div>
-							<div className="ml-6">Sanjana Nair</div>
+							<div className="ml-2">Sanjana Nair</div>
 						</a>
 						<a
 							href="https://wa.link/3ll3nh"
@@ -259,7 +259,7 @@ const Contact = () => {
 						>
 							<FaPhoneAlt />
 							<div className="">+91 77366-93388</div>
-							<div className="ml-6">Newin Antony</div>
+							<div className="ml-2">Newin Antony</div>
 						</a>
 					</div>
 				</div>
