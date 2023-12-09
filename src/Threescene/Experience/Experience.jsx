@@ -435,11 +435,11 @@ export default function Experience() {
           <LayerMaterial color={'#ffffff'} side={THREE.BackSide}>
             <Gradient
               ref={envColor}
-              colorA={'#0f172a'}
-              colorB={'#581c87'}
+              colorA={'#581c87'}
+              colorB={'#0f172a'}
               axes={'y'}
               start={0}
-              end={-0.2}
+              end={0.2}
             />
           </LayerMaterial>
         </Sphere>
