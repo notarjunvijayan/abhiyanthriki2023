@@ -429,22 +429,6 @@ export default function Experience() {
           </Float>
         </group>
         <Environment resolution={256} files={'/Models/venice_sunset_2k.hdr'} />
-        <Sphere
-          scale={[100, 100, 100]}
-          position={[0, 0, 0]}
-          rotation-y={Math.PI / 2}
-        >
-          <LayerMaterial color={'#ffffff'} side={THREE.BackSide}>
-            <Gradient
-              ref={envColor}
-              colorA={'#581c87'}
-              colorB={'#0f172a'}
-              axes={'y'}
-              start={0}
-              end={0.2}
-            />
-          </LayerMaterial>
-        </Sphere>
         <ambientLight/>
       </group>
     </>
