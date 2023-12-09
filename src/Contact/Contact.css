@@ -270,7 +270,7 @@ i {
 }
 
 @media (max-width: 768px) {
-  .contact-container {
+  /* .contact-container {
     flex-direction: column;
     padding-top: 5dvh;
     padding-left: 0;
@@ -337,5 +337,5 @@ i {
   .contact-phone-item {
     margin-top: 0.7rem;
     font-size: 1.2rem;
-  }
+  } */
 }

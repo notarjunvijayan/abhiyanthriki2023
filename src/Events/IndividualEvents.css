@@ -186,6 +186,7 @@
 
     .event-details-register-button{
       border-radius: 0.5rem;
-      font-size: 1.25rem;
+      width: 35dvw;
+      font-size: 1rem;
     }
 }

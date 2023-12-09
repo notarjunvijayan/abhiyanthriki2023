@@ -168,15 +168,25 @@
   border-bottom-right-radius: 1rem;
 }
 @media (max-width: 768px) {
+
+  .event-title{
+    font-size: 2.5rem;
+  }
+
+
   .event-toggle-container {
     width: 90%;
   }
 
   .event-toggle-button {
-    font-size: 1rem;
+    font-size: 0.70rem;
   }
 
   .event-content {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .event-card-button{
+    font-size: 0.8rem;
   }
 }
