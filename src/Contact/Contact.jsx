@@ -61,7 +61,7 @@ const Contact = () => {
                         className='contact-social-item'
                       >
                         <FaInstagram size={40} className='contact-socialLogo' />
-                        @abhiyanthriki
+                         Instagram
                       </a>
                       <a
                         href='https://whatsapp.com/channel/0029VaDnLn29sBI0M3UGR20H'
@@ -79,7 +79,7 @@ const Contact = () => {
                         className='contact-social-item'
                       >
                         <FaFacebook size={40} className='contact-socialLogo' />
-                        @abhiyanthriki
+                         Facebook
                       </a>
                       <a
                         href='https://www.linkedin.com/company/abhiyanthriki/'
@@ -88,7 +88,7 @@ const Contact = () => {
                         className='contact-social-item'
                       >
                         <CiLinkedin size={40} className='contact-socialLogo' />
-                        abhiyanthriki
+                        LinkedIn
                       </a>
                     </div>
                   </div>
@@ -160,8 +160,8 @@ const Contact = () => {
       </div>
       <div className='md:hidden block mx-auto h-screen'>
         <Navbar />
-        <div className='text-4xl w-full px-8'>Get in Touch</div>
-        <div className='flex flex-col gap-3  w-5/6 mx-auto max:[400px]:my-5 my-6 '>
+        <div className='text-4xl w-full px-2 text-[white] text-center font-["Monument"]'>GET IN TOUCH</div>
+        <div className='flex flex-col gap-3  w-5/6 mx-auto max:[400px]:my-5 my-6 font-["mono"]'>
           <div className='basis-1/2 rounded-lg flex flex-col text-white text-center bg-[black] bg-opacity-10 shadow-[0_3px_10px_rgb(255,255,0,0.42)] p-4 gap-2 text-xl'>
             <div className='text-3  xl mb-2 flex'> Socials</div>
             <div className='flex flex-row gap-10 items-center'>
@@ -172,7 +172,7 @@ const Contact = () => {
                 rel='noreferrer'
                 className=''
               >
-                @abhiyanthriki
+                 Instagram
               </a>
             </div>
             <div className='flex flex-row gap-10 items-center'>
@@ -194,7 +194,7 @@ const Contact = () => {
                 rel='noreferrer'
                 className=''
               >
-                @abhiyanthriki
+                 Facebook
               </a>
             </div>
             <div className='flex flex-row gap-10 items-center'>
@@ -205,7 +205,7 @@ const Contact = () => {
                 rel='noreferrer'
                 className=''
               >
-                abhiyanthriki
+                LinkedIn
               </a>
             </div>
           </div>
@@ -228,12 +228,12 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="basis-1/4 rounded-lg bg-black bg-opacity-10 text-white p-4 text-base whitespace-nowrap mb-2 shadow-[0_3px_10px_rgb(255,255,0,0.42)]">
-						<div className="text-2xl mb-2"> Phone</div>
+						<div className="text-2xl mb-1">Phone</div>
 						<a
 							href="https://wa.link/5qzg7p"
 							target="_blank"
 							rel="noreferrer"
-							className=" flex gap-4 items-center"
+							className=" flex gap-1 items-center text-sm mb-1"
 						>
 							<FaPhoneAlt />
 							<div className="">+91 97783-39959</div>
@@ -243,7 +243,7 @@ const Contact = () => {
 							href="https://wa.link/o4gchx"
 							target="_blank"
 							rel="noreferrer"
-							className=" flex gap-4 items-center"
+							className=" flex gap-1 items-center text-sm mb-1"
 						>
 							<FaPhoneAlt />
 							<div className="">+91 77364-49302</div>
@@ -253,11 +253,11 @@ const Contact = () => {
 							href="https://wa.link/yyhtw8"
 							target="_blank"
 							rel="noreferrer"
-							className=" flex gap-4 items-center"
+							className=" flex gap-1 items-center text-sm mb-1"
 						>
 							<FaPhoneAlt />
 							<div className="">+91 90376-51691</div>
-							<div className="ml-2">Haidrin Joseph</div>
+							<div className="">Haidrin Joseph</div>
 						</a>
 					</div>
 				</div>

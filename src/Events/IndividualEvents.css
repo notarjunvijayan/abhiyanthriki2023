@@ -86,20 +86,24 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
+  text-align: center;
 }
 .event-details-register {
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: right;
+  outline: #e5ff00;
+  border-width: 2px;
 }
 
 .event-details-register-button {
   display: flex;
-  width: 80%;
+  width: 100%;
   padding: 0.5rem;
   justify-content: center;
   align-items: center;
+  
   background-color: black;
   color: #ffffff;
   outline: none;

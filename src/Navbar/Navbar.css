@@ -5,6 +5,8 @@
   height: 10dvh;
   width: 100dvw;
   color: white;
+  font-family: mono;
+  letter-spacing: 0.1rem;
 }
 .logo{
   display: flex;
