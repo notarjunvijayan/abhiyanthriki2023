@@ -147,16 +147,6 @@ export default function Experience() {
   });
   return (
     <>
-      <Cloud position={[30, 0, -50]} />
-      <Cloud position={[-7, 0, -20]} />
-      <Cloud position={[50, 0, -100]} />
-      <Cloud position={[7, -5, -30]} />
-      <Cloud position={[0, 0, -250]} scale={2} />
-      <Cloud position={[15, 0, -150]} scale={2.5} />
-      <Cloud position={[-27, 3, -330]} />
-      <Cloud position={[5.5, -5, -330]}  scale={1.5}/>
-      <Cloud position={[15, -2.75, -350]} />
-
       <Telescope scale={2} position={[6, -2, -330]} rotation={[0, 1, 0]} />
       <Astronaut position={[-5, 4, -340]} rotation={[1, -1, 1]} scale={0.01} />
 
@@ -190,18 +180,18 @@ export default function Experience() {
 
       <RoundedBox args={[12, 5, 0.5]} radius={0.15} position={[21, -1, -251]} />
 
-      <group position={[-25, -5, -20]}>
+      <group position={[-41, -5, -20]}>
         <Text
           color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
-          fontSize={5}
+          fontSize={8}
           font={'/Fonts/monument-regular.otf'}
         >
           ABHIYANTHRIKI
         </Text>
       </group>
-      <group position={[-5, -10, -20]}>
+      <group position={[-6, -12, -20]}>
         <Text
           color='white' // default
           anchorX='left' // default
@@ -212,13 +202,13 @@ export default function Experience() {
           2023
         </Text>
       </group>
-      <group position={[-2.5, -25, -10]}>
+      <group position={[-4.5, -25, -10]}>
         <Text
           color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={1}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Scroll to Fly
         </Text>
@@ -229,7 +219,7 @@ export default function Experience() {
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={1}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           15-16 Dec, 2023
         </Text>
@@ -240,7 +230,7 @@ export default function Experience() {
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={0.6}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Rajagiri School of Engineering and Technology
         </Text>
@@ -251,7 +241,7 @@ export default function Experience() {
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={window.innerHeight>window.innerWidth?1.1:0.8}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Abhiyanthriki, RSET's biennial technical festival, epitomizes academic
           {'\n'}
@@ -274,7 +264,7 @@ export default function Experience() {
           anchorX='left' // default
           anchorY='middle' // default
           fontSize={1}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Excited ?
         </Text>
@@ -285,7 +275,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={1}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Get Ready For
         </Text>
@@ -296,7 +286,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.8}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Orion's Watch
         </Text>
@@ -307,7 +297,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.5}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           15/12/2023
         </Text>
@@ -318,7 +308,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.8}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Battle of Bands
         </Text>
@@ -329,7 +319,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.5}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           15/12/2023
         </Text>
@@ -340,7 +330,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.8}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Drone Show
         </Text>
@@ -351,7 +341,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={0.5}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           16/12/2023
         </Text>
@@ -384,7 +374,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={1.5}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Register for events from the events section
         </Text>
@@ -395,7 +385,7 @@ export default function Experience() {
           anchorX='middle' // default
           anchorY='middle' // default
           fontSize={1}
-          font={'/Fonts/Neue.otf'}
+          font={'/Fonts/mono.ttf'}
         >
           Made by the Abhiyanthriki 2023 Website team
         </Text>
