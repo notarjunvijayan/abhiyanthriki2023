@@ -13,6 +13,26 @@
 	src: url(/Fonts/monument-regular.otf);
 }
 
+@font-face {
+	font-family: mono;
+	src: url(/Fonts/mono.ttf);
+}
+
+@font-face {
+	font-family: monobold;
+	src: url(/Fonts/monobold.ttf);
+}
+
+@font-face {
+	font-family: monobolditalic;
+	src: url(/Fonts/monobolditalic.otf);
+}
+
+@font-face {
+	font-family: monoitalic;
+	src: url(/Fonts/monoitalic.otf);
+}
+
 body {
 	margin: 0;
 	color: black;
