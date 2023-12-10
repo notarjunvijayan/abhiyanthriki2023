@@ -310,6 +310,23 @@
     "reglink": "https://bit.ly/a3k_SCA"
   },
   {
+    "id": 28,
+    "no": "28",
+    "title": "Whodunnit?",
+    "route": "whodunnit",
+    "description": "Whodunnit?' is the ultimate detective game that challenges teams of 2-5 members to unravel a mysterious case using a set of evidence and clues. Each team has 15 minutes on the clock to showcase their detective skills and solve the mystery. The team that solves the case in the shortest time will be declared the winner, earning them a cash prize of Rs. 1000. Join us for an exhilarating challenge and test your investigative prowess!",
+    "date": "15th-16th December 2023",
+    "time": "",
+    "imageurl": "/EventAssets/whodunnit.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Benison", "Bhadra S Anand"],
+      "no": ["9995921803", "7025065615"]
+    },
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_whodunnit"
+  },
+  {
     "id": 20,
     "no": "20",
     "title": "Rhythmic Resonance",
