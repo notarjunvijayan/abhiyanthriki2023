@@ -7,9 +7,6 @@ import { useProgress } from '@react-three/drei';
 import * as THREE from 'three';
 import Navbar from '../Navbar/Navbar';
 import '../Home/Home.css';
-import { EffectComposer } from '@react-three/postprocessing';
-import { Glitch } from '@react-three/postprocessing';
-import { GlitchMode } from 'postprocessing';
 import { Noise } from 'lamina';
 import Landing from '../Landing/Landing.jsx';
 
