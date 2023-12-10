@@ -116,7 +116,7 @@ function Events() {
                     </div>
                   </>
                 )}
-                {event.active !== 0 && (
+                {event.active !== 2 && (
                   <>
                     {' '}
                     <button
