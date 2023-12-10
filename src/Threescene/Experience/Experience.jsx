@@ -41,14 +41,11 @@ export default function Experience() {
   const curve = useMemo(() => {
     return new THREE.CatmullRomCurve3(
       [
-      new THREE.Vector3(0, 0, 0),
-      new THREE.Vector3(0, 0, -CURVE_DISTANCE),
-      new THREE.Vector3(50, 0, -2 * CURVE_DISTANCE),
-      new THREE.Vector3(-50, 0, -3 * CURVE_DISTANCE),
-      new THREE.Vector3(50, 0, -4 * CURVE_DISTANCE),
-      new THREE.Vector3(0, 0, -5 * CURVE_DISTANCE),
-      new THREE.Vector3(0, 0, -6 * CURVE_DISTANCE),
-      new THREE.Vector3(0, 0, -7 * CURVE_DISTANCE),
+        new THREE.Vector3(0, 0, 0),
+        new THREE.Vector3(0, 0, -CURVE_DISTANCE),
+        new THREE.Vector3(50, 0, -2 * CURVE_DISTANCE),
+        new THREE.Vector3(-50, 0, -3 * CURVE_DISTANCE),
+        new THREE.Vector3(50, 0, -900),
       ],
       false,
       'catmullrom',
@@ -63,10 +60,7 @@ export default function Experience() {
         new THREE.Vector3(0, 0, -CURVE_DISTANCE),
         new THREE.Vector3(40, 0, -2 * CURVE_DISTANCE),
         new THREE.Vector3(-40, 0, -3 * CURVE_DISTANCE),
-        new THREE.Vector3(40, 0, -4 * CURVE_DISTANCE),
-        new THREE.Vector3(0, 0, -5 * CURVE_DISTANCE),
-        new THREE.Vector3(0, 0, -6 * CURVE_DISTANCE),
-        new THREE.Vector3(0, 0, -7 * CURVE_DISTANCE),
+        new THREE.Vector3(40, 0, -900),
       ],
       false,
       'catmullrom',
@@ -114,10 +108,12 @@ export default function Experience() {
     const curPoint = linePoints[curPointIndex];
     const camPoint = cameraPoints[camPointIndex];
 
-    const pointAhead = linePoints[Math.min(curPointIndex + 1, linePoints.length - 1)]
+    const pointAhead =
+      linePoints[Math.min(curPointIndex + 1, linePoints.length - 1)];
     const xDisplacement = (pointAhead.x - curPoint.x) * 80;
 
-    const campointAhead = linePoints[Math.min(camPointIndex + 1, cameraPoints.length - 1)]
+    const campointAhead =
+      linePoints[Math.min(camPointIndex + 1, cameraPoints.length - 1)];
     const camxDisplacement = (campointAhead.x - camPoint.x) * 80;
 
     //Functions to Set Rotation of the drone on Turn
@@ -143,38 +139,34 @@ export default function Experience() {
     droneGroup.current.quaternion.slerp(targetCameraQuaternion, delta * 2);
     droneGroup.current.position.lerp(curPoint, delta * 24);
 
-    cameraGroup.current.position.lerp(camPoint, delta * 2)
+    cameraGroup.current.position.lerp(camPoint, delta * 2);
   });
   return (
     <>
-      <Line points={linePoints} color={'white'} lineWidth={3}/>
+      <Telescope position={[12, 1, -300]} rotation={[0, 1, 0]} scale={3} />
 
-      <Line points={cameraPoints} color={'blue'} lineWidth={3}/>
-
-      <Telescope scale={2} position={[6, -2, -330]} rotation={[0, 1, 0]} />
-
-      <Astronaut position={[-5, 4, -340]} rotation={[0, 0, 0]} scale={0.05} />
+      <Astronaut position={[-3, -2, -310]} rotation={[0, 0, 0]} scale={0.05} />
 
       <Cloud
-        position={[5, -6, -334]}
+        position={[12, -2, -300]}
         scale={window.innerHeight > window.innerWidth ? 1 : 1.5}
       />
 
-      <Drone position={[-5, 0, -480]} scale={2} rotation={[0.25, 2.2, 0]} />
-      <Cloud position={[-5, -4, -482]} scale={1.5} />
+      <Drone position={[38, 4, -480]} scale={3} rotation={[0.25, 2.2, 0]} />
+      <Cloud position={[38, -4, -482]} scale={3} />
 
-      <Drumset position={[5.5, -1, -405]} scale={2} />
-      <Cloud position={[5, -3, -408]} scale={1.5} />
-      
+      <Drumset position={[25, 3, -405]} scale={3} />
+      <Cloud position={[25, -3, -408]} scale={3} />
+
       <Image
         url={'/Images/a3k217.jpg'}
-        position={[10, 8, -600]}
-        args={[16, 9]}
+        position={[-28, 2, -750]}
+        args={[16, 8]}
       />
       <Image
         url={'/Images/a3kvintage3.jpg'}
-        position={[10, -3, -600]}
-        args={[16, 10]}
+        position={[-50, 2, -750]}
+        args={[16, 8]}
       />
 
       <group position={[-15, 4, -20]}>
@@ -222,52 +214,52 @@ export default function Experience() {
           15-16 December, 2023
         </Text>
       </group>
-      <group position={[-15,0,-100]}>
-      <group position={[-10,7,0]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={1.75}
-          font={'/Fonts/monument-regular.otf'}
-        >
-          TITLE SPONSOR
-        </Text>
+      <group position={[-15, 0, -100]}>
+        <group position={[-10, 7, 0]}>
+          <Text
+            color='white' // default
+            anchorX='middle' // default
+            anchorY='middle' // default
+            fontSize={1.75}
+            font={'/Fonts/monument-regular.otf'}
+          >
+            TITLE SPONSOR
+          </Text>
+        </group>
+        <group>
+          <Image
+            position={[-1, 0, 0.5]}
+            url={'/Images/techmindz-white.png'}
+            args={[16, 10]}
+          />
+          <RoundedBox args={[20, 10, 0.5]} radius={0.15} position={[-1, 0, 0]}>
+            <meshBasicMaterial color={'black'} />
+          </RoundedBox>
+        </group>
       </group>
-      <group>
+      <group position={[10, 0, -150]}>
+        <group position={[-6, 4, 0]}>
+          <Text
+            color='white' // default
+            anchorX='left' // default
+            anchorY='middle' // default
+            fontSize={0.8}
+            font={'/Fonts/monument-regular.otf'}
+          >
+            PLATINUM SPONSORS
+          </Text>
+        </group>
         <Image
-          position={[-1,0,0.5]}
-          url={'/Images/techmindz-white.png'}
-          args={[16, 10]}
+          position={[-2.5, 0, 0.5]}
+          url={'/Images/Hubspire.jpg'}
+          args={[5, 1]}
         />
-        <RoundedBox args={[20, 10, 0.5]} radius={0.15} position={[-1,0,0]}>
-          <meshBasicMaterial color={'black'}/>
-        </RoundedBox>
-      </group>
-      </group>
-      <group position={[10,0,-150]}>
-      <group position={[-6,4,0]}>
-        <Text
-          color='white' // default
-          anchorX='left' // default
-          anchorY='middle' // default
-          fontSize={0.8}
-          font={'/Fonts/monument-regular.otf'}
-        >
-          PLATINUM SPONSORS
-        </Text>
-      </group>
-      <Image
-        position={[-2.5,0,0.5]}
-        url={'/Images/Hubspire.jpg'}
-        args={[5, 1]}
-      />
-      <Image
-        position={[3,0,0.5]}
-        url={'/Images/GLOBAL_logo.jpg'}
-        args={[4, 4]}
-      />
-      <RoundedBox args={[12, 5, 0.5]} radius={0.15} />
+        <Image
+          position={[3, 0, 0.5]}
+          url={'/Images/GLOBAL_logo.jpg'}
+          args={[4, 4]}
+        />
+        <RoundedBox args={[12, 5, 0.5]} radius={0.15} />
       </group>
 
       <group position={[-6, -2, 0]}>
@@ -281,48 +273,50 @@ export default function Experience() {
           Rajagiri School of Engineering and Technology
         </Text>
       </group>
-      <group position={[0,0,-238]}>
-      <group position={[-30,8,0]}>
-        <Text
-        color='white' // default
-        anchorX='left' // default
-        anchorY='middle' // default
-        fontSize={1.7}
-        font={'/Fonts/monument-regular.otf'}
-        >
-          ABOUT{"\n"}ABHIYANTHRIKI
-        </Text>
-      </group>
-      <Image
-        url={'/Images/rset.jpg'}
-        position={[-17.5, -3, 0]
-        }
-        args={[25, 15]}
-      />
-      <group position={[2,-2,0]}>
-        <Text
-          color='white' // default
-          anchorX='left' // default
-          anchorY='middle' // default
-          fontSize={0.8}
-          font={'/Fonts/mono.ttf'}
-          maxWidth={22}
-        >
-          Abhiyanthriki, RSET's biennial technical festival, epitomizes academic
-          {'\n'}
-          excellence and innovation. Spanning two meticulously organized days,{' '}
-          {'\n'}
-          it offers a spectrum of opportunities, including technical contests,
-          {'\n'}
-          workshops, and creative stalls.Emphasizing sustainability, the event
-          {'\n'}
-          incorporates inventive reuse of plastic bottles and circuit boards in
-          {'\n'}
-          its decor.{'\n'}
-          {'\n'}Abhiyanthriki is more than an event; it's a distinguished{'\n'}
-          platform embodying scholastic and technical achievement.
-        </Text>
-      </group>
+      <group position={[0, 0, -238]}>
+        <group position={[-30, 8, 0]}>
+          <Text
+            color='white' // default
+            anchorX='left' // default
+            anchorY='middle' // default
+            fontSize={1.7}
+            font={'/Fonts/monument-regular.otf'}
+          >
+            ABOUT{'\n'}ABHIYANTHRIKI
+          </Text>
+        </group>
+        <Image
+          url={'/Images/rset.jpg'}
+          position={[-17.5, -3, 0]}
+          args={[25, 15]}
+        />
+        <group position={[2, -2, 0]}>
+          <Text
+            color='white' // default
+            anchorX='left' // default
+            anchorY='middle' // default
+            fontSize={0.8}
+            font={'/Fonts/mono.ttf'}
+            maxWidth={22}
+          >
+            Abhiyanthriki, RSET's biennial technical festival, epitomizes
+            academic
+            {'\n'}
+            excellence and innovation. Spanning two meticulously organized days,{' '}
+            {'\n'}
+            it offers a spectrum of opportunities, including technical contests,
+            {'\n'}
+            workshops, and creative stalls.Emphasizing sustainability, the event
+            {'\n'}
+            incorporates inventive reuse of plastic bottles and circuit boards
+            in
+            {'\n'}
+            its decor.{'\n'}
+            {'\n'}Abhiyanthriki is more than an event; it's a distinguished
+            {'\n'}
+            platform embodying scholastic and technical achievement.
+          </Text>
+        </group>
       </group>
       {/* <group position={[0, 0, -230]}>
         <Text
@@ -335,7 +329,18 @@ export default function Experience() {
           Excited ?
         </Text>
       </group> */}
-      <group position={[12, 0, -280]}>
+      <group position={[-14, 0, -274]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={3}
+          font={'/Fonts/mono.ttf'}
+        >
+          Get Ready For
+        </Text>
+      </group>
+      <group position={[9, -1, -300]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -343,21 +348,10 @@ export default function Experience() {
           fontSize={1}
           font={'/Fonts/mono.ttf'}
         >
-          Get Ready For
-        </Text>
-      </group>
-      <group position={[3, -5, -325]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={0.8}
-          font={'/Fonts/mono.ttf'}
-        >
           Orion's Watch
         </Text>
       </group>
-      <group position={[4, -6, -325]}>
+      <group position={[9, -2, -300]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -368,18 +362,18 @@ export default function Experience() {
           15/12/2023
         </Text>
       </group>
-      <group position={[3, -2, -400]}>
+      <group position={[19, -2, -400]}>
         <Text
           color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
-          fontSize={0.8}
+          fontSize={1}
           font={'/Fonts/mono.ttf'}
         >
-          Battle of Bands
+          Rhythmic Resonance
         </Text>
       </group>
-      <group position={[4, -3, -400]}>
+      <group position={[19, -3, -400]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -390,18 +384,18 @@ export default function Experience() {
           15/12/2023
         </Text>
       </group>
-      <group position={[-5.5, -3, -470]}>
+      <group position={[34, -1, -470]}>
         <Text
           color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
-          fontSize={0.8}
+          fontSize={1}
           font={'/Fonts/mono.ttf'}
         >
           Drone Show
         </Text>
       </group>
-      <group position={[-5, -4, -470]}>
+      <group position={[34, -2, -470]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -412,7 +406,7 @@ export default function Experience() {
           16/12/2023
         </Text>
       </group>
-      <group position={[-35, 3, -600]}>
+      <group position={[4, -1, -576]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -423,30 +417,41 @@ export default function Experience() {
           BE A PART OF {'\n'}ABHIYANTHRIKI
         </Text>
       </group>
-      <group position={[-40, -3, -600]}>
+      <group position={[-25, -1, -670]}>
         <Text
           color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
-          fontSize={1.5}
+          fontSize={3}
+          font={'/Fonts/monument-regular.otf'}
+        >
+          Excited?
+        </Text>
+      </group>
+      <group position={[-55, -4, -830]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={1.2}
           font={'/Fonts/mono.ttf'}
         >
           Register for events from the events section
         </Text>
       </group>
-      <group position={[-15, -20, -600]}>
+      <group position={[30, 0, -940]}>
         <Text
           color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
-          fontSize={1}
+          fontSize={0.8}
           font={'/Fonts/mono.ttf'}
         >
           Made by the Abhiyanthriki 2023 Website team
         </Text>
       </group>
       <group ref={cameraGroup}>
-      <PerspectiveCamera
+        <PerspectiveCamera
           fov={90}
           makeDefault
           lookAt={Spaceship}
