@@ -1,7 +1,7 @@
 import { Drone } from './ModelComponents/StingerDrone';
 import { Cloud } from './ModelComponents/Model';
 import { useFrame } from '@react-three/fiber';
-import {  RoundedBox, useScroll } from '@react-three/drei';
+import { RoundedBox, useScroll } from '@react-three/drei';
 import * as THREE from 'three';
 import { useMemo, useRef } from 'react';
 import { PerspectiveCamera } from '@react-three/drei';
@@ -9,7 +9,7 @@ import { Line, Float, Environment, Text } from '@react-three/drei';
 import { Telescope } from './ModelComponents/Telescope';
 import { Astronaut } from './ModelComponents/Astronaut';
 import Drumset from './ModelComponents/Drumset';
-import {Spaceship} from './ModelComponents/Spaceship'
+import { Spaceship } from './ModelComponents/Spaceship';
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
 const LINE_NB_POINTS = 600;
@@ -36,7 +36,6 @@ const Image = ({ url, position, args }) => {
 };
 
 export default function Experience() {
-
   //Set of points that define the Drone path
   const curve = useMemo(() => {
     return new THREE.CatmullRomCurve3(
@@ -106,7 +105,6 @@ export default function Experience() {
       camera.current.fov = 45;
       camera.current.position.z = 60;
       camera.current.position.y = 5;
-
     } else {
       camera.current.fov = 30;
       camera.current.position.z = 13;
@@ -148,7 +146,13 @@ export default function Experience() {
   return (
     <>
       <Telescope scale={2} position={[6, -2, -330]} rotation={[0, 1, 0]} />
-      <Astronaut position={[-5, 4, -340]} rotation={[1, -1, 1]} scale={0.01} />
+
+      <Astronaut position={[-5, 4, -340]} rotation={[0, 0, 0]} scale={0.05} />
+
+      <Cloud
+        position={[5, -6, -334]}
+        scale={window.innerHeight > window.innerWidth ? 1 : 1.5}
+      />
 
       <Drone position={[-5, 0, -480]} scale={2} rotation={[0.25, 2.2, 0]} />
       <Cloud position={[-5, -4, -482]} scale={1.5} />
@@ -156,7 +160,13 @@ export default function Experience() {
       <Drumset position={[5.5, -1, -405]} scale={2} />
       <Cloud position={[5, -3, -408]} scale={1.5} />
 
-      <Image url={'/Images/rset.jpg'} position={window.innerHeight>window.innerWidth?[15,10,-130]:[5, 0, -130]} args={window.innerHeight>window.innerWidth?[25,15]:[15, 10]} />
+      <Image
+        url={'/Images/rset.jpg'}
+        position={
+          window.innerHeight > window.innerWidth ? [15, 10, -140] : [5, 0, -138]
+        }
+        args={window.innerHeight > window.innerWidth ? [25, 15] : [15, 10]}
+      />
       <Image
         url={'/Images/Hubspire.jpg'}
         position={[23, -1, -250]}
@@ -235,13 +245,19 @@ export default function Experience() {
           Rajagiri School of Engineering and Technology
         </Text>
       </group>
-      <group position={window.innerHeight>window.innerWidth?[0,-5,-130]:[17, 0, -130]} rotation={[0, -0.25, 0]}>
+      <group
+        position={
+          window.innerHeight > window.innerWidth ? [0, -5, -130] : [17, 0, -130]
+        }
+        rotation={[0, -0.25, 0]}
+      >
         <Text
           color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
-          fontSize={window.innerHeight>window.innerWidth?1.1:0.8}
+          fontSize={window.innerHeight > window.innerWidth ? 1.1 : 0.8}
           font={'/Fonts/mono.ttf'}
+          maxWidth={22}
         >
           Abhiyanthriki, RSET's biennial technical festival, epitomizes academic
           {'\n'}
@@ -258,7 +274,7 @@ export default function Experience() {
           platform embodying scholastic and technical achievement.
         </Text>
       </group>
-      <group position={[0, 0, -230]}>
+      {/* <group position={[0, 0, -230]}>
         <Text
           color='white' // default
           anchorX='left' // default
@@ -268,7 +284,7 @@ export default function Experience() {
         >
           Excited ?
         </Text>
-      </group>
+      </group> */}
       <group position={[12, 0, -280]}>
         <Text
           color='white' // default
@@ -346,7 +362,18 @@ export default function Experience() {
           16/12/2023
         </Text>
       </group>
-      <group position={[15, 2.5, -250]}>
+      <group position={[0, 2.5, -200]}>
+        <Text
+          color='white' // default
+          anchorX='left' // default
+          anchorY='middle' // default
+          fontSize={0.8}
+          font={'/Fonts/monument-regular.otf'}
+        >
+          TITLE SPONSOR
+        </Text>
+      </group>
+      <group position={[15, 2.5, -240]}>
         <Text
           color='white' // default
           anchorX='left' // default
@@ -368,7 +395,7 @@ export default function Experience() {
           BE A PART OF {'\n'}ABHIYANTHRIKI
         </Text>
       </group>
-      <group position={[-35, -3, -600]}>
+      <group position={[-40, -3, -600]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -397,16 +424,16 @@ export default function Experience() {
           makeDefault
           lookAt={Drone}
           far={125}
-          near={window.innerWidth < window.innerHeight ? 20:5}
+          near={window.innerWidth < window.innerHeight ? 20 : 5}
           ref={camera}
         />
         <group ref={airplane}>
           <Float floatIntensity={2} speed={2}>
-            <Spaceship scale={0.004} rotation={[0,3.14,0]}/>  
+            <Spaceship scale={0.004} rotation={[0, 3.14, 0]} />
           </Float>
         </group>
         <Environment resolution={256} files={'/Models/venice_sunset_2k.hdr'} />
-        <ambientLight/>
+        <ambientLight />
       </group>
     </>
   );
