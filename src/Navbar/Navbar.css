@@ -14,7 +14,7 @@
   align-items: center;
 }
 .logo img{
-  height: 6vh;
+  height: 5vh;
 }
 
 .links {
@@ -36,20 +36,20 @@
 
 @media (max-width: 768px) {
   .navbar{
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .logo{
     width: 30%;
   }
   .logo img{
-    width: 80%;
+    height: 6dvh;
   }
 
   .link{
     width: 30dvw;
   }
   .link a{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
