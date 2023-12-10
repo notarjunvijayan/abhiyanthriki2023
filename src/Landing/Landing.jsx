@@ -24,9 +24,9 @@ function Landing() {
 			<Navbar />
 
 			<div className="h-[100%] flex flex-col items-center justify-around">
-				<div className="container">
+				<div className=" flex flex-col justify-center items-center">
 					<div
-						className="-mt-20 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-[#fff] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl"
+						className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-[#fff] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl"
 						data-text="ABHIYANTHRIKI"
 					>
 						ABHIYANTHRIKI
@@ -36,7 +36,7 @@ function Landing() {
 					</div>
 				</div>
 
-				<div className="text-white text-2xl text-center items-center mt-72 gap-20 flex flex-col mb-20">
+				<div className="text-white text-2xl text-center items-center gap-20 flex flex-col mb-20">
 					<div>
 						Where Innovation <br />
 						Takes Flight!
