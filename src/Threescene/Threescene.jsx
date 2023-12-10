@@ -30,43 +30,39 @@ function Threescene() {
   }, [ready, loading]);
 
   return (
-    <>
+    <div className='overflow-y-hidden'>
       {loading ? (
         <Loader />
       ) : (
-        <>
-          <div className='navbar-threescene'>
-            <Navbar />
-          </div>{' '}
-          {window.innerWidth > window.innerHeight && (
-            <>
-              {' '}
-              <div className='w-screen h-screen md:block hidden'>
-                <Canvas
-                  gl={{ antialias: true, toneMapping: THREE.NoToneMapping }}
-                  linear
-                >
-                  <ScrollControls
-                    pages={window.innerHeight < window.innerwidth ? 10 : 25}
-                    damping={window.innerHeight < window.innerWidth ? 0.5 : 0.2}
-                  >
-                    <Experience />
-                  </ScrollControls>
-                  <Noise></Noise>
-                </Canvas>
-              </div>
-            </>
-          )}
-          {window.innerWidth < window.innerHeight && (
-            <>
-              <div className='md:hidden block'>
-                <Landing />
-              </div>
-            </>
-          )}
-        </>
+        <div className='navbar-threescene'>
+          <Navbar />
+        </div>
       )}
-    </>
+      <div className='w-screen h-screen md:block hidden'>
+        <Canvas
+          gl={{ antialias: true, toneMapping: THREE.NoToneMapping }}
+          linear
+        >
+          <ScrollControls
+            pages={window.innerHeight < window.innerwidth ? 10 : 25}
+            damping={window.innerHeight < window.innerWidth ? 0.5 : 0.2}
+          >
+            <Experience />
+          </ScrollControls>
+          <Noise></Noise>
+        </Canvas>
+      </div>
+      <div className='md:hidden block'>
+        {' '}
+        {loading ? (
+          <Loader />
+        ) : (
+          <div className='md:hidden block'>
+            <Landing />
+          </div>
+        )}
+      </div>
+    </div>
   );
 }
 
