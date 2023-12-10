@@ -16,10 +16,10 @@ function Landing() {
 		<div className="h-screen font-['mono']">
 			<Navbar />
 
-			<div className="h-[100%] flex flex-col items-center justify-around ">
+			<div className="h-[100%] flex flex-col items-center justify-around">
 				<div className="container">
 					<div
-						className="-mt-20 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] text-transparent bg-clip-text font-['Monument'] glitch text-4xl mx-auto text-center max-[380px]:text-3xl"
+						className="-mt-20 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl"
 						data-text="ABHIYANTHRIKI"
 					>
 						ABHIYANTHRIKI
