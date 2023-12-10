@@ -3,7 +3,22 @@
   width: 100%;
 }
 
-.navbar-threescene{
+.navbar-threescene {
   position: absolute;
-  z-index:5;
+  z-index: 5;
+}
+
+.home-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.home-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Google Chrome */
+.home-container {
+  overflow: -moz-scrollbars-none; /* Firefox */
 }
