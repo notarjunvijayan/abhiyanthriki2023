@@ -6,7 +6,7 @@
     "route": "Mephistopheles-An-Escape-Room",
     "description": "Embark on a captivating journey at our Escape Room experience, meticulously crafted to ignite creativity among students. This immersive adventure blends mystery with technical prowess, challenging participants to solve intricate puzzles and decode messages to break free from the clutches of a self-aware AI. Engage your intellect and collaborative spirit as you navigate this labyrinth, fostering a unique fusion of problem-solving and technical skills.\n\nUnleash your creativity and push the boundaries of your capabilities in an unforgettable quest for freedom. Are you ready to unravel the enigma and escape the realm of the self-aware AI? Join us and explore the endless possibilities! ",
     "date": "16th December 2023",
-    "time": "10 am",
+    "time": "",
     "imageurl": "/EventAssets/escaperoom.jpg",
     "technical": true,
     "poc": {
@@ -21,9 +21,9 @@
     "no": "02",
     "title": "Blitzbanter (Tech Debate)",
     "route": "blitzbanter",
-    "description": "Blitzbanter event description.",
+    "description": "Competition Highlights:\n- 10 teams, five members each\n- Four thought-provoking rounds\n- Evaluation based on technical knowledge, argument strength, teamwork, and adaptability",
     "date": "16th December 2023",
-    "time": "Full day",
+    "time": "",
     "imageurl": "/EventAssets/blitzbanter.jpg",
     "technical": true,
     "poc": {
@@ -44,7 +44,7 @@
       "\n\nRound 3 - Auction: Each team will be given a purse balance of 100cr, with which they have to build a team of 15-17 players from a designated pool of 160 players. Each player is assigned a rating based on their stats in IPL T20 matches in 2023. Teams with the highest ratings in their starting 11 will be crowned champions."
     ],
     "date": "16th December 2023",
-    "time": "10am to 4.30pm ",
+    "time": "",
     "imageurl": "/EventAssets/iplauction.jpg",
     "technical": true,
     "poc": {
@@ -61,7 +61,7 @@
     "route": "create-with-an-e",
     "description": "Create with an E is an E-Waste Art Gallery Competition where E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery.\nThis event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
     "date": "15 December 2023",
-    "time": "11 AM",
+    "time": "",
     "imageurl": "/EventAssets/ewaste.jpg",
     "technical": true,
     "poc": {
@@ -111,15 +111,15 @@
     "title": "Orion's Watch",
     "route": "orions-watch",
     "description": "👩🏽‍🚀 Heyy there Space Enthusiasts!! Get ready to dive into the cosmos with Abhiyanthriki'23 as we proudly present - Orion's Watch a thrilling guided telescope observation session.👩🏽‍🚀\n🔭An introductory session on selecting, using and extracting information from telescopes, and an observation session where you get to peer into the depths of space, witness stunning planets, and discover celestial wonders!🔭",
-    "date": "15 December, 2023",
-    "time": "6:00-8:30pm",
+    "date": "14 December, 2023",
+    "time": "",
     "imageurl": "/EventAssets/orionwatch.jpg",
     "technical": true,
     "poc": {
       "name": ["Abhiram", "Bride"],
       "no": ["9315280907", "8137070797"]
     },
-    "active": 1,
+    "active": 0,
     "reglink": "https://bit.ly/a3k_orion-s_watch"
   },
   {
@@ -128,16 +128,16 @@
     "title": "Arduino Arcade Bash",
     "route": "arduino-arcade-bash",
     "description": "Onboard into a comprehensive two-round program that seamlessly blends education and competition. Participants partake in an immersive workshop, delving into the intricacies of Arduino-based arcade game development. Covering coding, hardware integration, and game design, this session equips attendees with essential skills. In the Challenge phase unfolds, tasking participants with crafting innovative games. Adjudicated on creativity, functionality, and user engagement, projects are evaluated by discerning judges. This event promises a professional platform for skill enhancement, collaboration, and the showcase of ingenuity in the realm of Arduino game development.",
-    "date": "16th December 2023",
-    "time": "9 am to 2 pm",
-    "imageurl": "/Images/meta-image.png",
+    "date": "15th December 2023",
+    "time": "",
+    "imageurl": "/EventAssets/arduinobash.jpg",
     "technical": true,
     "poc": {
       "name": ["Niveditha", "Nisy"],
       "no": ["7306914271", "8281227834"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_arcade_bash"
   },
   {
     "id": 9,
@@ -146,7 +146,7 @@
     "route": "sculptoria",
     "description": "Join us for an exciting workshop called Sculptoria, where you'll get hands-on experience with 3D printing, laser cutting, and CNC machines. Discover the basics of these cool technologies, create your own 3D-printed objects, design intricate patterns with laser cutting, and explore the precision of CNC machining.\nWhether you're a beginner or an enthusiast, Sculptoria is the place to unleash your creativity and gain valuable skills in the fascinating world of digital fabrication.",
     "date": "19 December 2023",
-    "time": "9:30AM - 4:30PM",
+    "time": "",
     "imageurl": "/EventAssets/sculptoria.jpg",
     "technical": true,
     "poc": {
@@ -159,19 +159,19 @@
   {
     "id": 10,
     "no": "10",
-    "title": "Metaverse Marvels - Embracing Web3 Revolution",
-    "route": "metaverse-marvels",
-    "description": "Explore the future of the internet and immerse yourself in the Metaverse Marvels event. Embrace the Web3 revolution as we delve into the latest advancements in decentralized technologies, blockchain, and virtual reality. Join us for insightful discussions, hands-on experiences, and a glimpse into the evolving landscape of the digital world. Be a part of this transformative journey and discover the endless possibilities that the Metaverse holds.",
-    "date": "",
+    "title": "Scenius 2.0",
+    "route": "scenius",
+    "description": "Scenius 2.0 presents an engaging technical game featuring four rounds centered around general knowledge in the field of civil engineering. Participants will embark on a journey that includes rounds such as JAM and Bridge Bust, where they will challenge their skills by constructing a bridge. This immersive event culminates in a virtual reality experience. Immerse yourself in breathtaking virtual worlds, from heart-pounding adventures to serene escapes. Feel the rush of excitement as reality blurs, and your senses are transported to new dimensions. We extend a warm invitation to participants from all engineering branches to partake in this thrilling competition, fostering collaboration and innovation.",
+    "date": "15th and 16th December 2023",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/scenius.jpg",
     "technical": true,
     "poc": {
-      "name": [],
-      "no": []
+      "name": ["Hima", "Catherine"],
+      "no": ["8156908971", "8301929414"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_scenius"
   },
   {
     "id": 11,
@@ -180,7 +180,7 @@
     "route": "Circuit-Race",
     "description": "The Circuit Race: Accelerate into the heart of innovation with our Circuit Race event! This adrenaline-fueled challenge kicks off with a rapid-fire quiz, testing your circuit savvy, followed by a hands-on implementation round where you'll harness provided components to craft and execute your circuit masterpiece. Feel the surge of excitement as creativity meets technical skill in a high-stakes race to engineer the most innovative circuit. Get ready to push the boundaries, spark ingenuity, and surge ahead toward electrifying triumph!",
     "date": "15th December 2023",
-    "time": "10am to 1pm",
+    "time": "",
     "imageurl": "/Images/meta-image.png",
     "technical": true,
     "poc": {
@@ -197,7 +197,7 @@
     "route": "maestro-de-circuito",
     "description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. These tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
     "date": "16th December 2023",
-    "time": "8:30am-12pm",
+    "time": "",
     "imageurl": "/Images/meta-image.png",
     "technical": true,
     "poc": {
@@ -312,16 +312,16 @@
   {
     "id": 28,
     "no": "28",
-    "title": "Scenius 2.0",
-    "route": "scenius",
-    "description": "Scenius 2.0 presents an engaging technical game featuring four rounds centered around general knowledge in the field of civil engineering. Participants will embark on a journey that includes rounds such as JAM and Bridge Bust, where they will challenge their skills by constructing a bridge. This immersive event culminates in a virtual reality experience. Immerse yourself in breathtaking virtual worlds, from heart-pounding adventures to serene escapes. Feel the rush of excitement as reality blurs, and your senses are transported to new dimensions. We extend a warm invitation to participants from all engineering branches to partake in this thrilling competition, fostering collaboration and innovation.",
-    "date": "15th and 16th December 2023",
-    "time": "9am to 4 pm",
+    "title": "Metaverse Marvels - Embracing Web3 Revolution",
+    "route": "metaverse-marvels",
+    "description": "Explore the future of the internet and immerse yourself in the Metaverse Marvels event. Embrace the Web3 revolution as we delve into the latest advancements in decentralized technologies, blockchain, and virtual reality. Join us for insightful discussions, hands-on experiences, and a glimpse into the evolving landscape of the digital world. Be a part of this transformative journey and discover the endless possibilities that the Metaverse holds.",
+    "date": "",
+    "time": "",
     "imageurl": "/Images/meta-image.png",
     "technical": true,
     "poc": {
-      "name": ["Hima", "Catherine"],
-      "no": ["8156908971", "8301929414"]
+      "name": [],
+      "no": []
     },
     "active": 2,
     "reglink": "https://bit.ly/a3k_SCA"
@@ -333,7 +333,7 @@
     "route": "rhythmic-resonance",
     "description": "Join the captivating 'Rhythmic Resonance' at Tech Fest Abhiyanthriki, RSET, on December 16th. \n\nThis independent event invites eastern musical bands to showcase their talent alongside skilled musicians from various colleges. Unleash your best performance and seize the opportunity to win an impressive prize pool of Rs.17k!",
     "date": "16th December 2023",
-    "time": "1 pm - 4 pm",
+    "time": "",
     "imageurl": "/EventAssets/resonance.jpg",
     "technical": false,
     "poc": {
@@ -350,7 +350,7 @@
     "route": "disco-divas",
     "description": "Dance into the spotlight at our Spot Choreo showdown!\nUnleash your creativity in this vibrant, quick-paced dance event that's all about choreographic brilliance!",
     "date": "15th December 2023",
-    "time": "9:00 A.M",
+    "time": "",
     "imageurl": "/EventAssets/disco.jpg",
     "technical": false,
     "poc": {
@@ -384,7 +384,7 @@
     "route": "ethical-hacking",
     "description": "💡What to Expect: Join us for an immersive Ethical Hacking Workshop featuring Mr. Ajal from Offenso Hackers Academy. Gain insights into: \nHands-on hacking demos, \nPro tips on ethical hacking \nNetworking with cybersecurity pros.\nDon't miss the cybersecurity revolution!  #EthicalHacking #TechEvent",
     "date": "25th November 2023",
-    "time": "9 am - 4 pm",
+    "time": "",
     "imageurl": "/EventAssets/ethicalhacking.jpg",
     "technical": true,
     "poc": {
@@ -401,7 +401,7 @@
     "route": "manaige",
     "description": "Are you aspiring to build a thriving career in management? Then here's your opportunity!\nAs part of ABHIYANTHRIKI 2023, we present to you the opportunity to gain valuable industry insights through our upcoming session. \n\n ✨ manAIge ✨ \n\n How to Build a Successful Career in Management.",
     "date": "25 November 2023",
-    "time": "10.30 AM-12.30 PM",
+    "time": "",
     "imageurl": "/EventAssets/manaige.jpg",
     "technical": false,
     "poc": {
@@ -418,7 +418,7 @@
     "route": "toyota-hybrid-workshop",
     "description": "Uncover secrets of green mobility with us!\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
     "date": "9th December 2023",
-    "time": "9:00 a.m to 12:00",
+    "time": "",
     "imageurl": "/EventAssets/toyotaworkshop.jpg",
     "technical": true,
     "poc": {
@@ -435,7 +435,7 @@
     "route": "hacksus",
     "description": "Join the excitement as RSET IEDC in association with Abhiyanthriki '23 unveils the thrilling\nHackS'US - Edition III an All Kerala 24-hour Inter-College Hackathon. \n\nCompete for internship opportunities, startup incubation, and more. Benefit from exclusive mentorship and special training sessions from communities and alumni.\n\nElevate your skills and teamwork for a chance at the impressive ₹1,30,000 prize pool.\n Prepare for excitement with a lineup of entertaining programs to keep you engaged throughout the event.\n",
     "date": "15th & 16th December 2023 ",
-    "time": "6 PM Onwards",
+    "time": "",
     "imageurl": "/EventAssets/hacks'us.jpg",
     "technical": true,
     "poc": {
@@ -452,7 +452,7 @@
     "route": "quick-query",
     "description": " Are you ready for the Ultimate Google Challenge?\n\nQuickQuery\n\nWhere time dances to the rhythm of your intellect. Two electrifying minutes, 15 questions that weave through the tapestry of history, currents of affairs, and the intricate threads of tech. No lifeline, no chat bots - just your raw Google skills!\nUnleash the abstract brilliance within!",
     "date": "24th November 2023",
-    "time": "11:30 am to 12:30 pm",
+    "time": "",
     "imageurl": "/EventAssets/quickquery.jpg",
     "technical": true,
     "poc": {
