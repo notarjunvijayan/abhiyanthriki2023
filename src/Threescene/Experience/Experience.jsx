@@ -230,8 +230,9 @@ export default function Experience() {
           anchorY='middle' // default
           fontSize={1}
           font={'/Fonts/mono.ttf'}
+          fontWeight='bold'
         >
-          15-16 Dec, 2023
+          15-16 December, 2023
         </Text>
       </group>
       <group position={[-13, 0, -70]}>
