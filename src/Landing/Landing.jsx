@@ -87,13 +87,10 @@ function Landing() {
 				<div className="text-white px-6 text-sm">
 					<span className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text text-lg font-bold text-base">
 						Abhiyanthriki
-					</span>{" "}
-					Where Innovation Takes Flight!
-					<br />
-					<br />
-					RSET's biennial tech fest, Abhiyanthriki, isn't merely an event; it's
+					</span>{" "}RSET's biennial tech fest, Abhiyanthriki, isn't merely an event; it's
 					a pulsating emotion of excellence and invention!
 					<br />
+					<br/>
 					Join us for a two-day tech extravaganza — a playground for tech
 					contests, workshops, hackathons, and exhilarating stalls, providing a
 					platform for various scholastic and technical achievements.
