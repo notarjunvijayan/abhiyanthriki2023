@@ -49,9 +49,13 @@ function Threescene() {
 					<Noise></Noise>
 				</Canvas>
 			</div>
-			<div className="md:hidden block">
-				<Landing />
-			</div>
+			{loading ? (
+				<Loader />
+			) : (
+				<div className="md:hidden block">
+					<Landing />
+				</div>
+			)}
 		</>
 	);
 }
