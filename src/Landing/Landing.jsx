@@ -3,9 +3,15 @@ import {useState} from 'react';
 import './Landing.css';
 import eventsData from '../Events/EventsData.json';
 import {useNavigate} from 'react-router-dom';
+import Carousel from './Carousel.jsx';
 
 function Landing() {
 	const navigate = useNavigate();
+
+	
+	const imagesCarousel1 = ['/Images/abc1.png', '/Images/abc2.png', '/Images/abc3.png'];
+	const imagesCarousel2 = [ '/Images/abc5.jpg', '/Images/abc4.png', '/Images/abc6.png'];
+	const imagesCarousel3 = ['/Images/abc9.png', '/Images/abc7.png', '/Images/abc2.png'];
 
 	const [activeEventIndex, setActiveEventIndex] = useState(null);
 
@@ -104,6 +110,12 @@ function Landing() {
 					is more than an event; it&apos;s a distinguished platform embodying
 					scholastic and technical achievement.
 				</div>
+			</div>
+
+			<div className="w-[80%] mx-auto flex flex-col gap-2  pb-10">
+				<Carousel images={imagesCarousel1} />
+				<Carousel images={imagesCarousel2} />
+				<Carousel images={imagesCarousel3} />
 			</div>
 
 			<div className="h-[100%] select-none">

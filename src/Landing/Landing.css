@@ -270,3 +270,16 @@
       transform: rotateX(0deg) skewX(0deg);
     }
   }
+
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .transition-opacity {
+    animation: fadeInOut 1s ease-in-out;
+  }
