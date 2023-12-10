@@ -297,24 +297,7 @@
     "no": "18",
     "title": "County Cricket",
     "route": "county-cricket",
-    "description": "County Cricket event description.",
-    "date": "",
-    "time": "",
-    "imageurl": "/Images/meta-image.png",
-    "technical": false,
-    "poc": {
-      "name": [],
-      "no": []
-    },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
-  },
-  {
-    "id": 19,
-    "no": "19",
-    "title": "Theme show",
-    "route": "theme-show",
-    "description": "Theme Show event description.",
+    "description": "County cricket is a kind of cricket game where six is not allowed.Hitting six will be considered as out.Only fours and singles are allowed. The bowler has to bowl from inside a box and can't step out of the box.",
     "date": "",
     "time": "",
     "imageurl": "/Images/meta-image.png",
