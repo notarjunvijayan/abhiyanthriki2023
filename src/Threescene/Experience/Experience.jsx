@@ -282,20 +282,29 @@ export default function Experience() {
         </Text>
       </group>
       <group position={[0,0,-238]}>
+      <group position={[-30,8,0]}>
+        <Text
+        color='white' // default
+        anchorX='left' // default
+        anchorY='middle' // default
+        fontSize={1.7}
+        font={'/Fonts/monument-regular.otf'}
+        >
+          ABOUT{"\n"}ABHIYANTHRIKI
+        </Text>
+      </group>
       <Image
         url={'/Images/rset.jpg'}
-        position={[-15, 0, 0]
+        position={[-17.5, -3, 0]
         }
-        args={window.innerHeight > window.innerWidth ? [25, 15] : [15, 10]}
+        args={[25, 15]}
       />
-      <group
-        rotation={[0, -0.25, 0]}
-      >
+      <group position={[2,-2,0]}>
         <Text
           color='white' // default
           anchorX='left' // default
           anchorY='middle' // default
-          fontSize={0.6}
+          fontSize={0.8}
           font={'/Fonts/mono.ttf'}
           maxWidth={22}
         >
