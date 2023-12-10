@@ -108,19 +108,19 @@
   {
     "id": 7,
     "no": "07",
-    "title": "Galactic Gaze",
-    "route": "galactic-gaze",
-    "description": "Galactic Gaze: Astronomy Telescope Seminar and Night Sky Exploration",
+    "title": "Orion's Watch",
+    "route": "orions-watch",
+    "description": "👩🏽‍🚀 Heyy there Space Enthusiasts!! Get ready to dive into the cosmos with Abhiyanthriki'23 as we proudly present - Orion's Watch a thrilling guided telescope observation session.👩🏽‍🚀\n🔭An introductory session on selecting, using and extracting information from telescopes, and an observation session where you get to peer into the depths of space, witness stunning planets, and discover celestial wonders!🔭",
     "date": "15 December, 2023",
     "time": "6:00-8:30pm",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/orionwatch.jpg",
     "technical": true,
     "poc": {
       "name": ["Abhiram", "Bride"],
       "no": ["9315280907", "8137070797"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_orion-s_watch"
   },
   {
     "id": 8,
