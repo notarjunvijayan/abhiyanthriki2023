@@ -162,7 +162,7 @@ const Contact = () => {
         <Navbar />
         <div className='text-4xl w-full px-8'>Get in Touch</div>
         <div className='flex flex-col gap-3  w-5/6 mx-auto max:[400px]:my-5 my-6 '>
-          <div className='basis-1/2 rounded-lg flex flex-col text-white text-center bg-black p-4 gap-2 text-xl'>
+          <div className='basis-1/2 rounded-lg flex flex-col text-white text-center bg-[black] bg-opacity-10 shadow-[0_3px_10px_rgb(255,255,0,0.42)] p-4 gap-2 text-xl'>
             <div className='text-3  xl mb-2 flex'> Socials</div>
             <div className='flex flex-row gap-10 items-center'>
               <FaInstagram className='' />
@@ -209,7 +209,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div className='basis-1/4 rounded-lg flex flex-row bg-black text-white p-4'>
+          <div className='basis-1/4 rounded-lg flex flex-row bg-black bg-opacity-10 text-white p-4 shadow-[0_3px_10px_rgb(255,255,0,0.42)]'>
             <div className='flex flex-col items-center  justify-center basis-1/4'>
               <ImLocation size={40} className='' />
             </div>
@@ -227,7 +227,7 @@ const Contact = () => {
 							View Location
 						</div>
 					</div>
-					<div className="basis-1/4 rounded-lg bg-black text-white p-4 text-base whitespace-nowrap mb-2">
+					<div className="basis-1/4 rounded-lg bg-black bg-opacity-10 text-white p-4 text-base whitespace-nowrap mb-2 shadow-[0_3px_10px_rgb(255,255,0,0.42)]">
 						<div className="text-2xl mb-2"> Phone</div>
 						<a
 							href="https://wa.link/5qzg7p"
