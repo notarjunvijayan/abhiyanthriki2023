@@ -17,11 +17,12 @@
   align-items: center;
   padding: 1.5rem;
   gap: 2rem;
+  font-family: mono;
 }
 
 .event-details-poster {
   display: flex;
-  height: 90%;
+  height: 80dvh;
   aspect-ratio: 1;
   align-items: center;
   justify-content: center;
@@ -34,7 +35,7 @@
 
 .event-details-textcontent {
   display: flex;
-  height: 90%;
+  height: 90dvh;
   width: 100%;
   padding-right: 2rem;
   flex-direction: column;
@@ -46,28 +47,43 @@
 .event-details-info {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  /* gap: 3rem; */
 }
 
 .event-details-title {
   display: flex;
   align-items: center;
   width: 100%;
+  height: 20dvh;
   font-size: 4rem;
   line-height: 4rem;
+  font-family: monobold;
+  /* background-color: lightblue; */
 }
 
 .event-details-description {
   display: flex;
   width: 100%;
+  padding: 1rem;
+  height: 50dvh;
   align-items: center;
+  
+  /* background-color: lightcoral; */
+}
+
+.event-details-description-text{
+  height: 100%;
   text-align: justify;
   font-size: 1.25rem;
   white-space: pre-wrap;
+  overflow-y: scroll;
 }
 
 .event-details-regdetails {
   display: flex;
+  height: 20dvh;
+  padding: 5dvh;
+  /* background-color: aquamarine; */
   justify-content: space-between;
 }
 
@@ -100,6 +116,7 @@
 .event-details-register-button {
   display: flex;
   width: 100%;
+  height: 100%;
   padding: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -132,10 +149,13 @@
   font-size: 1.25rem;
 }
 
+.event-details-register:hover{
+  scale: 1.01;
+}
+
 .event-details-register-button:hover {
   background-color: yellow;
   color: black;
-  scale: 1.01;
 }
 
 @media (max-width: 786px){
@@ -152,6 +172,7 @@
       height: 50dvh;
       padding-right: 0;
       padding: 2dvh;
+      /* background-color: aquamarine; */
     }
 
     .event-details-info{
@@ -159,13 +180,13 @@
     }
 
     .event-details-title{
-      font-size: 2rem;
-      line-height: 2rem;
+      font-size: 1.75rem;
+      line-height: 1.75rem;
+      height: 10dvh;
     }
 
     .event-details-description{
-      height: 25dvh;
-      font-size: 1rem;
+      height: 20dvh;
       padding: 1%;
       
     }
@@ -173,11 +194,13 @@
     .event-details-description-text{
       height: 100%;
       width: 100%;
+      font-size: 1rem;
       overflow-y: scroll;
     }
 
     .event-details-regdetails{
       padding: 1dvh;
+      height: 10dvh;
     }
 
     .event-details-date{
@@ -189,8 +212,6 @@
     }
 
     .event-details-register-button{
-      border-radius: 0.5rem;
-      width: 35dvw;
       font-size: 1rem;
     }
 }

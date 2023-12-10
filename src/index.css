@@ -25,12 +25,12 @@
 
 @font-face {
 	font-family: monobolditalic;
-	src: url(/Fonts/monobolditalic.otf);
+	src: url(/Fonts/monobolditalic.ttf);
 }
 
 @font-face {
 	font-family: monoitalic;
-	src: url(/Fonts/monoitalic.otf);
+	src: url(/Fonts/monoitalic.ttf);
 }
 
 body {
