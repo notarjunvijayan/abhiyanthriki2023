@@ -116,4 +116,12 @@
     background-image: url("/img/bottomright.png");
   }
 
+  @media (max-width: 786px){
+    .z-1,
+  .z-2,
+  .z-3 {
+    height: 150dvh;
+  }
+  }
+
   
