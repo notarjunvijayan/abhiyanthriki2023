@@ -55,21 +55,21 @@
     "reglink": "https://bit.ly/a3k_IPL"
   },
   {
-    "id": 7,
-    "no": "04",
-    "title": "Create with an E",
-    "route": "create-with-an-e",
-    "description": "Create with an E is an E-Waste Art Gallery Competition where E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery.\nThis event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
-    "date": "15 December 2023",
+    "id": 4,
+    "no": "07",
+    "title": "Orion's Watch",
+    "route": "orions-watch",
+    "description": "👩🏽‍🚀 Heyy there Space Enthusiasts!! Get ready to dive into the cosmos with Abhiyanthriki'23 as we proudly present - Orion's Watch a thrilling guided telescope observation session.👩🏽‍🚀\n🔭An introductory session on selecting, using and extracting information from telescopes, and an observation session where you get to peer into the depths of space, witness stunning planets, and discover celestial wonders!🔭",
+    "date": "14 December, 2023",
     "time": "",
-    "imageurl": "/EventAssets/ewaste.jpg",
+    "imageurl": "/EventAssets/orionwatch.jpg",
     "technical": true,
     "poc": {
-      "name": ["Soju Eappan", "Sagar Suresh"],
-      "no": ["9400386423", "8086957037"]
+      "name": ["Abhiram", "Bride"],
+      "no": ["9315280907", "8137070797"]
     },
-    "active": 1,
-    "reglink": "https://bit.ly/a3k_CWE"
+    "active": 0,
+    "reglink": "https://bit.ly/a3k_orion-s_watch"
   },
   {
     "id": 5,
@@ -89,40 +89,6 @@
     "reglink": "https://bit.ly/a3k_TS"
   },
   {
-    "id": 8,
-    "no": "06",
-    "title": "Whodunnit?",
-    "route": "whodunnit",
-    "description": "Whodunnit?' is the ultimate detective game that challenges teams of 2-5 members to unravel a mysterious case using a set of evidence and clues. Each team has 15 minutes on the clock to showcase their detective skills and solve the mystery. The team that solves the case in the shortest time will be declared the winner, earning them a cash prize of Rs. 1000. Join us for an exhilarating challenge and test your investigative prowess!",
-    "date": "15th-16th December 2023",
-    "time": "",
-    "imageurl": "/EventAssets/whodunnit.jpg",
-    "technical": false,
-    "poc": {
-      "name": ["Benison", "Bhadra S Anand"],
-      "no": ["9995921803", "7025065615"]
-    },
-    "active": 1,
-    "reglink": "https://bit.ly/a3k_whodunnit"
-  },
-  {
-    "id": 4,
-    "no": "07",
-    "title": "Orion's Watch",
-    "route": "orions-watch",
-    "description": "👩🏽‍🚀 Heyy there Space Enthusiasts!! Get ready to dive into the cosmos with Abhiyanthriki'23 as we proudly present - Orion's Watch a thrilling guided telescope observation session.👩🏽‍🚀\n🔭An introductory session on selecting, using and extracting information from telescopes, and an observation session where you get to peer into the depths of space, witness stunning planets, and discover celestial wonders!🔭",
-    "date": "14 December, 2023",
-    "time": "",
-    "imageurl": "/EventAssets/orionwatch.jpg",
-    "technical": true,
-    "poc": {
-      "name": ["Abhiram", "Bride"],
-      "no": ["9315280907", "8137070797"]
-    },
-    "active": 0,
-    "reglink": "https://bit.ly/a3k_orion-s_watch"
-  },
-  {
     "id": 6,
     "no": "08",
     "title": "Arduino Arcade Bash",
@@ -138,6 +104,40 @@
     },
     "active": 1,
     "reglink": "https://bit.ly/a3k_arcade_bash"
+  },
+  {
+    "id": 7,
+    "no": "04",
+    "title": "Create with an E",
+    "route": "create-with-an-e",
+    "description": "Create with an E is an E-Waste Art Gallery Competition where E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery.\nThis event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
+    "date": "15 December 2023",
+    "time": "",
+    "imageurl": "/EventAssets/ewaste.jpg",
+    "technical": true,
+    "poc": {
+      "name": ["Soju Eappan", "Sagar Suresh"],
+      "no": ["9400386423", "8086957037"]
+    },
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_CWE"
+  },
+  {
+    "id": 8,
+    "no": "06",
+    "title": "Whodunnit?",
+    "route": "whodunnit",
+    "description": "Whodunnit?' is the ultimate detective game that challenges teams of 2-5 members to unravel a mysterious case using a set of evidence and clues. Each team has 15 minutes on the clock to showcase their detective skills and solve the mystery. The team that solves the case in the shortest time will be declared the winner, earning them a cash prize of Rs. 1000. Join us for an exhilarating challenge and test your investigative prowess!",
+    "date": "15th-16th December 2023",
+    "time": "",
+    "imageurl": "/EventAssets/whodunnit.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Benison", "Bhadra S Anand"],
+      "no": ["9995921803", "7025065615"]
+    },
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_whodunnit"
   },
   {
     "id": 9,
@@ -176,70 +176,70 @@
   {
     "id": 11,
     "no": "11",
-    "title": "Circuit Race",
-    "route": "Circuit-Race",
-    "description": "The Circuit Race: Accelerate into the heart of innovation with our Circuit Race event! This adrenaline-fueled challenge kicks off with a rapid-fire quiz, testing your circuit savvy, followed by a hands-on implementation round where you'll harness provided components to craft and execute your circuit masterpiece. Feel the surge of excitement as creativity meets technical skill in a high-stakes race to engineer the most innovative circuit. Get ready to push the boundaries, spark ingenuity, and surge ahead toward electrifying triumph!",
-    "date": "15th December 2023",
+    "title": "HackS'US - Edition III",
+    "route": "hacksus",
+    "description": "Join the excitement as RSET IEDC in association with Abhiyanthriki '23 unveils the thrilling\nHackS'US - Edition III an All Kerala 24-hour Inter-College Hackathon. \n\nCompete for internship opportunities, startup incubation, and more. Benefit from exclusive mentorship and special training sessions from communities and alumni.\n\nElevate your skills and teamwork for a chance at the impressive ₹1,30,000 prize pool.\n Prepare for excitement with a lineup of entertaining programs to keep you engaged throughout the event.\n",
+    "date": "15th & 16th December 2023 ",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/hacks'us.jpg",
     "technical": true,
     "poc": {
-      "name": ["Vimalraj Vijayamohan Thampi", "Savio Amantius"],
-      "no": ["8943499336", "9207494808"]
+      "name": [],
+      "no": []
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 1,
+    "reglink": "https://hacksus.rsetiedc.in/"
   },
   {
     "id": 12,
     "no": "12",
-    "title": "Maestro de Circuito",
-    "route": "maestro-de-circuito",
-    "description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. These tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
-    "date": "16th December 2023",
+    "title": "Ethical Hacking Workshop",
+    "route": "ethical-hacking",
+    "description": "💡What to Expect: Join us for an immersive Ethical Hacking Workshop featuring Mr. Ajal from Offenso Hackers Academy. Gain insights into: \nHands-on hacking demos, \nPro tips on ethical hacking \nNetworking with cybersecurity pros.\nDon't miss the cybersecurity revolution!  #EthicalHacking #TechEvent",
+    "date": "25th November 2023",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/ethicalhacking.jpg",
     "technical": true,
     "poc": {
-      "name": ["Mikhael Sunil"],
-      "no": ["9605535994"]
+      "name": ["Bhadra S Anand", "Raphael Tony"],
+      "no": ["7025065615", "9072652467"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 0,
+    "reglink": "https://bit.ly/a3k_EHW"
   },
   {
     "id": 13,
     "no": "13",
-    "title": "ElectroHunt",
-    "route": "ElectroHunt",
-    "description": "ElectroHunt event description.",
-    "date": "",
+    "title": "Toyota Hybrid Workshop",
+    "route": "toyota-hybrid-workshop",
+    "description": "Uncover secrets of green mobility with us!\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
+    "date": "9th December 2023",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/toyotaworkshop.jpg",
     "technical": true,
     "poc": {
-      "name": ["Nil"],
-      "no": []
+      "name": ["Jeevan Thomas", "Thomas Varghese"],
+      "no": ["9846162521", "9207741944"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 0,
+    "reglink": "https://bit.ly/a3k_THW"
   },
   {
     "id": 14,
     "no": "14",
-    "title": "Uncharted Cipher's Quest (Technical Treasure Hunt)",
-    "route": "Uncharted-Ciphers-Quest-Technical-Treasure-Hunt",
-    "description": "Uncharted Cipher's Quest event description.",
-    "date": "",
+    "title": "QuickQuery\n Seek and you shall find!",
+    "route": "quick-query",
+    "description": " Are you ready for the Ultimate Google Challenge?\n\nQuickQuery\n\nWhere time dances to the rhythm of your intellect. Two electrifying minutes, 15 questions that weave through the tapestry of history, currents of affairs, and the intricate threads of tech. No lifeline, no chat bots - just your raw Google skills!\nUnleash the abstract brilliance within!",
+    "date": "24th November 2023",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/quickquery.jpg",
     "technical": true,
     "poc": {
-      "name": ["Nil"],
-      "no": []
+      "name": ["Benison", "Bhadra S Anand"],
+      "no": ["9995921803", "7025065615"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 0,
+    "reglink": "https://yepdesk.com/quickquery/private/620nbe1dre"
   },
   {
     "id": 15,
@@ -278,36 +278,36 @@
   {
     "id": 17,
     "no": "17",
-    "title": "3s Football",
-    "route": "3s-football",
-    "description": "3s Football event description.",
-    "date": "",
+    "title": "Rhythmic Resonance",
+    "route": "rhythmic-resonance",
+    "description": "Join the captivating 'Rhythmic Resonance' at Tech Fest Abhiyanthriki, RSET, on December 16th. \n\nThis independent event invites eastern musical bands to showcase their talent alongside skilled musicians from various colleges. Unleash your best performance and seize the opportunity to win an impressive prize pool of Rs.17k!",
+    "date": "16th December 2023",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/resonance.jpg",
     "technical": false,
     "poc": {
-      "name": [],
-      "no": []
+      "name": ["Jyothir", " Minnu"],
+      "no": ["8089733554", "9447004534"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_RR"
   },
   {
     "id": 18,
     "no": "18",
-    "title": "County Cricket",
-    "route": "county-cricket",
-    "description": "County cricket is a kind of cricket game where six is not allowed.Hitting six will be considered as out.Only fours and singles are allowed. The bowler has to bowl from inside a box and can't step out of the box.",
-    "date": "",
+    "title": "Disco Divas",
+    "route": "disco-divas",
+    "description": "Dance into the spotlight at our Spot Choreo showdown!\nUnleash your creativity in this vibrant, quick-paced dance event that's all about choreographic brilliance!",
+    "date": "15th December 2023",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/disco.jpg",
     "technical": false,
     "poc": {
-      "name": [],
-      "no": []
+      "name": ["Anusree Samson", "Sandra Sunil"],
+      "no": ["8078425495", "9778324325"]
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_DiscoDivas"
   },
   {
     "id": 28,
@@ -329,36 +329,36 @@
   {
     "id": 20,
     "no": "20",
-    "title": "Rhythmic Resonance",
-    "route": "rhythmic-resonance",
-    "description": "Join the captivating 'Rhythmic Resonance' at Tech Fest Abhiyanthriki, RSET, on December 16th. \n\nThis independent event invites eastern musical bands to showcase their talent alongside skilled musicians from various colleges. Unleash your best performance and seize the opportunity to win an impressive prize pool of Rs.17k!",
-    "date": "16th December 2023",
+    "title": "manAIge",
+    "route": "manaige",
+    "description": "Are you aspiring to build a thriving career in management? Then here's your opportunity!\nAs part of ABHIYANTHRIKI 2023, we present to you the opportunity to gain valuable industry insights through our upcoming session. \n\n ✨ manAIge ✨ \n\n How to Build a Successful Career in Management.",
+    "date": "25 November 2023",
     "time": "",
-    "imageurl": "/EventAssets/resonance.jpg",
+    "imageurl": "/EventAssets/manaige.jpg",
     "technical": false,
     "poc": {
-      "name": ["Jyothir", " Minnu"],
-      "no": ["8089733554", "9447004534"]
+      "name": ["Muhammed Nihal C", "Sayujya Salim"],
+      "no": ["8078188354", "7736449302"]
     },
-    "active": 1,
-    "reglink": "https://bit.ly/a3k_RR"
+    "active": 0,
+    "reglink": "https://bit.ly/a3k_manAIge1"
   },
   {
     "id": 21,
     "no": "21",
-    "title": "Disco Divas",
-    "route": "disco-divas",
-    "description": "Dance into the spotlight at our Spot Choreo showdown!\nUnleash your creativity in this vibrant, quick-paced dance event that's all about choreographic brilliance!",
-    "date": "15th December 2023",
+    "title": "County Cricket",
+    "route": "county-cricket",
+    "description": "County cricket is a kind of cricket game where six is not allowed.Hitting six will be considered as out.Only fours and singles are allowed. The bowler has to bowl from inside a box and can't step out of the box.",
+    "date": "",
     "time": "",
-    "imageurl": "/EventAssets/disco.jpg",
+    "imageurl": "/Images/meta-image.png",
     "technical": false,
     "poc": {
-      "name": ["Anusree Samson", "Sandra Sunil"],
-      "no": ["8078425495", "9778324325"]
+      "name": [],
+      "no": []
     },
-    "active": 1,
-    "reglink": "https://bit.ly/a3k_DiscoDivas"
+    "active": 2,
+    "reglink": "https://bit.ly/a3k_SCA"
   },
   {
     "id": 22,
@@ -380,86 +380,86 @@
   {
     "id": 23,
     "no": "23",
-    "title": "Ethical Hacking Workshop",
-    "route": "ethical-hacking",
-    "description": "💡What to Expect: Join us for an immersive Ethical Hacking Workshop featuring Mr. Ajal from Offenso Hackers Academy. Gain insights into: \nHands-on hacking demos, \nPro tips on ethical hacking \nNetworking with cybersecurity pros.\nDon't miss the cybersecurity revolution!  #EthicalHacking #TechEvent",
-    "date": "25th November 2023",
+    "title": "Maestro de Circuito",
+    "route": "maestro-de-circuito",
+    "description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. These tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
+    "date": "16th December 2023",
     "time": "",
-    "imageurl": "/EventAssets/ethicalhacking.jpg",
+    "imageurl": "/Images/meta-image.png",
     "technical": true,
     "poc": {
-      "name": ["Bhadra S Anand", "Raphael Tony"],
-      "no": ["7025065615", "9072652467"]
+      "name": ["Mikhael Sunil"],
+      "no": ["9605535994"]
     },
-    "active": 0,
-    "reglink": "https://bit.ly/a3k_EHW"
+    "active": 2,
+    "reglink": "https://bit.ly/a3k_SCA"
   },
   {
     "id": 24,
     "no": "24",
-    "title": "manAIge",
-    "route": "manaige",
-    "description": "Are you aspiring to build a thriving career in management? Then here's your opportunity!\nAs part of ABHIYANTHRIKI 2023, we present to you the opportunity to gain valuable industry insights through our upcoming session. \n\n ✨ manAIge ✨ \n\n How to Build a Successful Career in Management.",
-    "date": "25 November 2023",
+    "title": "3s Football",
+    "route": "3s-football",
+    "description": "3s Football event description.",
+    "date": "",
     "time": "",
-    "imageurl": "/EventAssets/manaige.jpg",
+    "imageurl": "/Images/meta-image.png",
     "technical": false,
-    "poc": {
-      "name": ["Muhammed Nihal C", "Sayujya Salim"],
-      "no": ["8078188354", "7736449302"]
-    },
-    "active": 0,
-    "reglink": "https://bit.ly/a3k_manAIge1"
-  },
-  {
-    "id": 25,
-    "no": "25",
-    "title": "Toyota Hybrid Workshop",
-    "route": "toyota-hybrid-workshop",
-    "description": "Uncover secrets of green mobility with us!\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
-    "date": "9th December 2023",
-    "time": "",
-    "imageurl": "/EventAssets/toyotaworkshop.jpg",
-    "technical": true,
-    "poc": {
-      "name": ["Jeevan Thomas", "Thomas Varghese"],
-      "no": ["9846162521", "9207741944"]
-    },
-    "active": 0,
-    "reglink": "https://bit.ly/a3k_THW"
-  },
-  {
-    "id": 26,
-    "no": "26",
-    "title": "HackS'US - Edition III",
-    "route": "hacksus",
-    "description": "Join the excitement as RSET IEDC in association with Abhiyanthriki '23 unveils the thrilling\nHackS'US - Edition III an All Kerala 24-hour Inter-College Hackathon. \n\nCompete for internship opportunities, startup incubation, and more. Benefit from exclusive mentorship and special training sessions from communities and alumni.\n\nElevate your skills and teamwork for a chance at the impressive ₹1,30,000 prize pool.\n Prepare for excitement with a lineup of entertaining programs to keep you engaged throughout the event.\n",
-    "date": "15th & 16th December 2023 ",
-    "time": "",
-    "imageurl": "/EventAssets/hacks'us.jpg",
-    "technical": true,
     "poc": {
       "name": [],
       "no": []
     },
-    "active": 1,
-    "reglink": "https://hacksus.rsetiedc.in/"
+    "active": 2,
+    "reglink": "https://bit.ly/a3k_SCA"
+  },
+  {
+    "id": 25,
+    "no": "25",
+    "title": "ElectroHunt",
+    "route": "ElectroHunt",
+    "description": "ElectroHunt event description.",
+    "date": "",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Nil"],
+      "no": []
+    },
+    "active": 2,
+    "reglink": "https://bit.ly/a3k_SCA"
+  },
+  {
+    "id": 26,
+    "no": "26",
+    "title": "Circuit Race",
+    "route": "Circuit-Race",
+    "description": "The Circuit Race: Accelerate into the heart of innovation with our Circuit Race event! This adrenaline-fueled challenge kicks off with a rapid-fire quiz, testing your circuit savvy, followed by a hands-on implementation round where you'll harness provided components to craft and execute your circuit masterpiece. Feel the surge of excitement as creativity meets technical skill in a high-stakes race to engineer the most innovative circuit. Get ready to push the boundaries, spark ingenuity, and surge ahead toward electrifying triumph!",
+    "date": "15th December 2023",
+    "time": "",
+    "imageurl": "/Images/meta-image.png",
+    "technical": true,
+    "poc": {
+      "name": ["Vimalraj Vijayamohan Thampi", "Savio Amantius"],
+      "no": ["8943499336", "9207494808"]
+    },
+    "active": 2,
+    "reglink": "https://bit.ly/a3k_SCA"
   },
   {
     "id": 27,
     "no": "27",
-    "title": "QuickQuery\n Seek and you shall find!",
-    "route": "quick-query",
-    "description": " Are you ready for the Ultimate Google Challenge?\n\nQuickQuery\n\nWhere time dances to the rhythm of your intellect. Two electrifying minutes, 15 questions that weave through the tapestry of history, currents of affairs, and the intricate threads of tech. No lifeline, no chat bots - just your raw Google skills!\nUnleash the abstract brilliance within!",
-    "date": "24th November 2023",
+    "title": "Uncharted Cipher's Quest (Technical Treasure Hunt)",
+    "route": "Uncharted-Ciphers-Quest-Technical-Treasure-Hunt",
+    "description": "Uncharted Cipher's Quest event description.",
+    "date": "",
     "time": "",
-    "imageurl": "/EventAssets/quickquery.jpg",
+    "imageurl": "/Images/meta-image.png",
     "technical": true,
     "poc": {
-      "name": ["Benison", "Bhadra S Anand"],
-      "no": ["9995921803", "7025065615"]
+      "name": ["Nil"],
+      "no": []
     },
-    "active": 0,
-    "reglink": "https://yepdesk.com/quickquery/private/620nbe1dre"
+    "active": 2,
+    "reglink": "https://bit.ly/a3k_SCA"
   }
 ]
