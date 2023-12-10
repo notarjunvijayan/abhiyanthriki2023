@@ -1,15 +1,15 @@
-import Navbar from '../Navbar/Navbar.jsx';
-import {useState} from 'react';
-import './Landing.css';
-import eventsData from '../Events/EventsData.json';
-import {useNavigate} from 'react-router-dom';
+import Navbar from "../Navbar/Navbar.jsx";
+import { useState } from "react";
+import "./Landing.css";
+import eventsData from "../Events/EventsData.json";
+import { useNavigate } from "react-router-dom";
 
 function Landing() {
 	const navigate = useNavigate();
 
 	const [activeEventIndex, setActiveEventIndex] = useState(null);
 
-	const handleEventClick = index => {
+	const handleEventClick = (index) => {
 		setActiveEventIndex(activeEventIndex === index ? null : index);
 	};
 
@@ -37,7 +37,7 @@ function Landing() {
 					</div>
 
 					<div className="px-2">
-						Don&apos;t just attend; be part of the{' '}
+						Don&apos;t just attend; be part of the{" "}
 						<span className="font-['Monument'] bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text ">
 							REVOLUTION
 						</span>
@@ -87,22 +87,26 @@ function Landing() {
 				<div className="text-white px-6 text-sm">
 					<span className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text text-lg font-bold text-base">
 						Abhiyanthriki
-					</span>
-					, RSET&apos;s biennial technical festival, epitomizes academic
-					excellence and innovation. <br />
+					</span>{" "}
+					Where Innovation Takes Flight!
 					<br />
-					Spanning two meticulously organized days, it offers a spectrum of
-					opportunities, including technical contests, workshops, and creative
-					stalls. <br />
 					<br />
-					Emphasizing sustainability, the event incorporates inventive reuse of
-					plastic bottles and circuit boards in its decor. <br />
+					RSET's biennial tech fest, Abhiyanthriki, isn't merely an event; it's
+					a pulsating emotion of excellence and invention!
+					<br />
+					Join us for a two-day tech extravaganza — a playground for tech
+					contests, workshops, hackathons, and exhilarating stalls, providing a
+					platform for various scholastic and technical achievements.
+					<br />
+					<br />
+					This year, we're not just embracing sustainability; we're transforming
+					waste into a sustainable spectacle.
+					<br />
 					<br />
 					<span className="font-bold text-base bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text text-lg">
 						Abhiyanthriki
-					</span>{' '}
-					is more than an event; it&apos;s a distinguished platform embodying
-					scholastic and technical achievement.
+					</span>{" "}
+					Don't just attend; be part of the revolution!
 				</div>
 			</div>
 
@@ -151,9 +155,9 @@ function Landing() {
 					))}
 				</div>
 				<div className="w-screen text-center text-white text-2xl my-12 pb-12 px-6">
-					Check out more of the events happening at{' '}
+					Check out more of the events happening at{" "}
 					<span className="font-['Monument'] bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text ">
-						A3K{' '}
+						A3K{" "}
 					</span>
 					!
 					<div className="flex flex-row items-center">
