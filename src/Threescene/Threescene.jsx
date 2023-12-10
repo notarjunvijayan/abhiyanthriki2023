@@ -30,7 +30,7 @@ function Threescene() {
   }, [ready, loading]);
 
   return (
-    <div className='overflow-y-hidden'>
+    <div>
       {loading ? (
         <Loader />
       ) : (
