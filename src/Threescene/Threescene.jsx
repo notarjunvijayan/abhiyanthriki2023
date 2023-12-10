@@ -58,7 +58,7 @@ function Threescene() {
           </div>
         </>
       )}
-      {window.innerWidth > window.innerHeight && (
+      {window.innerWidth < window.innerHeight && (
         <>
           <div className='md:hidden block'>
             <Landing />
