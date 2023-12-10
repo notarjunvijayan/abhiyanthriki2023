@@ -33,8 +33,6 @@ function Events() {
     const newShowRegisterSections = Array(eventsData.length).fill(false);
     newShowRegisterSections[index] = !showRegisterSections[index];
     setShowRegisterSections(newShowRegisterSections);
-
-    navigate(`/events/${event.route}`);
   };
 
   const filteredEvents = events.filter((event) => {
