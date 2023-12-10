@@ -3,15 +3,15 @@ import {useState} from 'react';
 import './Landing.css';
 import eventsData from '../Events/EventsData.json';
 import {useNavigate} from 'react-router-dom';
-import Carousel from './Carousel.jsx';
+// import Carousel from './Carousel.jsx';
 
 function Landing() {
 	const navigate = useNavigate();
 
 	
-	const imagesCarousel1 = ['/Images/abc1.png', '/Images/abc2.png', '/Images/abc3.png'];
-	const imagesCarousel2 = [ '/Images/abc5.jpg', '/Images/abc4.png', '/Images/abc6.png'];
-	const imagesCarousel3 = ['/Images/abc9.png', '/Images/abc7.png', '/Images/abc2.png'];
+	// const imagesCarousel1 = ['/Images/abc1.png', '/Images/abc2.png', '/Images/abc3.png'];
+	// const imagesCarousel2 = [ '/Images/abc5.jpg', '/Images/abc4.png', '/Images/abc6.png'];
+	// const imagesCarousel3 = ['/Images/abc9.png', '/Images/abc7.png', '/Images/abc2.png'];
 
 	const [activeEventIndex, setActiveEventIndex] = useState(null);
 
@@ -93,7 +93,7 @@ function Landing() {
 				<div className="text-white px-6 text-sm">
 					<span className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text text-lg font-bold text-base">
 						Abhiyanthriki
-					</span>{" "}RSET's biennial tech fest, Abhiyanthriki, isn't merely an event; it's
+					</span>{" "}RSET&apos;s biennial tech fest, Abhiyanthriki, isn&apos;t merely an event; it&apos;s
 					a pulsating emotion of excellence and invention!
 					<br />
 					<br/>
@@ -102,22 +102,22 @@ function Landing() {
 					platform for various scholastic and technical achievements.
 					<br />
 					<br />
-					This year, we're not just embracing sustainability; we're transforming
+					This year, we&apos;re not just embracing sustainability; we&apos;re transforming
 					waste into a sustainable spectacle.
 					<br />
 					<br />
 					<span className="font-bold text-base bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text text-lg">
 						Abhiyanthriki
 					</span>{" "}
-					Don't just attend; be part of the revolution!
+					Don&apos;t just attend; be part of the revolution!
 				</div>
 			</div>
 
-			<div className="w-[80%] mx-auto flex flex-col gap-2  pb-10">
+			{/* <div className="w-[80%] mx-auto flex flex-col gap-2  pb-10">
 				<Carousel images={imagesCarousel1} />
 				<Carousel images={imagesCarousel2} />
 				<Carousel images={imagesCarousel3} />
-			</div>
+			</div> */}
 
 			<div className="h-[100%] select-none">
 				<div className="text-3xl max-[400px]:text-[1.6rem] bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text font-['Monument'] text-center my-8">
