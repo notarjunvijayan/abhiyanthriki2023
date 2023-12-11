@@ -2,8 +2,7 @@ import { lazy, Suspense, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Loader from './Loader/Loader';
-
-const Home = lazy(() => import('./Home/Home'));
+import Home from './Home/Home';
 const Contact = lazy(() => import('./Contact/Contact'));
 const Events = lazy(() => import('./Events/Events'));
 const IndividualEvents = lazy(() => import('./Events/IndividualEvents'));
@@ -69,14 +68,7 @@ function App() {
       </div>
       <Router>
         <Routes>
-          <Route
-            path='/'
-            element={
-              <Suspense fallback={<Loader />}>
-                <Home />
-              </Suspense>
-            }
-          />
+          <Route path='/' element={<Home />} />
           <Route
             path='/contact-us'
             element={
