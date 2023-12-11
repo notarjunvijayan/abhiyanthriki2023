@@ -1,30 +1,30 @@
-import { Canvas } from '@react-three/fiber';
-import Experience from './Experience/Experience';
-import { ScrollControls } from '@react-three/drei';
-import { useEffect, useState } from 'react';
-import Loader from './Loader/Loader';
-import { useProgress } from '@react-three/drei';
-import * as THREE from 'three';
-import Navbar from '../Navbar/Navbar';
-import '../Home/Home.css';
-import { Noise } from 'lamina';
-import Landing from '../Landing/Landing.jsx';
+import { Canvas } from "@react-three/fiber";
+import Experience from "./Experience/Experience";
+import { ScrollControls } from "@react-three/drei";
+import { useEffect, useState } from "react";
+import Loader from "./Loader/Loader";
+import { useProgress } from "@react-three/drei";
+import * as THREE from "three";
+import Navbar from "../Navbar/Navbar";
+import "../Home/Home.css";
+import { Noise } from "lamina";
+import Landing from "../Landing/Landing.jsx";
 
 function Threescene() {
-  const [loading, setLoading] = useState(false);
-  const [ready, setReady] = useState(false);
+	const [loading, setLoading] = useState(false);
+	const [ready, setReady] = useState(false);
 
-  const progress = useProgress();
+	const progress = useProgress();
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setReady(true);
-    }, 3000);
-    if (setReady && progress.progress == 100) {
-      setLoading(false);
-    }
-  }, [ready, loading]);
+	useEffect(() => {
+		setLoading(true);
+		setTimeout(() => {
+			setReady(true);
+		}, 3000);
+		if (setReady && progress.progress == 100) {
+			setLoading(false);
+		}
+	}, [ready, loading]);
 
   return (
     <div>

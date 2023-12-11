@@ -29,7 +29,7 @@ function Events() {
     handleClick();
   };
 
-  const handleEventClick = (index) => {
+  const handleEventClick = (index, event) => {
     const newShowRegisterSections = Array(eventsData.length).fill(false);
     newShowRegisterSections[index] = !showRegisterSections[index];
     setShowRegisterSections(newShowRegisterSections);
@@ -81,7 +81,7 @@ function Events() {
             <div
               key={event.id}
               className='event-card'
-              onClick={() => handleEventClick(index)}
+              onClick={() => handleEventClick(index, event)}
             >
               <div className='event-image-container'>
                 <img src={event.imageurl} className='event-image' alt='' />

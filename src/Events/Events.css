@@ -90,6 +90,7 @@
 
 .event-card:hover {
   scale: 1.05;
+  cursor: pointer;
 }
 
 .event-image-container {
