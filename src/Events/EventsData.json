@@ -62,7 +62,7 @@
     "description": "👩🏽‍🚀 Heyy there Space Enthusiasts!! Get ready to dive into the cosmos with Abhiyanthriki'23 as we proudly present - Orion's Watch a thrilling guided telescope observation session.👩🏽‍🚀\n🔭An introductory session on selecting, using and extracting information from telescopes, and an observation session where you get to peer into the depths of space, witness stunning planets, and discover celestial wonders!🔭",
     "date": "14 December, 2023",
     "time": "",
-    "imageurl": "/EventAssets/orionwatch.jpg",
+    "imageurl": "/EventAssets/orion's-watch.jpg",
     "technical": true,
     "poc": {
       "name": ["Abhiram", "Bride"],
@@ -96,13 +96,13 @@
     "description": "Onboard into a comprehensive two-round program that seamlessly blends education and competition. Participants partake in an immersive workshop, delving into the intricacies of Arduino-based arcade game development. Covering coding, hardware integration, and game design, this session equips attendees with essential skills. In the Challenge phase unfolds, tasking participants with crafting innovative games. Adjudicated on creativity, functionality, and user engagement, projects are evaluated by discerning judges. This event promises a professional platform for skill enhancement, collaboration, and the showcase of ingenuity in the realm of Arduino game development.",
     "date": "15th December 2023",
     "time": "",
-    "imageurl": "/EventAssets/arduinobash.jpg",
+    "imageurl": "/EventAssets/arduino-arcade-bash.jpg",
     "technical": true,
     "poc": {
       "name": ["Niveditha", "Nisy"],
       "no": ["7306914271", "8281227834"]
     },
-    "active": 1,
+    "active": 0,
     "reglink": "https://bit.ly/a3k_arcade_bash"
   },
   {
@@ -385,14 +385,14 @@
     "description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. These tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
     "date": "16th December 2023",
     "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "imageurl": "/EventAssets/maestro-de-circuito.jpg",
     "technical": true,
     "poc": {
       "name": ["Mikhael Sunil"],
       "no": ["9605535994"]
     },
     "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "reglink": "https://bit.ly/a3k_MDC"
   },
   {
     "id": 24,
@@ -416,17 +416,17 @@
     "no": "25",
     "title": "ElectroHunt",
     "route": "ElectroHunt",
-    "description": "ElectroHunt event description.",
-    "date": "",
-    "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "description": "Event Highlights:\n Quiz Quest: Sharpen your knowledge in a battle of wits!\n Electro-Hunt: Navigate through the labyrinth of challenges.\n Circuit Connection Challenge: Test your technical prowess! \n",
+    "date": "16th December 2023",
+    "time": "10 AM to 1 PM",
+    "imageurl": "/EventAssets/electro-hunt.jpg",
     "technical": true,
     "poc": {
-      "name": ["Nil"],
-      "no": []
+      "name": ["Pooja Praveen", "Vidyalakshmi S Raj"],
+      "no": ["9400349087", "9567704595"]
     },
     "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "reglink": "https://bit.ly/a3k_electrohunt"
   },
   {
     "id": 26,
