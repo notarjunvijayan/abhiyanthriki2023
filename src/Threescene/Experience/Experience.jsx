@@ -463,49 +463,6 @@ export default function Experience() {
         </group>
       </group>
       </group>
-      <group position={[10,7,-660]}>
-      <group position={[-11.5, -8,0]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={2}
-          font={'/Fonts/mono.ttf'}
-        >
-          County Cricket
-        </Text>
-      </group>
-      <Float>
-        <Drone position={[-5, 0, 0]} scale={8} rotation={[0.25, 2.2, 0]} />
-      </Float>
-      <group position={[-11.5, -10.5, 0]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={1}
-          font={'/Fonts/mono.ttf'}
-        >
-          16/12/2023
-        </Text>
-      </group>
-      <group onClick={()=>{window.open("/events/rhythmic-resonance")}} position={[-8,-13.5,0]} 
-      onPointerOver={() => setHovered(true)}
-      onPointerOut={() => setHovered(false)}>
-        <RoundedBox args={[7,2.5]} radius={0.35}/>
-        <group position={[-2,0.2,2]}>
-        <Text
-          color='black' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={0.8}
-          font={'/Fonts/mono.ttf'}
-        >
-          View Event
-        </Text>
-        </group>
-      </group>
-      </group>
       <group position={[-35, 3, -900]}>
         <Text
           color='white' // default
@@ -554,7 +511,7 @@ export default function Experience() {
             <Spaceship scale={0.008} rotation={[0, 3.14, 0]} />
           </Float>
         </group>
-        <Environment resolution={256} files={'/Models/venice_sunset_2k.hdr'} />
+        <Environment resolution={256} files={'/Models/venice_sunset_1k.hdr'} />
         <ambientLight />
       </group>
     </>

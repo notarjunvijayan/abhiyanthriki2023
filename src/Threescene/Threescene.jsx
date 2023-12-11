@@ -40,8 +40,8 @@ function Threescene() {
           linear
         >
           <ScrollControls
-            pages={window.innerHeight < window.innerwidth ? 10 : 25}
-            damping={window.innerHeight < window.innerWidth ? 0.5 : 0.2}
+            pages={10}
+            damping={0.5}
           >
             <Experience />
           </ScrollControls>
