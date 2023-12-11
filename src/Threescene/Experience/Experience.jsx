@@ -155,6 +155,8 @@ export default function Experience() {
   });
   return (
     <>
+    
+      
       <Image
         url={'/Images/a3k217.jpg'}
         position={[10, 8, -600]}
@@ -389,7 +391,7 @@ export default function Experience() {
         </group>
       </group>
       </group>
-      <group position={[10,0,-500]}>
+      <group position={[10,0,-470]}>
       <group position={[0, 0, 0]}>
         <Text
           color='white' // default
