@@ -155,8 +155,6 @@ export default function Experience() {
   });
   return (
     <>
-      <Drone position={[-5, 0, -480]} scale={2} rotation={[0.25, 2.2, 0]} />
-      
       <Image
         url={'/Images/a3k217.jpg'}
         position={[10, 8, -600]}
@@ -292,26 +290,25 @@ export default function Experience() {
       />
       <group position={[2,-2,0]}>
         <Text
-          color='white' // default
-          anchorX='left' // default
-          anchorY='middle' // default
+          color="white" // default
+          anchorX="left" // default
+          anchorY="middle" // default
           fontSize={0.8}
-          font={'/Fonts/mono.ttf'}
-          maxWidth={22}
+          font={"/Fonts/mono.ttf"}
+          maxWidth={30}
         >
-          Abhiyanthriki, RSET's biennial technical festival, epitomizes academic
-          {'\n'}
-          excellence and innovation. Spanning two meticulously organized days,{' '}
-          {'\n'}
-          it offers a spectrum of opportunities, including technical contests,
-          {'\n'}
-          workshops, and creative stalls.Emphasizing sustainability, the event
-          {'\n'}
-          incorporates inventive reuse of plastic bottles and circuit boards in
-          {'\n'}
-          its decor.{'\n'}
-          {'\n'}Abhiyanthriki is more than an event; it's a distinguished{'\n'}
-          platform embodying scholastic and technical achievement.
+          ABHIYANTHRIKI '23 Where Innovation Takes Flight!
+						{"\n"}{"\n"}RSET's biennial tech fest, Abhiyanthriki, isn't merely an
+						event.
+						{"\n"}{"\n"}It's a pulsating emotion of excellence and invention!
+						{"\n"}Join us for a two-day tech extravaganza—a playground for
+						{"\n"}tech contests, workshops, hackathons, and
+						{"\n"}exhilarating stalls, providing a platform for various
+						scholastic and technical achievements.
+						{"\n"}{"\n"}his year, we're not just embracing sustainability.
+						{"\n"}We're transforming waste into a sustainable spectacle.
+						{"\n"}
+						{"\n"}Don't just attend, be part of the revolution!
         </Text>
       </group>
       </group>
@@ -404,7 +401,7 @@ export default function Experience() {
           Rythmic Resonance
         </Text>
       </group>
-      <group position={[0, -2, 0]}>
+      <group position={[0, -3, 0]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -412,7 +409,7 @@ export default function Experience() {
           fontSize={1}
           font={'/Fonts/mono.ttf'}
         >
-          15/12/2023
+          16/12/2023
         </Text>
       </group>
       <Drumset position={[9, 3, 0]} scale={6} />
@@ -444,27 +441,59 @@ export default function Experience() {
         </group>
       </group>
       </group>
-      <group position={[-5.5, -3, -470]}>
+      <group position={[30,7,-570]}>
+      <group position={[-11.5, -8,0]}>
         <Text
           color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
-          fontSize={0.8}
+          fontSize={2}
           font={'/Fonts/mono.ttf'}
         >
           Drone Show
         </Text>
       </group>
-      <group position={[-5, -4, -470]}>
+      <Float>
+        <Drone position={[-5, 0, 0]} scale={8} rotation={[0.25, 2.2, 0]} />
+      </Float>
+      <group position={[-11.5, -10.5, 0]}>
         <Text
           color='white' // default
           anchorX='middle' // default
           anchorY='middle' // default
-          fontSize={0.5}
+          fontSize={1}
           font={'/Fonts/mono.ttf'}
         >
           16/12/2023
         </Text>
+      </group>
+      <group position={[-11.5, -13.5 , 0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={1}
+          font={'/Fonts/mono.ttf'}
+        >
+          One Liner for Drone Show{'\n'}Join Today
+        </Text>
+      </group>
+      <group onClick={()=>{window.open("/events/rhythmic-resonance")}} position={[-8,-17,0]} 
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}>
+        <RoundedBox args={[7,2.5]} radius={0.35}/>
+        <group position={[-2,0.2,2]}>
+        <Text
+          color='black' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={0.8}
+          font={'/Fonts/mono.ttf'}
+        >
+          View Event
+        </Text>
+        </group>
+      </group>
       </group>
       <group position={[-35, 3, -600]}>
         <Text
