@@ -1,5 +1,4 @@
 import { Drone } from './ModelComponents/StingerDrone';
-import { Cloud } from './ModelComponents/Model';
 import { useFrame } from '@react-three/fiber';
 import { useState,useEffect } from 'react';
 import { RoundedBox, useScroll } from '@react-three/drei';
@@ -155,16 +154,16 @@ export default function Experience() {
   });
   return (
     <>
-    
+      
       
       <Image
         url={'/Images/a3k217.jpg'}
-        position={[10, 8, -600]}
+        position={[10, 8, -900]}
         args={[16, 9]}
       />
       <Image
         url={'/Images/a3kvintage3.jpg'}
-        position={[10, -3, -600]}
+        position={[10, -3, -900]}
         args={[16, 10]}
       />
 
@@ -336,7 +335,7 @@ export default function Experience() {
           Get Ready For
         </Text>
       </group>
-      <group position={[-5,4,-400]}>
+      <group position={[-5,2,-400]}>
       <group position={[-5, -3, 0]}>
         <Text
           color='white' // default
@@ -359,22 +358,11 @@ export default function Experience() {
           14/12/2023
         </Text>
       </group>
-      <group position={[-5, -8 , 0]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={1}
-          font={'/Fonts/mono.ttf'}
-        >
-          One Liner for Orion's Watch{'\n'}Join Today
-        </Text>
-      </group>
       <Telescope scale={6} position={[12, -2, 0]} rotation={[0, 1, 0]} />
       <Float floatIntensity={5} floatingRange={5}>
         <Astronaut position={[-5, 4, -7]} rotation={[-0.2, -0.5, -0.5]} scale={0.04} />
       </Float>
-      <group onClick={()=>{window.open("/events/orions-watch")}} position={[-1.5,-13,0]} 
+      <group onClick={()=>{window.open("/events/orions-watch")}} position={[-1.5,-8,0]} 
       onPointerOver={() => setHovered(true)}
       onPointerOut={() => setHovered(false)}>
         <RoundedBox args={[7,2.5]} radius={0.35}/>
@@ -415,18 +403,7 @@ export default function Experience() {
         </Text>
       </group>
       <Drumset position={[9, 3, 0]} scale={6} />
-      <group position={[0, -6 , 0]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={1}
-          font={'/Fonts/mono.ttf'}
-        >
-          One Liner for Rythmic Resonance{'\n'}Join Today
-        </Text>
-      </group>
-      <group onClick={()=>{window.open("/events/rhythmic-resonance")}} position={[3.5,-11,0]} 
+      <group onClick={()=>{window.open("/events/rhythmic-resonance")}} position={[3.5,-6,0]} 
       onPointerOver={() => setHovered(true)}
       onPointerOut={() => setHovered(false)}>
         <RoundedBox args={[7,2.5]} radius={0.35}/>
@@ -469,18 +446,7 @@ export default function Experience() {
           16/12/2023
         </Text>
       </group>
-      <group position={[-11.5, -13.5 , 0]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={1}
-          font={'/Fonts/mono.ttf'}
-        >
-          One Liner for Drone Show{'\n'}Join Today
-        </Text>
-      </group>
-      <group onClick={()=>{window.open("/events/rhythmic-resonance")}} position={[-8,-17,0]} 
+      <group onClick={()=>{window.open("/events/rhythmic-resonance")}} position={[-8,-13.5,0]} 
       onPointerOver={() => setHovered(true)}
       onPointerOut={() => setHovered(false)}>
         <RoundedBox args={[7,2.5]} radius={0.35}/>
@@ -497,7 +463,50 @@ export default function Experience() {
         </group>
       </group>
       </group>
-      <group position={[-35, 3, -600]}>
+      <group position={[10,7,-660]}>
+      <group position={[-11.5, -8,0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={2}
+          font={'/Fonts/mono.ttf'}
+        >
+          County Cricket
+        </Text>
+      </group>
+      <Float>
+        <Drone position={[-5, 0, 0]} scale={8} rotation={[0.25, 2.2, 0]} />
+      </Float>
+      <group position={[-11.5, -10.5, 0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={1}
+          font={'/Fonts/mono.ttf'}
+        >
+          16/12/2023
+        </Text>
+      </group>
+      <group onClick={()=>{window.open("/events/rhythmic-resonance")}} position={[-8,-13.5,0]} 
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}>
+        <RoundedBox args={[7,2.5]} radius={0.35}/>
+        <group position={[-2,0.2,2]}>
+        <Text
+          color='black' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={0.8}
+          font={'/Fonts/mono.ttf'}
+        >
+          View Event
+        </Text>
+        </group>
+      </group>
+      </group>
+      <group position={[-35, 3, -900]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -508,7 +517,7 @@ export default function Experience() {
           BE A PART OF {'\n'}ABHIYANTHRIKI
         </Text>
       </group>
-      <group position={[-40, -3, -600]}>
+      <group position={[-40, -3, -900]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -519,7 +528,7 @@ export default function Experience() {
           Register for events from the events section
         </Text>
       </group>
-      <group position={[-15, -20, -600]}>
+      <group position={[-15, -20, -900]}>
         <Text
           color='white' // default
           anchorX='middle' // default
