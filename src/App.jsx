@@ -1,10 +1,12 @@
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Contact from './Contact/Contact';
-import Events from './Events/Events';
-import Home from './Home/Home';
-import IndividualEvents from './Events/IndividualEvents';
+import Loader from './Loader/Loader';
+
+const Home = lazy(() => import('./Home/Home'));
+const Contact = lazy(() => import('./Contact/Contact'));
+const Events = lazy(() => import('./Events/Events'));
+const IndividualEvents = lazy(() => import('./Events/IndividualEvents'));
 
 function App() {
   useEffect(() => {
@@ -41,11 +43,10 @@ function App() {
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
     };
-  }, []); // empty dependency array means this effect will only run once on mount
+  }, []);
 
   return (
     <>
-      {/* Your existing JSX code */}
       <div className='bg'>
         <div className='z-3'>
           <div className='tile top-left animate-opacity freq-5'></div>
@@ -68,10 +69,38 @@ function App() {
       </div>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/contact-us' element={<Contact />} />
-          <Route path='/events' element={<Events />} />
-          <Route path='/events/:route' element={<IndividualEvents />} />
+          <Route
+            path='/'
+            element={
+              <Suspense fallback={<Loader />}>
+                <Home />
+              </Suspense>
+            }
+          />
+          <Route
+            path='/contact-us'
+            element={
+              <Suspense fallback={<Loader />}>
+                <Contact />
+              </Suspense>
+            }
+          />
+          <Route
+            path='/events'
+            element={
+              <Suspense fallback={<Loader />}>
+                <Events />
+              </Suspense>
+            }
+          />
+          <Route
+            path='/events/:route'
+            element={
+              <Suspense fallback={<Loader />}>
+                <IndividualEvents />
+              </Suspense>
+            }
+          />
         </Routes>
       </Router>
     </>
