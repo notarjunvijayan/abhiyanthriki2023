@@ -84,7 +84,7 @@ function Events() {
               onClick={() => handleEventClick(index, event)}
             >
               <div className='event-image-container'>
-                <img src={event.imageurl} className='event-image' alt='' />
+                <img src={event.imageurl} className='event-image' alt='event image' loading="lazy"/>
                 <div className='event-image-overlay'>
                   <div className='event-overlay-title'>{event.title}</div>
                 </div>

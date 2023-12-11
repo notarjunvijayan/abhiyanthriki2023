@@ -160,10 +160,10 @@ const Contact = () => {
 			</div>
 			<div className="md:hidden block mx-auto h-screen">
 				<Navbar />
-				<div className='text-4xl w-full px-2 text-[white] text-center font-["Monument"]'>
+				<div className='text-4xl w-full px-2 text-[white] text-center font-["Monument"] max-[400px]-mb-0 mb-10'>
 					GET IN TOUCH
 				</div>
-				<div className='flex flex-col gap-3  w-5/6 mx-auto max:[400px]:my-5 my-6 font-["mono"]'>
+				<div className='flex flex-col max-[400px]:gap-3 gap-8  w-5/6 mx-auto max:[400px]:my-5 my-20 font-["mono"]'>
 					<div className="basis-1/2 rounded-lg flex flex-col text-white text-center bg-[black] bg-opacity-10 shadow-[0_3px_10px_rgb(255,255,0,0.42)] p-4 gap-2 text-xl">
 						<div className="text-3  xl mb-2 flex"> Socials</div>
 						<div className="flex flex-row gap-10 items-center">

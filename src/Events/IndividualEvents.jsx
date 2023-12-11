@@ -25,6 +25,7 @@ function IndividualEvent() {
               src={event.imageurl}
               alt=''
               className='event-details-posterImg'
+              loading="lazy"
             />
             {/* <div className="imgplaceholder"></div> */}
           </div>

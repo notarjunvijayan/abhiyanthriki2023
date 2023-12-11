@@ -1,21 +1,18 @@
 import Navbar from '../Navbar/Navbar.jsx';
-import {useState} from 'react';
 import './Landing.css';
 import eventsData from '../Events/EventsData.json';
+import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
+import Carousel from './Carousel.jsx';
+
 // import Carousel from './Carousel.jsx';
 
 function Landing() {
 	const navigate = useNavigate();
 
-	
-	// const imagesCarousel1 = ['/Images/abc1.png', '/Images/abc2.png', '/Images/abc3.png'];
-	// const imagesCarousel2 = [ '/Images/abc5.jpg', '/Images/abc4.png', '/Images/abc6.png'];
-	// const imagesCarousel3 = ['/Images/abc9.png', '/Images/abc7.png', '/Images/abc2.png'];
-
 	const [activeEventIndex, setActiveEventIndex] = useState(null);
 
-	const handleEventClick = (index) => {
+	const handleEventClick = index => {
 		setActiveEventIndex(activeEventIndex === index ? null : index);
 	};
 
@@ -44,7 +41,7 @@ function Landing() {
 					</div>
 
 					<div className="px-2">
-						Don&apos;t just attend; be part of the{" "}
+						Don&apos;t just attend; be part of the{' '}
 						<span className="font-['Monument'] bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text ">
 							REVOLUTION
 						</span>
@@ -53,36 +50,45 @@ function Landing() {
 				</div>
 			</div>
 
-			<div className="h-[100%] select-none text-white text-center py-2">
+			<div className="select-none text-white text-center py-2">
 				<div className="text-3xl bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text font-['Monument'] text-center">
 					<span className="text-white font-['Monument']">OUR</span> SPONSORS
 				</div>
-				<div className="my-9 flex flex-col gap-10">
-					<div className="text-3xl">
-						TITLE SPONSOR
-						<div className="mx-auto text-center text-white text-xl border border-2 border-white mx-3 rounded-2xl">
-							<img
-								src="/Images/techmindz-white.png"
-								alt="title sponsor logo"
-								className="w-3/4 mx-auto"
-							/>
-						</div>
+
+				<div className="text-4xl h-screen flex items-center justify-evenly flex-col ">
+					<div className="mx-auto text-center flex items-center justify-center text-white text-xl border border-2 border-white mx-4 rounded-2xl">
+						<img
+							src="/Images/techmindz-white.png"
+							alt="title sponsor logo"
+							className=" px-2 mx-auto"
+							loading="lazy"
+						/>
 					</div>
-					<div className="text-2xl">
-						PLATINUM SPONSORS
-						<div className="mx-auto text-center text-white text-xl flex flex-col gap-6 border border-2 border-white mx-3 rounded-2xl">
+					TITLE SPONSOR
+				</div>
+				<div className="text-3xl bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text font-['Monument'] text-center">
+					<span className="text-white font-['Monument']">OUR</span> SPONSORS
+				</div>
+				<div className="text-2xl h-screen flex items-center justify-evenly flex-col -mt-[10%]">
+					<div className="mx-auto text-center text-white text-xl flex flex-col gap-6 ">
+						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
 							<img
 								src="/Images/GLOBAL_logo.jpg"
 								alt="global sponsor logo"
-								className="w-[55%] mx-auto"
+								className="w-3/4 mx-auto"
+								loading="lazy"
 							/>
+						</div>
+						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
 							<img
 								src="/Images/Hubspire.jpg"
 								alt="hubspire sponsor logo"
-								className="w-[55%] mx-auto mb-4"
+								className="mx-auto"
+								loading="lazy"
 							/>
 						</div>
 					</div>
+					<div className="">PLATINUM SPONSORS</div>
 				</div>
 			</div>
 
@@ -90,26 +96,31 @@ function Landing() {
 				<div className="text-3xl bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text font-['Monument'] text-center">
 					<span className="text-white font-['Monument']">ABOUT</span> A3k
 				</div>
-				<img src="/Images/rset.jpg" className="px-5 max-[400px]:my-5 my-12" />
+				<img
+					src="/Images/rset.jpg"
+					className="px-5 max-[400px]:my-5 my-12"
+					loading="lazy"
+				/>
 				<div className="text-white px-6 text-sm">
 					<span className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text text-lg font-bold text-base">
 						Abhiyanthriki
-					</span>{" "}RSET&apos;s biennial tech fest, Abhiyanthriki, isn&apos;t merely an event; it&apos;s
-					a pulsating emotion of excellence and invention!
+					</span>{' '}
+					RSET&apos;s biennial tech fest, Abhiyanthriki, isn&apos;t merely an
+					event; it&apos;s a pulsating emotion of excellence and invention!
 					<br />
-					<br/>
+					<br />
 					Join us for a two-day tech extravaganza — a playground for tech
 					contests, workshops, hackathons, and exhilarating stalls, providing a
 					platform for various scholastic and technical achievements.
 					<br />
 					<br />
-					This year, we&apos;re not just embracing sustainability; we&apos;re transforming
-					waste into a sustainable spectacle.
+					This year, we&apos;re not just embracing sustainability; we&apos;re
+					transforming waste into a sustainable spectacle.
 					<br />
 					<br />
 					<span className="font-bold text-base bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text text-lg">
 						Abhiyanthriki
-					</span>{" "}
+					</span>{' '}
 					Don&apos;t just attend; be part of the revolution!
 				</div>
 			</div>
@@ -120,8 +131,10 @@ function Landing() {
 				<Carousel images={imagesCarousel3} />
 			</div> */}
 
+			<Carousel />
+
 			<div className="h-[100%] select-none">
-				<div className="text-3xl max-[400px]:text-[1.6rem] bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text font-['Monument'] text-center my-8">
+				<div className="text-3xl max-[400px]:text-[1.6rem] bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text font-['Monument'] text-center my-20">
 					<span className="text-white font-['Monument']">EVENT</span> SHOWCASE
 				</div>
 				<div className="grid grid-cols-1 gap-10 md:pl-8 md:px-10 pb-6 px-4 select-none">
@@ -136,6 +149,7 @@ function Landing() {
 									src={event.imageurl}
 									className="w-full h-full object-cover"
 									alt="Event Image"
+									loading="lazy"
 								/>
 								{activeEventIndex === index && (
 									<div className="absolute inset-0 flex flex-col items-center justify-end bg-black transition-opacity duration-300 ease-out opacity-80">
@@ -165,9 +179,9 @@ function Landing() {
 					))}
 				</div>
 				<div className="w-screen text-center text-white text-2xl my-12 pb-12 px-6">
-					Check out more of the events happening at{" "}
+					Check out more of the events happening at{' '}
 					<span className="font-['Monument'] bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text ">
-						A3K{" "}
+						A3K{' '}
 					</span>
 					!
 					<div className="flex flex-row items-center">
