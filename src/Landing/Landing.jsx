@@ -20,10 +20,10 @@ function Landing() {
 	};
 
 	return (
-		<div className="h-screen font-['mono']">
+		<div className="font-['mono'] bg-[url('/Images/bg-static.jpeg')]">
 			<Navbar />
 
-			<div className="h-[100%] flex flex-col items-center justify-around">
+			<div className="h-[100vh] flex flex-col items-center justify-around">
 				<div className=" flex flex-col justify-center items-center">
 					<div
 						className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-[#fff] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl"

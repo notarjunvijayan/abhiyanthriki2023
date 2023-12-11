@@ -54,7 +54,7 @@ function Threescene() {
         {loading ? (
           <Loader />
         ) : (
-          <div className='md:hidden block'>
+          <div className="select-none md:hidden block  ">
             <Landing />
           </div>
         )}
