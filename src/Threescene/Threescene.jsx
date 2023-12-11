@@ -17,13 +17,13 @@ function Threescene() {
 	const progress = useProgress();
 
 	useEffect(() => {
-	  setLoading(true);
-	  setTimeout(() => {
-	    setReady(true);
-	  }, 3000);
-	  if (setReady && progress.progress == 100) {
-	    setLoading(false);
-	  }
+		setLoading(true);
+		setTimeout(() => {
+			setReady(true);
+		}, 3000);
+		if (setReady && progress.progress == 100) {
+			setLoading(false);
+		}
 	}, [ready, loading]);
 
 	return (
@@ -31,26 +31,25 @@ function Threescene() {
 			{loading ? (
 				<Loader />
 			) : (
-				<>
-					<div className="navbar-threescene">
-						<Navbar />
-					</div>
-					<div className="w-screen h-screen md:block hidden">
-						<Canvas
-							gl={{ antialias: true, toneMapping: THREE.NoToneMapping }}
-							linear
-						>
-							<ScrollControls
-								pages={window.innerHeight < window.innerwidth ? 10 : 25}
-								damping={window.innerHeight < window.innerWidth ? 0.5 : 0.2}
-							>
-								<Experience />
-							</ScrollControls>
-							<Noise></Noise>
-						</Canvas>
-					</div>
-				</>
+				<div className="navbar-threescene">
+					<Navbar />
+				</div>
 			)}
+			<div className="w-screen h-screen md:block hidden">
+				<Canvas
+					gl={{ antialias: true, toneMapping: THREE.NoToneMapping }}
+					linear
+				>
+					<ScrollControls
+						pages={window.innerHeight < window.innerwidth ? 10 : 25}
+						damping={window.innerHeight < window.innerWidth ? 0.5 : 0.2}
+					>
+						<Experience />
+					</ScrollControls>
+					<Noise></Noise>
+				</Canvas>
+			</div>
+
 			<div className="md:hidden block">
 				{" "}
 				{loading ? (
