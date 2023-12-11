@@ -20,7 +20,8 @@ function Landing() {
 	};
 
 	return (
-		<div className="font-['mono'] bg-[url('/Images/bg-static.jpeg')]">
+		<div className="font-['mono'] ">
+			{/* bg-[url('/Images/bg-static.jpeg')] */}
 			<Navbar />
 
 			<div className="h-[100vh] flex flex-col items-center justify-around">
