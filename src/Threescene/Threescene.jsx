@@ -14,12 +14,13 @@ function Threescene() {
   const [loading, setLoading] = useState(false);
   const [ready, setReady] = useState(false);
 
+  const progress = useProgress();
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setReady(true);
     }, 3000);
-    if (setReady) {
+    if (setReady && progress.progress == 100) {
       setLoading(false);
     }
   }, [ready, loading]);
