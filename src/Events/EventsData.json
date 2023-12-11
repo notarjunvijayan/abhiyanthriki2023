@@ -382,7 +382,7 @@
     "no": "23",
     "title": "Maestro de Circuito",
     "route": "maestro-de-circuito",
-    "description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. These tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
+    "description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. \n\nThese tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
     "date": "16th December 2023",
     "time": "",
     "imageurl": "/EventAssets/maestro-de-circuito.jpg",
@@ -391,7 +391,7 @@
       "name": ["Mikhael Sunil"],
       "no": ["9605535994"]
     },
-    "active": 2,
+    "active": 1,
     "reglink": "https://bit.ly/a3k_MDC"
   },
   {
@@ -416,7 +416,7 @@
     "no": "25",
     "title": "ElectroHunt",
     "route": "ElectroHunt",
-    "description": "Event Highlights:\n Quiz Quest: Sharpen your knowledge in a battle of wits!\n Electro-Hunt: Navigate through the labyrinth of challenges.\n Circuit Connection Challenge: Test your technical prowess! \n",
+    "description": "Event Highlights:\n\n Quiz Quest: Sharpen your knowledge in a battle of wits!\n\n Electro-Hunt: Navigate through the labyrinth of challenges.\n\n Circuit Connection Challenge: Test your technical prowess! \n",
     "date": "16th December 2023",
     "time": "10 AM to 1 PM",
     "imageurl": "/EventAssets/electro-hunt.jpg",
@@ -425,7 +425,7 @@
       "name": ["Pooja Praveen", "Vidyalakshmi S Raj"],
       "no": ["9400349087", "9567704595"]
     },
-    "active": 2,
+    "active": 1,
     "reglink": "https://bit.ly/a3k_electrohunt"
   },
   {
