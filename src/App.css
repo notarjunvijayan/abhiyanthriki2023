@@ -4,7 +4,7 @@
     height: 100dvh;
     z-index:-5;
     top: 0;
-    scrollbar-color: black orange;
+    scrollbar-color: black white;
     scrollbar-width: thin;
 }
 ::-webkit-scrollbar {
@@ -16,13 +16,10 @@
     background: none;
     border-radius: 5px;
   }
-  ::-webkit-scrollbar-track:hover {
-    background: orange;
-  }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: black;
+    background: white;
     border-radius: 5px;
     border:3px solid transparent;
     background-clip: content-box;

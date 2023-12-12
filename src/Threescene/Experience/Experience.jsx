@@ -100,13 +100,9 @@ export default function Experience() {
   useFrame((_state, delta) => {
     //Fov and Position Changes according to window aspect ratio
     //(SCENE RESPONSIVITY)
-    if (window.innerWidth < window.innerHeight) {
-      camera.current.fov = 45;
-      camera.current.position.z = 60;
-      camera.current.position.y = 5;
-    } else {
+    if (window.innerWidth > window.innerHeight) {
       camera.current.fov = 30;
-      camera.current.position.z = 13;
+      camera.current.position.z = window.innerWidth/110;
       camera.current.position.y = 1;
     }
     const curPointIndex = Math.min(
