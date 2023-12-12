@@ -433,16 +433,16 @@
     "no": "26",
     "title": "Uncharted Cipher's Quest (Technical Treasure Hunt)",
     "route": "Uncharted-Ciphers-Quest-Technical-Treasure-Hunt",
-    "description": "Uncharted Cipher's Quest event description.",
-    "date": "",
-    "time": "",
-    "imageurl": "/Images/meta-image.png",
+    "description": "Dive into an electrifying journey into the captivating realm of Cipher's Quest! Immerse yourself in the thrilling challenge of decoding, debugging, and problem-solving across three exhilarating rounds.\nJust like a small-field symphony of ability and strategy, each team member plays a crucial role in unraveling complex codes and navigating the intricate web of challenges. Brace yourself for a fast-paced, dynamic experience where individual ingenuity and teamwork collide in the quest for victory.\nCipher Quest is not just a tech adventure; it's a pulse-pounding symphony of wit and skill. Do you have what it takes to conquer the quest and emerge victorious?",
+    "date": "15th December 2023",
+    "time": "9:30 A.M - 12:30 P.M",
+    "imageurl": "/EventAssets/cipher.jpg",
     "technical": true,
     "poc": {
       "name": ["Nil"],
       "no": []
     },
-    "active": 2,
-    "reglink": "https://bit.ly/a3k_SCA"
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_UCQ"
   }
 ]
