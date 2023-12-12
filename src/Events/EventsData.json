@@ -364,23 +364,6 @@
 	{
 		"id": 22,
 		"no": "22",
-		"title": "Escape Room - Non Tech",
-		"route": "escape-room-non-tech",
-		"description": "Escape Room - Non Tech event description.",
-		"date": "",
-		"time": "",
-		"imageurl": "/Images/meta-image.png",
-		"technical": false,
-		"poc": {
-			"name": [],
-			"no": []
-		},
-		"active": 2,
-		"reglink": "https://bit.ly/a3k_SCA"
-	},
-	{
-		"id": 23,
-		"no": "23",
 		"title": "Maestro de Circuito",
 		"route": "maestro-de-circuito",
 		"description": "Maestro De Circuito serves as the ultimate arena where teams showcase their electronics expertise through competitive challenges. \n\nThese tasks assess their knowledge and application capabilities, with the top-performing teams advancing through rounds. The team that successfully completes the final challenge wins.",
@@ -396,8 +379,8 @@
 		"reglink": "https://bit.ly/a3k_MDC"
 	},
 	{
-		"id": 24,
-		"no": "24",
+		"id": 23,
+		"no": "23",
 		"title": "3s Football",
 		"route": "3s-football",
 		"description": "Get ready for a kickin' good time at this football showdown where teams shall vie for victory!\n\nHere, it will all come down to teamwork, skill, and the sheer joy of playing. Join us for a day where football reaches new heights of intensity and camaraderie!",
@@ -413,8 +396,8 @@
 		"reglink": "https://bit.ly/a3k_3sf"
 	},
 	{
-		"id": 25,
-		"no": "25",
+		"id": 24,
+		"no": "24",
 		"title": "ElectroHunt",
 		"route": "ElectroHunt",
 		"description": "Event Highlights:\n\n Quiz Quest: Sharpen your knowledge in a battle of wits!\n\n Electro-Hunt: Navigate through the labyrinth of challenges.\n\n Circuit Connection Challenge: Test your technical prowess! \n",
@@ -430,8 +413,8 @@
 		"reglink": "https://bit.ly/a3k_electrohunt"
 	},
 	{
-		"id": 26,
-		"no": "26",
+		"id": 25,
+		"no": "25",
 		"title": "Circuit Race",
 		"route": "Circuit-Race",
 		"description": "The Circuit Race: Accelerate into the heart of innovation with our Circuit Race event! This adrenaline-fueled challenge kicks off with a rapid-fire quiz, testing your circuit savvy, followed by a hands-on implementation round where you'll harness provided components to craft and execute your circuit masterpiece. Feel the surge of excitement as creativity meets technical skill in a high-stakes race to engineer the most innovative circuit. Get ready to push the boundaries, spark ingenuity, and surge ahead toward electrifying triumph!",
@@ -447,8 +430,8 @@
 		"reglink": "https://bit.ly/a3k_CR"
 	},
 	{
-		"id": 27,
-		"no": "27",
+		"id": 26,
+		"no": "26",
 		"title": "Uncharted Cipher's Quest (Technical Treasure Hunt)",
 		"route": "Uncharted-Ciphers-Quest-Technical-Treasure-Hunt",
 		"description": "Uncharted Cipher's Quest event description.",
