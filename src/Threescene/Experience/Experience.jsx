@@ -11,6 +11,7 @@ import { Astronaut } from './ModelComponents/Astronaut';
 import Drumset from './ModelComponents/Drumset';
 import { Spaceship } from './ModelComponents/Spaceship';
 import {Bat} from './ModelComponents/Bat'
+import {Football} from './ModelComponents/Football'
 
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
@@ -50,7 +51,7 @@ export default function Experience() {
       new THREE.Vector3(50, 0, -4 * CURVE_DISTANCE),
       new THREE.Vector3(0, 0, -5 * CURVE_DISTANCE),
       new THREE.Vector3(0, 0, -6 * CURVE_DISTANCE),
-      new THREE.Vector3(0, 0, -7 * CURVE_DISTANCE),
+      new THREE.Vector3(0, 0, -6.5 * CURVE_DISTANCE),
       ],
       false,
       'catmullrom',
@@ -68,7 +69,7 @@ export default function Experience() {
         new THREE.Vector3(45, 0, -4 * CURVE_DISTANCE),
         new THREE.Vector3(0, 0, -5 * CURVE_DISTANCE),
         new THREE.Vector3(0, 0, -6 * CURVE_DISTANCE),
-        new THREE.Vector3(0, 0, -7 * CURVE_DISTANCE),
+        new THREE.Vector3(0, 0, -6.5 * CURVE_DISTANCE),
       ],
       false,
       'catmullrom',
@@ -465,7 +466,7 @@ export default function Experience() {
           County Cricket
         </Text>
       </group>
-      <Float>
+      <Float floatingRange={2} floatIntensity={2}>
         <Bat position={[0,0,-1]} rotation={[0.5,-0.5,0.7]}/>
       </Float>
       <group position={[-11.5, -10.5, 0]}>
@@ -483,7 +484,7 @@ export default function Experience() {
       onPointerOver={() => setHovered(true)}
       onPointerOut={() => setHovered(false)}>
         <RoundedBox args={[7,2.5]} radius={0.35}/>
-        <group position={[-3,0.2,2]}>
+        <group position={[-2.5,0.2,2]}>
         <Text
           color='black' // default
           anchorX='middle' // default
@@ -497,6 +498,11 @@ export default function Experience() {
       </group>
       </group>
       <group position={[-30,7,-770]}>
+      <group position={[-5,0,0]}>
+      <Float>
+        <Football scale={35}/>
+      </Float>
+      </group>
       <group position={[-11.5, -8,0]}>
         <Text
           color='white' // default
@@ -523,7 +529,7 @@ export default function Experience() {
       onPointerOver={() => setHovered(true)}
       onPointerOut={() => setHovered(false)}>
         <RoundedBox args={[7,2.5]} radius={0.35}/>
-        <group position={[-3,0.2,2]}>
+        <group position={[-2.5,0.2,2]}>
         <Text
           color='black' // default
           anchorX='middle' // default
@@ -605,17 +611,6 @@ export default function Experience() {
         </group>
       </group>
       </group>
-      <group position={[-35, 3, -1700]}>
-        <Text
-          color='white' // default
-          anchorX='middle' // default
-          anchorY='middle' // default
-          fontSize={3}
-          font={'/Fonts/monument-regular.otf'}
-        >
-          BE A PART OF {'\n'}ABHIYANTHRIKI
-        </Text>
-      </group>
       <group position={[10,0,-1100]}>
       <Text
           color='white' // default
@@ -657,7 +652,18 @@ export default function Experience() {
         position={[-15, 0, -1450]}
         args={[18, 12]}
       />
-      <group position={[-40, -3, -1700]}>
+      <Image
+        url={'/Images/c5.png'}
+        position={[18, 0, -1530]}
+        args={[18, 12]}
+      />
+      <Image
+        url={'/Images/c6.png'}
+        position={[-15, 0, -1600]}
+        args={[18, 12]}
+      />
+      <group position={[0,0,-1700]}>
+      <group position={[-40, 0, 0]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -665,10 +671,10 @@ export default function Experience() {
           fontSize={1.5}
           font={'/Fonts/mono.ttf'}
         >
-          Register for events from the events section
+          Register for events now
         </Text>
       </group>
-      <group position={[-15, -20, -1700]}>
+      <group position={[-15, -20,0]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -678,6 +684,34 @@ export default function Experience() {
         >
           Made by the Abhiyanthriki 2023 Website team
         </Text>
+      </group>
+      <group onClick={()=>{window.open("/events")}} position={[-34,-5,0]} 
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}>
+        <RoundedBox args={[12,2.5]} radius={0.35}/>
+        <group position={[-3.5,0.2,2]}>
+        <Text
+          color='black' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={0.9}
+          font={'/Fonts/mono.ttf'}
+        >
+          Explore Events
+        </Text>
+        </group>
+      </group>
+      <group position={[-40, 10, 0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={5}
+          font={'/Fonts/monument-regular.otf'}
+        >
+          BE A PART OF {'\n'}ABHIYANTHRIKI
+        </Text>
+      </group>
       </group>
       <group ref={cameraGroup}>
       <PerspectiveCamera
