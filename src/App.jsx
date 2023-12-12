@@ -5,6 +5,7 @@ import Loader from './Loader/Loader';
 import Home from './Home/Home';
 const Contact = lazy(() => import('./Contact/Contact'));
 const Events = lazy(() => import('./Events/Events'));
+const Credits = lazy(() => import('./Credits/Credits'));
 const IndividualEvents = lazy(() => import('./Events/IndividualEvents'));
 
 function App() {
@@ -90,6 +91,14 @@ function App() {
             element={
               <Suspense fallback={<Loader />}>
                 <IndividualEvents />
+              </Suspense>
+            }
+          />
+          <Route
+            path='/team'
+            element={
+              <Suspense fallback={<Loader />}>
+                <Credits/>
               </Suspense>
             }
           />

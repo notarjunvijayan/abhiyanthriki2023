@@ -1,0 +1,12 @@
+.team-container{
+    color: white;
+    width: 100dvw;
+    height: 90dvh;
+    display: flex;
+    justify-content: center;
+}
+.team-container h1{
+    font-family: Monument;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
