@@ -41,10 +41,13 @@ function Events() {
   const handleRegClick = (reglink) => {
     window.open(reglink, '_blank');
   };
+
+  const isMobile = window.innerWidth < 768;
+
   return (
     <>
       <Navbar />
-      <div className='event-container'>
+      <div className={`event-container ${isMobile ? "bg-[url('/Images/bg-static2.jpg')]" : ''}`}>
         <div className='event-title'>EVENTS</div>
         <div className='event-toggle-container'>
           <div

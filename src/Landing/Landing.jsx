@@ -5,8 +5,6 @@ import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import Carousel from './Carousel.jsx';
 
-// import Carousel from './Carousel.jsx';
-
 function Landing() {
 	const navigate = useNavigate();
 
@@ -16,8 +14,9 @@ function Landing() {
 		setActiveEventIndex(activeEventIndex === index ? null : index);
 	};
 
+
 	return (
-		<div className="font-['mono'] ">
+		<div className="font-['mono'] bg-[url('/Images/bg-static2.jpg')]">
 			{/* bg-[url('/Images/bg-static.jpeg')] */}
 			<Navbar />
 
