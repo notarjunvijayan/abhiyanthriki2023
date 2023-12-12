@@ -50,7 +50,11 @@ function Events() {
   return (
     <>
       <Navbar />
-      <div className={`event-container ${isMobile ? "bg-[url('/Images/bg-static2.jpg')]" : ''}`}>
+      <div
+        className={`event-container ${
+          isMobile ? "bg-[url('/Images/bg-static2.jpg')]" : ''
+        }`}
+      >
         <div className='event-title'>EVENTS</div>
         <div className='event-toggle-container'>
           <div
@@ -90,8 +94,18 @@ function Events() {
               onClick={() => handleEventClick(index, event)}
             >
               <div className='event-image-container'>
-                <img src={event.imageurl} className='event-image' alt='event image' loading="lazy"/>
-                <div className='event-image-overlay'>
+                <img
+                  src={event.imageurl}
+                  className='event-image'
+                  alt='event image'
+                  loading='lazy'
+                />
+                <div
+                  className='event-image-overlay'
+                  onClick={() => {
+                    navigate(`/events/${event.route}`);
+                  }}
+                >
                   <div className='event-overlay-title'>{event.title}</div>
                 </div>
               </div>
