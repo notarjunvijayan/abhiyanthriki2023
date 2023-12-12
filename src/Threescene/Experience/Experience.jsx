@@ -698,7 +698,12 @@ export default function Experience() {
             Register for events now
           </Text>
         </group>
-        <group position={[-15, -20, 0]}>
+        <group position={[-15, -20, 0]}
+          onClick={() => {
+            window.open('/team');
+          }}
+          onPointerOver={() => setHovered(true)}
+          onPointerOut={() => setHovered(false)}>
           <Text
             color='white' // default
             anchorX='middle' // default

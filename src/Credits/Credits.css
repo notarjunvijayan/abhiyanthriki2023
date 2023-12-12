@@ -3,10 +3,51 @@
     width: 100dvw;
     height: 90dvh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 .team-container h1{
     font-family: Monument;
     font-size: 2.5rem;
     text-transform: uppercase;
+}
+.main{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70vw;
+    height: 50vh;
+    padding:1rem;
+    overflow-y: scroll;
+}
+.item{
+    border: 1px solid white;
+    font-family: mono;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+    cursor: default;
+}
+@media (max-width:1000px) {
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (max-width:800px) {
+    .main{
+        grid-template-columns: 1fr;
+        height: 70vh;
+    }
+    .item{
+        font-size: 1rem;
+    }
 }
