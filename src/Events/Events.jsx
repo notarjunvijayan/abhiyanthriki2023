@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import './Events.css';
 import eventsData from './EventsData.json';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 
 function Events() {
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [filterEvents, setFilterEvents] = useState('technical');
   const [events, setEvents] = useState([]);
@@ -14,19 +15,21 @@ function Events() {
   useEffect(() => {
     setEvents(eventsData);
     setShowRegisterSections(Array(eventsData.length).fill(false));
-  }, []);
+    const filterFromHistory = location.state?.filterEvents;
+    if (filterFromHistory) {
+      setFilterEvents(filterFromHistory);
+    }
+  }, [location.state]);
 
   const handleClick = (buttonType) => {
     setFilterEvents(buttonType);
-    const handleClick = () => {
-      const contentWindow = document.getElementById('event-content');
-      contentWindow.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth',
-      });
-    };
-    handleClick();
+    navigate('.', { state: { filterEvents: buttonType } });
+    const contentWindow = document.getElementById('event-content');
+    contentWindow.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
   };
 
   const handleEventClick = (index, event) => {
