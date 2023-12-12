@@ -156,16 +156,6 @@ export default function Experience() {
   return (
     <>
       
-      <Image
-        url={'/Images/a3k217.jpg'}
-        position={[10, 8, -1200]}
-        args={[16, 9]}
-      />
-      <Image
-        url={'/Images/a3kvintage3.jpg'}
-        position={[10, -3, -1200]}
-        args={[16, 10]}
-      />
 
       <group position={[-15, 4, -20]}>
         <Text
@@ -212,7 +202,7 @@ export default function Experience() {
           15-16 December, 2023
         </Text>
       </group>
-      <group position={[-15,0,-100]}>
+      <group position={[-15,0,-120]}>
       <group position={[-10,7,0]}>
         <Text
           color='white' // default
@@ -529,7 +519,7 @@ export default function Experience() {
           16/12/2023
         </Text>
       </group>
-      <group onClick={()=>{window.open("/events/county-cricket")}} position={[-8,-13.5,0]} 
+      <group onClick={()=>{window.open("/events/3s-football")}} position={[-8,-13.5,0]} 
       onPointerOver={() => setHovered(true)}
       onPointerOut={() => setHovered(false)}>
         <RoundedBox args={[7,2.5]} radius={0.35}/>
@@ -615,7 +605,7 @@ export default function Experience() {
         </group>
       </group>
       </group>
-      <group position={[-35, 3, -1200]}>
+      <group position={[-35, 3, -1700]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -626,7 +616,48 @@ export default function Experience() {
           BE A PART OF {'\n'}ABHIYANTHRIKI
         </Text>
       </group>
-      <group position={[-40, -3, -1200]}>
+      <group position={[10,0,-1100]}>
+      <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={3}
+          font={'/Fonts/monument-regular.otf'}
+        >
+          ABHIYANTHRIKI{'\n'}GALLERY
+        </Text>
+      </group>
+      <Image
+        url={'/Images/a3k217.jpg'}
+        position={[40, 0, -1200]}
+        args={[25, 15]}
+      />
+      <Image
+        url={'/Images/a3kvintage3.jpg'}
+        position={[3, 0, -1220]}
+        args={[18, 12]}
+      />
+      <Image
+        url={'/Images/c1.png'}
+        position={[12, 0, -1270]}
+        args={[18, 12]}
+      />
+      <Image
+        url={'/Images/c2.png'}
+        position={[-25, 0, -1330]}
+        args={[18, 12]}
+      />
+      <Image
+        url={'/Images/c3.png'}
+        position={[8, 0, -1390]}
+        args={[18, 12]}
+      />
+      <Image
+        url={'/Images/c4.png'}
+        position={[-15, 0, -1450]}
+        args={[18, 12]}
+      />
+      <group position={[-40, -3, -1700]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -637,7 +668,7 @@ export default function Experience() {
           Register for events from the events section
         </Text>
       </group>
-      <group position={[-15, -20, -1200]}>
+      <group position={[-15, -20, -1700]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -653,7 +684,7 @@ export default function Experience() {
           fov={90}
           makeDefault
           lookAt={Spaceship}
-          far={100}
+          far={130}
           ref={camera}
         />
       </group>
