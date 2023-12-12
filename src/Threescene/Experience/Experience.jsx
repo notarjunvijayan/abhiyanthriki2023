@@ -156,15 +156,14 @@ export default function Experience() {
   return (
     <>
       
-      
       <Image
         url={'/Images/a3k217.jpg'}
-        position={[10, 8, -900]}
+        position={[10, 8, -1200]}
         args={[16, 9]}
       />
       <Image
         url={'/Images/a3kvintage3.jpg'}
-        position={[10, -3, -900]}
+        position={[10, -3, -1200]}
         args={[16, 10]}
       />
 
@@ -507,7 +506,116 @@ export default function Experience() {
         </group>
       </group>
       </group>
-      <group position={[-35, 3, -900]}>
+      <group position={[-30,7,-770]}>
+      <group position={[-11.5, -8,0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={2}
+          font={'/Fonts/mono.ttf'}
+        >
+          3's Football
+        </Text>
+      </group>
+      <group position={[-11.5, -10.5, 0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={1}
+          font={'/Fonts/mono.ttf'}
+        >
+          16/12/2023
+        </Text>
+      </group>
+      <group onClick={()=>{window.open("/events/county-cricket")}} position={[-8,-13.5,0]} 
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}>
+        <RoundedBox args={[7,2.5]} radius={0.35}/>
+        <group position={[-3,0.2,2]}>
+        <Text
+          color='black' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={0.8}
+          font={'/Fonts/mono.ttf'}
+        >
+          View Event
+        </Text>
+        </group>
+      </group>
+      </group>
+      <group position={[-10,10,-870]}>
+      <group position={[-11.5, -8,0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={2}
+          font={'/Fonts/mono.ttf'}
+        >
+          Metaverse Marvels
+        </Text>
+      </group>
+      <group position={[-11.5, -10.5, 0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={1}
+          font={'/Fonts/mono.ttf'}
+        >
+          15/12/2023
+        </Text>
+      </group>
+      <group onClick={()=>{window.open("/events/metaverse-marvels")}} position={[-8,-13.5,0]} 
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}>
+        <RoundedBox args={[7,2.5]} radius={0.35}/>
+        <group position={[-3,0.2,2]}>
+        <Text
+          color='black' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={0.8}
+          font={'/Fonts/mono.ttf'}
+        >
+          View Event
+        </Text>
+        </group>
+      </group>
+      </group>
+      <group position={[0,0,-1005]}>
+      <group position={[0, 0, 0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={3}
+          font={'/Fonts/mono.ttf'}
+        >
+          and much more...
+        </Text>
+      </group>
+      <group onClick={()=>{window.open("/events")}} position={[6,-5,0]} 
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}>
+        <RoundedBox args={[12,2.5]} radius={0.35}/>
+        <group position={[-3.5,0.2,2]}>
+        <Text
+          color='black' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={0.9}
+          font={'/Fonts/mono.ttf'}
+        >
+          Explore Events
+        </Text>
+        </group>
+      </group>
+      </group>
+      <group position={[-35, 3, -1200]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -518,7 +626,7 @@ export default function Experience() {
           BE A PART OF {'\n'}ABHIYANTHRIKI
         </Text>
       </group>
-      <group position={[-40, -3, -900]}>
+      <group position={[-40, -3, -1200]}>
         <Text
           color='white' // default
           anchorX='middle' // default
@@ -529,7 +637,7 @@ export default function Experience() {
           Register for events from the events section
         </Text>
       </group>
-      <group position={[-15, -20, -900]}>
+      <group position={[-15, -20, -1200]}>
         <Text
           color='white' // default
           anchorX='middle' // default
