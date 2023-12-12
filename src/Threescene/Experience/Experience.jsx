@@ -10,6 +10,7 @@ import { Telescope } from './ModelComponents/Telescope';
 import { Astronaut } from './ModelComponents/Astronaut';
 import Drumset from './ModelComponents/Drumset';
 import { Spaceship } from './ModelComponents/Spaceship';
+import {Bat} from './ModelComponents/Bat'
 
 
 // Total No of Generated Points from the CatMullRomCurve. Change this for a smoother path
@@ -451,6 +452,49 @@ export default function Experience() {
       onPointerOut={() => setHovered(false)}>
         <RoundedBox args={[7,2.5]} radius={0.35}/>
         <group position={[-2,0.2,2]}>
+        <Text
+          color='black' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={0.8}
+          font={'/Fonts/mono.ttf'}
+        >
+          View Event
+        </Text>
+        </group>
+      </group>
+      </group>
+      <group position={[10,7,-700]}>
+      <group position={[-11.5, -8,0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={2}
+          font={'/Fonts/mono.ttf'}
+        >
+          County Cricket
+        </Text>
+      </group>
+      <Float>
+        <Bat position={[0,0,-1]} rotation={[0.5,-0.5,0.7]}/>
+      </Float>
+      <group position={[-11.5, -10.5, 0]}>
+        <Text
+          color='white' // default
+          anchorX='middle' // default
+          anchorY='middle' // default
+          fontSize={1}
+          font={'/Fonts/mono.ttf'}
+        >
+          16/12/2023
+        </Text>
+      </group>
+      <group onClick={()=>{window.open("/events/county-cricket")}} position={[-8,-13.5,0]} 
+      onPointerOver={() => setHovered(true)}
+      onPointerOut={() => setHovered(false)}>
+        <RoundedBox args={[7,2.5]} radius={0.35}/>
+        <group position={[-3,0.2,2]}>
         <Text
           color='black' // default
           anchorX='middle' // default
