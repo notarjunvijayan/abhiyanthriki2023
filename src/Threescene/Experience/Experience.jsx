@@ -102,7 +102,7 @@ export default function Experience() {
     //(SCENE RESPONSIVITY)
     if (window.innerWidth > window.innerHeight) {
       camera.current.fov = 30;
-      camera.current.position.z = window.innerWidth/110;
+      camera.current.position.z = (window.innerWidth/ window.innerHeight)*7;
       camera.current.position.y = 1;
     }
     const curPointIndex = Math.min(
