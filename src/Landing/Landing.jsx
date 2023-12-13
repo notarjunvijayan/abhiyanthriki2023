@@ -16,7 +16,7 @@ function Landing() {
 
 
 	return (
-		<div className="font-['mono'] bg-[url('/Images/bg-static2.jpg')]">
+		<div className="font-['mono']">
 			{/* bg-[url('/Images/bg-static.jpeg')] */}
 			<Navbar />
 

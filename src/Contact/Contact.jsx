@@ -158,7 +158,8 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-			<div className="bg-[url('/Images/bg-static2.jpg')] md:hidden block mx-auto h-screen">
+			<div className="md:hidden block mx-auto h-screen">
+				{/* bg-[url('/Images/bg-static.jpeg')] */}
 				<Navbar />
 				<div className='text-4xl w-full px-2 text-[white] text-center font-["Monument"] max-[400px]:mb-0 mb-10'>
 					GET IN TOUCH
