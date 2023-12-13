@@ -22,8 +22,13 @@ function Landing() {
 			<div className="h-[100vh] flex flex-col items-center justify-around">
 				<div className=" flex flex-col justify-center items-center">
 					<div
-						className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-[#fff] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl"
+						className="glitch bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-[#fff] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl"
 						data-text="ABHIYANTHRIKI"
+					>
+						ABHIYANTHRIKI
+					</div>
+					<div
+						className="glow"
 					>
 						ABHIYANTHRIKI
 					</div>
