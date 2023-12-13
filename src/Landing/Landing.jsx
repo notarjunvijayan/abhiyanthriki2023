@@ -51,7 +51,7 @@ function Landing() {
 				</div>
 
 				<div className="text-4xl h-screen flex items-center justify-evenly flex-col ">
-					<div className="mx-auto text-center flex items-center justify-center text-white text-xl border border-2 border-white mx-4 rounded-2xl">
+					<div className="mx-auto text-center flex items-center justify-center text-white text-xl border border-2 border-white mx-5 rounded-2xl">
 						<a href="https://www.techmindz.com/">
 							<img
 								src="/Images/techmindz-white.png"
