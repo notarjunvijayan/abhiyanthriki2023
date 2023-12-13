@@ -1,5 +1,4 @@
 import Navbar from '../Navbar/Navbar.jsx';
-import './Landing.css';
 import eventsData from '../Events/EventsData.json';
 import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
@@ -21,17 +20,10 @@ function Landing() {
 
 			<div className="h-[100vh] flex flex-col items-center justify-around">
 				<div className=" flex flex-col justify-center items-center">
-					<div
-						className="glitch bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-[#fff] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl"
-						data-text="ABHIYANTHRIKI"
-					>
+					<div className="bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-[#fff] text-transparent bg-clip-text font-['Monument'] text-4xl mx-auto text-center max-[380px]:text-3xl">
 						ABHIYANTHRIKI
 					</div>
-					<div
-						className="glow"
-					>
-						ABHIYANTHRIKI
-					</div>
+
 					<div className="font-['Monument'] text-white text-3xl max-[380px]:text-2xl text-center">
 						2023
 					</div>
@@ -87,7 +79,7 @@ function Landing() {
 							</a>
 						</div>
 						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
-							<a href='https://www.hubspire.com/'>
+							<a href="https://www.hubspire.com/">
 								<img
 									src="/Images/Hubspire.jpg"
 									alt="hubspire sponsor logo"
