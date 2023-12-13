@@ -187,7 +187,7 @@
       "name": ["Hima", "Catherine"],
       "no": ["8156908971", "8301929414"]
     },
-    "active": 1,
+    "active": 0,
     "reglink": "https://bit.ly/a3k_S2W"
   },
   {
@@ -230,7 +230,7 @@
     "title": "Toyota Hybrid Workshop",
     "route": "toyota-hybrid-workshop",
     "description": "Uncover secrets of green mobility with us!\n\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
-    "date": "9th December 2023",
+    "date": "TBD",
     "time": "9 AM",
     "imageurl": "/EventAssets/toyotaworkshop.jpg",
     "technical": true,
@@ -238,7 +238,7 @@
       "name": ["Jeevan Thomas", "Thomas Varghese"],
       "no": ["9846162521", "9207741944"]
     },
-    "active": 0,
+    "active": 2,
     "reglink": "https://bit.ly/a3k_THW"
   },
   {
