@@ -14,7 +14,6 @@ function Landing() {
 		setActiveEventIndex(activeEventIndex === index ? null : index);
 	};
 
-
 	return (
 		<div className="font-['mono']">
 			{/* bg-[url('/Images/bg-static.jpeg')] */}
@@ -56,12 +55,14 @@ function Landing() {
 
 				<div className="text-4xl h-screen flex items-center justify-evenly flex-col ">
 					<div className="mx-auto text-center flex items-center justify-center text-white text-xl border border-2 border-white mx-4 rounded-2xl">
-						<img
-							src="/Images/techmindz-white.png"
-							alt="title sponsor logo"
-							className=" px-2 mx-auto"
-							loading="lazy"
-						/>
+						<a href="https://www.techmindz.com/">
+							<img
+								src="/Images/techmindz-white.png"
+								alt="title sponsor logo"
+								className=" px-2 mx-auto"
+								loading="lazy"
+							/>
+						</a>
 					</div>
 					TITLE SPONSOR
 				</div>
@@ -71,20 +72,24 @@ function Landing() {
 				<div className="text-2xl h-screen flex items-center justify-evenly flex-col -mt-[10%]">
 					<div className="mx-auto text-center text-white text-xl flex flex-col gap-6 ">
 						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
-							<img
-								src="/Images/GLOBAL_logo.jpg"
-								alt="global sponsor logo"
-								className="w-3/4 mx-auto"
-								loading="lazy"
-							/>
+							<a href="https://www.globaledu.in/">
+								<img
+									src="/Images/GLOBAL_logo.jpg"
+									alt="global sponsor logo"
+									className="w-3/4 mx-auto"
+									loading="lazy"
+								/>
+							</a>
 						</div>
 						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
-							<img
-								src="/Images/Hubspire.jpg"
-								alt="hubspire sponsor logo"
-								className="mx-auto"
-								loading="lazy"
-							/>
+							<a href='https://www.hubspire.com/'>
+								<img
+									src="/Images/Hubspire.jpg"
+									alt="hubspire sponsor logo"
+									className="mx-auto"
+									loading="lazy"
+								/>
+							</a>
 						</div>
 					</div>
 					<div className="">PLATINUM SPONSORS</div>
