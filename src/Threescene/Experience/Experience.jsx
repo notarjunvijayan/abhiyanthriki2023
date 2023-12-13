@@ -290,12 +290,12 @@ export default function Experience() {
             event.
             {'\n'}
             {'\n'}It's a pulsating emotion of excellence and invention!
-            {'\n'}Join us for a two-day tech extravaganza—a playground for
+            {'\n'}Join us for a two-day tech extravaganza — a playground for
             {'\n'}tech contests, workshops, hackathons, and
             {'\n'}exhilarating stalls, providing a platform for various
             scholastic and technical achievements.
             {'\n'}
-            {'\n'}his year, we're not just embracing sustainability.
+            {'\n'}This year, we're not just embracing sustainability.
             {'\n'}We're transforming waste into a sustainable spectacle.
             {'\n'}
             {'\n'}Don't just attend, be part of the revolution!
