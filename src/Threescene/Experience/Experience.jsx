@@ -295,7 +295,7 @@ export default function Experience() {
             {'\n'}exhilarating stalls, providing a platform for various
             scholastic and technical achievements.
             {'\n'}
-            {'\n'}his year, we're not just embracing sustainability.
+            {'\n'}This year, we're not just embracing sustainability.
             {'\n'}We're transforming waste into a sustainable spectacle.
             {'\n'}
             {'\n'}Don't just attend, be part of the revolution!
