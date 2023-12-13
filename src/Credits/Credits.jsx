@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 
 export default function Credits() {
   const names = [
+    'Ankit John Abraham',
     'Arjun V',
     'George Jose',
     'Gokul S Raj',

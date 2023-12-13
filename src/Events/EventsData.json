@@ -6,7 +6,7 @@
     "route": "Mephistopheles-An-Escape-Room",
     "description": "Embark on a captivating journey at our Escape Room experience, meticulously crafted to ignite creativity among students. This immersive adventure blends mystery with technical prowess, challenging participants to solve intricate puzzles and decode messages to break free from the clutches of a self-aware AI. Engage your intellect and collaborative spirit as you navigate this labyrinth, fostering a unique fusion of problem-solving and technical skills.\n\nUnleash your creativity and push the boundaries of your capabilities in an unforgettable quest for freedom. Are you ready to unravel the enigma and escape the realm of the self-aware AI? Join us and explore the endless possibilities! ",
     "date": "16th December 2023",
-    "time": "10 AM",
+    "time": "10:00 AM",
     "imageurl": "/EventAssets/escaperoom.jpg",
     "technical": true,
     "poc": {
@@ -23,7 +23,7 @@
     "route": "metaverse-marvels",
     "description": "\nExplore the future of the internet and immerse yourself in the Metaverse Marvels event. \n\nEmbrace the Web3 revolution as we delve into the latest advancements in decentralized technologies, blockchain, and virtual reality. Join us for insightful discussions, hands-on experiences, and a glimpse into the evolving landscape of the digital world.\n\nBe a part of this transformative journey and discover the endless possibilities that the Metaverse holds.",
     "date": "15 December 2023",
-    "time": "9.30 AM",
+    "time": "9:30 AM",
     "imageurl": "/EventAssets/metaverse-marvels.jpg",
     "technical": true,
     "poc": {
@@ -44,7 +44,7 @@
       "\n\nRound 3 - Auction: Each team will be given a purse balance of 100cr, with which they have to build a team of 15-17 players from a designated pool of 160 players. Each player is assigned a rating based on their stats in IPL T20 matches in 2023. Teams with the highest ratings in their starting 11 will be crowned champions."
     ],
     "date": "16th December 2023",
-    "time": "10 AM",
+    "time": "10:00 AM",
     "imageurl": "/EventAssets/iplauction.jpg",
     "technical": true,
     "poc": {
@@ -95,7 +95,7 @@
     "route": "arduino-arcade-bash",
     "description": "Onboard into a comprehensive two-round program that seamlessly blends education and competition. Participants partake in an immersive workshop, delving into the intricacies of Arduino-based arcade game development. Covering coding, hardware integration, and game design, this session equips attendees with essential skills.\n\nIn the Challenge phase unfolds, tasking participants with crafting innovative games. Adjudicated on creativity, functionality, and user engagement, projects are evaluated by discerning judges. This event promises a professional platform for skill enhancement, collaboration, and the showcase of ingenuity in the realm of Arduino game development.",
     "date": "15th December 2023",
-    "time": "9.30 AM",
+    "time": "9:30 AM",
     "imageurl": "/EventAssets/arduino-arcade-bash.jpg",
     "technical": true,
     "poc": {
@@ -112,7 +112,7 @@
     "route": "create-with-an-e",
     "description": "Create with an E is an E-Waste Art Gallery Competition where E-waste will be distributed to participating teams, challenging them to harness their creativity to transform these discarded materials into an innovative and aesthetically pleasing art gallery.\n\nThis event not only serves as a platform for artistic expression but also promotes sustainable practices by repurposing e-waste.",
     "date": "15 December 2023",
-    "time": "11 AM",
+    "time": "11:00 AM",
     "imageurl": "/EventAssets/ewaste.jpg",
     "technical": true,
     "poc": {
@@ -197,7 +197,7 @@
     "route": "hacksus",
     "description": "Join the excitement as RSET IEDC in association with Abhiyanthriki '23 unveils the thrilling\nHackS'US - Edition III an All Kerala 24-hour Inter-College Hackathon. \n\nCompete for internship opportunities, startup incubation, and more. Benefit from exclusive mentorship and special training sessions from communities and alumni.\n\nElevate your skills and teamwork for a chance at the impressive ₹1,30,000 prize pool.\nPrepare for excitement with a lineup of entertaining programs to keep you engaged throughout the event.\n",
     "date": "15th & 16th December 2023",
-    "time": "5 PM Onwards",
+    "time": "5:00 PM",
     "imageurl": "/EventAssets/hacks'us.jpg",
     "technical": true,
     "poc": {
@@ -214,7 +214,7 @@
     "route": "ethical-hacking",
     "description": "💡What to Expect: Join us for an immersive Ethical Hacking Workshop featuring Mr. Ajal from Offenso Hackers Academy. \n\nGain insights into: \nHands-on hacking demos, \nPro tips on ethical hacking \nNetworking with cybersecurity pros.\n\nDon't miss the cybersecurity revolution!  #EthicalHacking #TechEvent",
     "date": "25th November 2023",
-    "time": " 9 AM",
+    "time": " 9:00 AM",
     "imageurl": "/EventAssets/ethicalhacking.jpg",
     "technical": true,
     "poc": {
@@ -230,8 +230,8 @@
     "title": "Toyota Hybrid Workshop",
     "route": "toyota-hybrid-workshop",
     "description": "Uncover secrets of green mobility with us!\n\n🛠 Hands-On Hybrid Fun: Explore hybrid tech up-close and personal!\n\n🤖 Tech Talks: Hear from experts on the future of eco-friendly driving.\n\n🌍 Sustainability Chat: Discuss the impact of hybrid tech on our planet.",
-    "date": "TBD",
-    "time": "9 AM",
+    "date": "14th December 2023",
+    "time": "3:00 PM",
     "imageurl": "/EventAssets/toyotaworkshop.jpg",
     "technical": true,
     "poc": {
@@ -299,7 +299,7 @@
     "route": "rhythmic-resonance",
     "description": "Join the captivating 'Rhythmic Resonance' at Tech Fest Abhiyanthriki, RSET, on December 16th. \n\nThis independent event invites eastern musical bands to showcase their talent alongside skilled musicians from various colleges. Unleash your best performance and seize the opportunity to win an impressive prize pool of Rs.17k!",
     "date": "16th December 2023",
-    "time": "1 PM - 4 PM",
+    "time": "1:00 PM",
     "imageurl": "/EventAssets/resonance.jpg",
     "technical": false,
     "poc": {
@@ -316,7 +316,7 @@
     "route": "disco-divas",
     "description": "Dance into the spotlight at our Spot Choreo showdown!\n\nUnleash your creativity in this vibrant, quick-paced dance event that's all about choreographic brilliance!",
     "date": "15th December 2023",
-    "time": "9:00 A.M",
+    "time": "9:00 AM",
     "imageurl": "/EventAssets/disco.jpg",
     "technical": false,
     "poc": {
@@ -350,7 +350,7 @@
     "route": "manaige",
     "description": "Are you aspiring to build a thriving career in management? Then here's your opportunity!\n\nAs part of ABHIYANTHRIKI 2023, we present to you the opportunity to gain valuable industry insights through our upcoming session. \n\n ✨ manAIge ✨ \n\n How to Build a Successful Career in Management.",
     "date": "25 November 2023",
-    "time": " 10.30 AM",
+    "time": " 10:30 AM",
     "imageurl": "/EventAssets/manaige.jpg",
     "technical": false,
     "poc": {
@@ -418,7 +418,7 @@
     "route": "ElectroHunt",
     "description": "Step into the pulse-pounding realm of Electro-hunt - a dynamic 3-hour tech fiesta spread across lab, corridors and our main building.\n\nBrace for three electrifying challenges: quiz, hunt, and circuit connection.\n\nAssemble your dream team of 2-4 and chase the thrill for a chance to snag the 3k prize pool!",
     "date": "16th December 2023",
-    "time": "10 AM",
+    "time": "10:00 AM",
     "imageurl": "/EventAssets/electro-hunt.jpg",
     "technical": true,
     "poc": {
@@ -435,7 +435,7 @@
     "route": "Circuit-Race",
     "description": "The Circuit Race: Accelerate into the heart of innovation with our Circuit Race event! \nThis adrenaline-fueled challenge kicks off with a rapid-fire quiz, testing your circuit savvy, followed by a hands-on implementation round where you'll harness provided components to craft and execute your circuit masterpiece. \nFeel the surge of excitement as creativity meets technical skill in a high-stakes race to engineer the most innovative circuit. \n\nGet ready to push the boundaries, spark ingenuity, and surge ahead toward electrifying triumph!",
     "date": "15th December 2023",
-    "time": "10:00 A.M",
+    "time": "10:00 AM",
     "imageurl": "/EventAssets/circuit-race.jpg",
     "technical": true,
     "poc": {
@@ -452,7 +452,7 @@
     "route": "uncharted-ciphers-quest",
     "description": "\nDive into an electrifying journey into the captivating realm of Cipher's Quest! \nImmerse yourself in the thrilling challenge of decoding, debugging, and problem-solving across three exhilarating rounds.Just like a small-field symphony of ability and strategy, each team member plays a crucial role in unraveling complex codes and navigating the intricate web of challenges. Brace yourself for a fast-paced, dynamic experience where individual ingenuity and teamwork collide in the quest for victory.\nCipher Quest is not just a tech adventure; it's a pulse-pounding symphony of wit and skill. Do you have what it takes to conquer the quest and emerge victorious?",
     "date": "15th December 2023",
-    "time": "9:30 A.M",
+    "time": "9:30 AM",
     "imageurl": "/EventAssets/cipher.jpg",
     "technical": true,
     "poc": {

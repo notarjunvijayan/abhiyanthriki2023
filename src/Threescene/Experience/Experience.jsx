@@ -102,7 +102,8 @@ export default function Experience() {
     //(SCENE RESPONSIVITY)
     if (window.innerWidth > window.innerHeight) {
       camera.current.fov = 30;
-      camera.current.position.z = (window.innerWidth/ window.innerHeight)*(5500/window.innerHeight);
+      camera.current.position.z =
+        (window.innerWidth / window.innerHeight) * (5500 / window.innerHeight);
       camera.current.position.y = 1;
     }
     const curPointIndex = Math.min(
@@ -289,12 +290,12 @@ export default function Experience() {
             event.
             {'\n'}
             {'\n'}It's a pulsating emotion of excellence and invention!
-            {'\n'}Join us for a two-day tech extravaganza—a playground for
+            {'\n'}Join us for a two-day tech extravaganza — a playground for
             {'\n'}tech contests, workshops, hackathons, and
             {'\n'}exhilarating stalls, providing a platform for various
             scholastic and technical achievements.
             {'\n'}
-            {'\n'}his year, we're not just embracing sustainability.
+            {'\n'}This year, we're not just embracing sustainability.
             {'\n'}We're transforming waste into a sustainable spectacle.
             {'\n'}
             {'\n'}Don't just attend, be part of the revolution!
@@ -449,9 +450,9 @@ export default function Experience() {
           </Text>
         </group>
         <group
-          onClick={() => {
-            window.open('/events/rhythmic-resonance');
-          }}
+          // onClick={() => {
+          //   window.open('/events/rhythmic-resonance');
+          // }}
           position={[-8, -13.5, 0]}
           onPointerOver={() => setHovered(true)}
           onPointerOut={() => setHovered(false)}
@@ -465,7 +466,7 @@ export default function Experience() {
               fontSize={0.8}
               font={'/Fonts/mono.ttf'}
             >
-              View Event
+              Coming Soon!
             </Text>
           </group>
         </group>
@@ -698,12 +699,14 @@ export default function Experience() {
             Register for events now
           </Text>
         </group>
-        <group position={[-15, -20, 0]}
+        <group
+          position={[-15, -20, 0]}
           onClick={() => {
             window.open('/team');
           }}
           onPointerOver={() => setHovered(true)}
-          onPointerOut={() => setHovered(false)}>
+          onPointerOut={() => setHovered(false)}
+        >
           <Text
             color='white' // default
             anchorX='middle' // default
