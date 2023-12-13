@@ -102,7 +102,8 @@ export default function Experience() {
     //(SCENE RESPONSIVITY)
     if (window.innerWidth > window.innerHeight) {
       camera.current.fov = 30;
-      camera.current.position.z = (window.innerWidth/ window.innerHeight)*(5500/window.innerHeight);
+      camera.current.position.z =
+        (window.innerWidth / window.innerHeight) * (5500 / window.innerHeight);
       camera.current.position.y = 1;
     }
     const curPointIndex = Math.min(
@@ -449,9 +450,9 @@ export default function Experience() {
           </Text>
         </group>
         <group
-          onClick={() => {
-            window.open('/events/rhythmic-resonance');
-          }}
+          // onClick={() => {
+          //   window.open('/events/rhythmic-resonance');
+          // }}
           position={[-8, -13.5, 0]}
           onPointerOver={() => setHovered(true)}
           onPointerOut={() => setHovered(false)}
@@ -465,7 +466,7 @@ export default function Experience() {
               fontSize={0.8}
               font={'/Fonts/mono.ttf'}
             >
-              View Event
+              Coming Soon!
             </Text>
           </group>
         </group>
@@ -698,12 +699,14 @@ export default function Experience() {
             Register for events now
           </Text>
         </group>
-        <group position={[-15, -20, 0]}
+        <group
+          position={[-15, -20, 0]}
           onClick={() => {
             window.open('/team');
           }}
           onPointerOver={() => setHovered(true)}
-          onPointerOut={() => setHovered(false)}>
+          onPointerOut={() => setHovered(false)}
+        >
           <Text
             color='white' // default
             anchorX='middle' // default
