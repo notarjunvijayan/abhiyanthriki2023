@@ -52,7 +52,7 @@ function Landing() {
 
 				<div className="text-4xl h-screen flex items-center justify-evenly flex-col ">
 					<div className="mx-auto text-center flex items-center justify-center text-white text-xl border border-2 border-white mx-5 rounded-2xl">
-						<a href="https://www.techmindz.com/">
+						<a href="https://www.techmindz.com/" target="_blank" rel="noreferrer noopener">
 							<img
 								src="/Images/techmindz-white.png"
 								alt="title sponsor logo"
@@ -69,7 +69,7 @@ function Landing() {
 				<div className="text-2xl h-screen flex items-center justify-evenly flex-col -mt-[10%]">
 					<div className="mx-auto text-center text-white text-xl flex flex-col gap-6 ">
 						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
-							<a href="https://www.globaledu.in/">
+							<a href="https://www.globaledu.in/" target="_blank" rel="noreferrer noopener">
 								<img
 									src="/Images/GLOBAL_logo.jpg"
 									alt="global sponsor logo"
@@ -79,7 +79,7 @@ function Landing() {
 							</a>
 						</div>
 						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
-							<a href="https://www.hubspire.com/">
+							<a href="https://www.hubspire.com/" target="_blank" rel="noreferrer noopener">
 								<img
 									src="/Images/Hubspire.jpg"
 									alt="hubspire sponsor logo"
@@ -90,6 +90,44 @@ function Landing() {
 						</div>
 					</div>
 					<div className="">PLATINUM SPONSORS</div>
+				</div>
+				<div className="text-3xl bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#e5ff00] via-[#e5ff00] to-white text-transparent bg-clip-text font-['Monument'] text-center">
+					<span className="text-white font-['Monument']">OUR</span> SPONSORS
+				</div>
+				<div className="text-2xl h-screen flex items-center justify-evenly flex-col -mt-[10%]">
+					<div className="mx-auto text-center text-white text-xl flex flex-col max-[400px]:gap-6 gap-10">
+						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
+							<a href="https://bulwark.biz/" target="_blank" rel="noreferrer noopener">
+								<img
+									src="/Images/Bulwark.png"
+									alt="Bulwark sponsor logo"
+									className="w-3/4 mx-auto"
+									loading="lazy"
+								/>
+							</a>
+						</div>
+						<div className="border border-2 border-white  mx-4 rounded-2xl p-4">
+							<a href="https://dewtonindia.com/" target="_blank" rel="noreferrer noopener">
+								<img
+									src="/Images/DewtonLED.png"
+									alt="DewtonLED sponsor logo"
+									className="mx-auto"
+									loading="lazy"
+								/>
+							</a>
+						</div>
+						<div className="border border-2 border-white  mx-4 rounded-2xl p-4" target="_blank" rel="noreferrer noopener">
+							<a href="https://www.unimoni.in/">
+								<img
+									src="/Images/Unimoni.png"
+									alt="Unimoni sponsor logo"
+									className="mx-auto"
+									loading="lazy"
+								/>
+							</a>
+						</div>
+					</div>
+					<div className="">BRONZE SPONSORS</div>
 				</div>
 			</div>
 
