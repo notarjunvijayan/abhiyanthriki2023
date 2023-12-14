@@ -199,7 +199,7 @@ export default function Experience() {
           15-16 December, 2023
         </Text>
       </group>
-      <group position={[-15, 5, -120]}>
+      <group position={[-18, 5, -120]}>
         <group position={[-10, 7, 0]}>
           <Text
             color='white' // default
@@ -222,18 +222,18 @@ export default function Experience() {
             url={'/Images/techmindz-white.png'}
             args={[30, 20]}
           />
-          <RoundedBox args={[30, 20, 0.5]} radius={0.15} position={[-1, 0, 0]}>
-            <meshBasicMaterial color={'blue'} />
+          <RoundedBox args={[32, 20, 0.5]} radius={0.15} position={[-1, 0, 0]}>
+            <meshBasicMaterial color={'black'} />
           </RoundedBox>
         </group>
       </group>
-      <group position={[10, 0, -150]}>
-        <group position={[-6, 4, 0]}>
+      <group position={[25, 8, -120]}>
+        <group position={[-8.5, 7, 0]}>
           <Text
             color='white' // default
             anchorX='left' // default
             anchorY='middle' // default
-            fontSize={0.8}
+            fontSize={1.2}
             font={'/Fonts/monument-regular.otf'}
           >
             PLATINUM SPONSORS
@@ -245,9 +245,9 @@ export default function Experience() {
         onPointerOut={() => setHovered(false)}
         >
         <Image
-          position={[-2.5, 0, 0.5]}
+          position={[-5, 0, 0.5]}
           url={'/Images/Hubspire.jpg'}
-          args={[5, 1]}
+          args={[12, 3]}
         />
         </group>
         <group
@@ -256,14 +256,60 @@ export default function Experience() {
         onPointerOut={() => setHovered(false)}
         >
         <Image
-          position={[3, 0, 0.5]}
+          position={[7, 0, 0.5]}
           url={'/Images/GLOBAL_logo.jpg'}
-          args={[4, 4]}
+          args={[8, 8]}
         />
         </group>
-        <RoundedBox args={[12, 5, 0.5]} radius={0.15} />
+        <RoundedBox args={[25, 10, 0.5]} radius={0.15} />
       </group>
-
+      <group position={[25, -8, -120]}>
+        <group position={[-6.5, 7, 0]}>
+          <Text
+            color='white' // default
+            anchorX='left' // default
+            anchorY='middle' // default
+            fontSize={1}
+            font={'/Fonts/monument-regular.otf'}
+          >
+            BRONZE SPONSORS
+          </Text>
+        </group>
+        <group
+        onClick={()=>{window.open('https://bulwark.biz/')}}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
+        >
+        <Image
+          position={[-4, 2, 0.5]}
+          url={'/Images/Bulwark.png'}
+          args={[7, 3]}
+        />
+        </group>
+        <group
+        onClick={()=>{window.open('https://dewtonindia.com/')}}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
+        >
+        <Image
+          position={[5, 2, 0.5]}
+          url={'/Images/DewtonLED.png'}
+          args={[6, 3]}
+        />
+        </group>
+        <group
+        onClick={()=>{window.open('https://www.unimoni.in/')}}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
+        >
+        <Image
+          position={[0, -2, 0.5]}
+          url={'/Images/Unimoni.png'}
+          args={[6, 2]}
+        />
+        </group>
+        <RoundedBox args={[20, 10, 0.5]} radius={0.15} />
+      </group>
       <group position={[-6, -2, 0]}>
         <Text
           color='white' // default
@@ -717,7 +763,7 @@ export default function Experience() {
           </Text>
         </group>
         <group
-          position={[-15, -20, 0]}
+          position={[-10, -20, 0]}
           onClick={() => {
             window.open('/team');
           }}
