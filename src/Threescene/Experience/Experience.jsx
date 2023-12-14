@@ -199,7 +199,7 @@ export default function Experience() {
           15-16 December, 2023
         </Text>
       </group>
-      <group position={[-15, 0, -120]}>
+      <group position={[-15, 5, -120]}>
         <group position={[-10, 7, 0]}>
           <Text
             color='white' // default
@@ -211,14 +211,19 @@ export default function Experience() {
             TITLE SPONSOR
           </Text>
         </group>
-        <group>
+        <group 
+          position={[0,-6,0]} 
+          onClick={()=>{window.open('https://www.techmindz.com/')}}
+          onPointerOver={() => setHovered(true)}
+          onPointerOut={() => setHovered(false)}
+        >
           <Image
             position={[-1, 0, 0.5]}
             url={'/Images/techmindz-white.png'}
-            args={[16, 10]}
+            args={[30, 20]}
           />
-          <RoundedBox args={[20, 10, 0.5]} radius={0.15} position={[-1, 0, 0]}>
-            <meshBasicMaterial color={'black'} />
+          <RoundedBox args={[30, 20, 0.5]} radius={0.15} position={[-1, 0, 0]}>
+            <meshBasicMaterial color={'blue'} />
           </RoundedBox>
         </group>
       </group>
@@ -234,16 +239,28 @@ export default function Experience() {
             PLATINUM SPONSORS
           </Text>
         </group>
+        <group
+        onClick={()=>{window.open('https://www.hubspire.com/')}}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
+        >
         <Image
           position={[-2.5, 0, 0.5]}
           url={'/Images/Hubspire.jpg'}
           args={[5, 1]}
         />
+        </group>
+        <group
+        onClick={()=>{window.open('https://www.globaledu.in/')}}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
+        >
         <Image
           position={[3, 0, 0.5]}
           url={'/Images/GLOBAL_logo.jpg'}
           args={[4, 4]}
         />
+        </group>
         <RoundedBox args={[12, 5, 0.5]} radius={0.15} />
       </group>
 
