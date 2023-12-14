@@ -85,7 +85,7 @@
       "name": ["Benison", "Bhadra S Anand"],
       "no": ["9995921803", "7025065615"]
     },
-    "active": 0,
+    "active": 1,
     "reglink": "https://bit.ly/a3k_whodunnit"
   },
   {
@@ -465,7 +465,7 @@
   {
     "id": 28,
     "no": "28",
-    "title": "FIFA 2023 Tournament",
+    "title": "EA Sports FIFA tournament",
     "route": "fifa-2023-tournament",
     "description": "\nCalling all FIFA enthusiasts! Join us for an adrenaline-packed EA Sports FIFA Tournament.\nCompete in thrilling matches, conquer multiple rounds, and emerge as the ultimate FIFA champion!",
     "date": "16th December 2023",
@@ -478,5 +478,39 @@
     },
     "active": 1,
     "reglink": "https://bit.ly/a3k_FIFA"
+  },
+  {
+    "id": 29,
+    "no": "29",
+    "title": "Panel Discussion - Generative AI",
+    "route": "generative-ai-panel-discussion",
+    "description": "",
+    "date": "15th December 2023",
+    "time": "11:00 AM",
+    "imageurl": "/EventAssets/panel-ai.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Renil Paulson", "Aditya"],
+      "no": ["9385816950", "9746939153"]
+    },
+    "active": 1,
+    "reglink": "https://bit.ly/a3k_gai"
+  },
+  {
+    "id": 30,
+    "no": "30",
+    "title": "Panel Discussion - EV and Sustainability",
+    "route": "ev-sustainability-panel-discussion",
+    "description": "",
+    "date": "15th December 2023",
+    "time": "3:00 PM",
+    "imageurl": "/EventAssets/panel-ev.jpg",
+    "technical": false,
+    "poc": {
+      "name": ["Renil Paulson", "Aditya"],
+      "no": ["9385816950", "9746939153"]
+    },
+    "active": 1,
+    "reglink": "http://bit.ly/a3k_sustain"
   }
 ]
