@@ -211,9 +211,11 @@ export default function Experience() {
             TITLE SPONSOR
           </Text>
         </group>
-        <group 
-          position={[0,-6,0]} 
-          onClick={()=>{window.open('https://www.techmindz.com/')}}
+        <group
+          position={[0, -6, 0]}
+          onClick={() => {
+            window.open('https://www.techmindz.com/');
+          }}
           onPointerOver={() => setHovered(true)}
           onPointerOut={() => setHovered(false)}
         >
@@ -240,26 +242,30 @@ export default function Experience() {
           </Text>
         </group>
         <group
-        onClick={()=>{window.open('https://www.hubspire.com/')}}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}
+          onClick={() => {
+            window.open('https://www.hubspire.com/');
+          }}
+          onPointerOver={() => setHovered(true)}
+          onPointerOut={() => setHovered(false)}
         >
-        <Image
-          position={[-5, 0, 0.5]}
-          url={'/Images/Hubspire.jpg'}
-          args={[12, 3]}
-        />
+          <Image
+            position={[-5, 0, 0.5]}
+            url={'/Images/Hubspire.jpg'}
+            args={[12, 3]}
+          />
         </group>
         <group
-        onClick={()=>{window.open('https://www.globaledu.in/')}}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}
+          onClick={() => {
+            window.open('https://www.globaledu.in/');
+          }}
+          onPointerOver={() => setHovered(true)}
+          onPointerOut={() => setHovered(false)}
         >
-        <Image
-          position={[7, 0, 0.5]}
-          url={'/Images/GLOBAL_logo.jpg'}
-          args={[8, 8]}
-        />
+          <Image
+            position={[7, 0, 0.5]}
+            url={'/Images/GLOBAL_logo.jpg'}
+            args={[8, 8]}
+          />
         </group>
         <RoundedBox args={[25, 10, 0.5]} radius={0.15} />
       </group>
@@ -276,37 +282,43 @@ export default function Experience() {
           </Text>
         </group>
         <group
-        onClick={()=>{window.open('https://bulwark.biz/')}}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}
+          onClick={() => {
+            window.open('https://bulwark.biz/');
+          }}
+          onPointerOver={() => setHovered(true)}
+          onPointerOut={() => setHovered(false)}
         >
-        <Image
-          position={[-4, 2, 0.5]}
-          url={'/Images/Bulwark.png'}
-          args={[7, 3]}
-        />
+          <Image
+            position={[-4, 2, 0.5]}
+            url={'/Images/Bulwark.png'}
+            args={[7, 3]}
+          />
         </group>
         <group
-        onClick={()=>{window.open('https://dewtonindia.com/')}}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}
+          onClick={() => {
+            window.open('https://dewtonindia.com/');
+          }}
+          onPointerOver={() => setHovered(true)}
+          onPointerOut={() => setHovered(false)}
         >
-        <Image
-          position={[5, 2, 0.5]}
-          url={'/Images/DewtonLED.png'}
-          args={[6, 3]}
-        />
+          <Image
+            position={[5, 2, 0.5]}
+            url={'/Images/DewtonLED.png'}
+            args={[6, 3]}
+          />
         </group>
         <group
-        onClick={()=>{window.open('https://www.unimoni.in/')}}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}
+          onClick={() => {
+            window.open('https://www.unimoni.in/');
+          }}
+          onPointerOver={() => setHovered(true)}
+          onPointerOut={() => setHovered(false)}
         >
-        <Image
-          position={[0, -2, 0.5]}
-          url={'/Images/Unimoni.png'}
-          args={[6, 2]}
-        />
+          <Image
+            position={[0, -2, 0.5]}
+            url={'/Images/Unimoni.png'}
+            args={[6, 2]}
+          />
         </group>
         <RoundedBox args={[20, 10, 0.5]} radius={0.15} />
       </group>
@@ -509,7 +521,7 @@ export default function Experience() {
             fontSize={1}
             font={'/Fonts/mono.ttf'}
           >
-            16/12/2023
+            15/12/2023
           </Text>
         </group>
         <group
@@ -520,8 +532,8 @@ export default function Experience() {
           onPointerOver={() => setHovered(true)}
           onPointerOut={() => setHovered(false)}
         >
-          <RoundedBox args={[7, 2.5]} radius={0.35} />
-          <group position={[-2, 0.2, 2]}>
+          {/* <RoundedBox args={[7, 2.5]} radius={0.35} /> */}
+          {/* <group position={[-2, 0.2, 2]}>
             <Text
               color='black' // default
               anchorX='middle' // default
@@ -531,7 +543,7 @@ export default function Experience() {
             >
               Coming Soon!
             </Text>
-          </group>
+          </group> */}
         </group>
       </group>
       <group position={[10, 7, -700]}>
