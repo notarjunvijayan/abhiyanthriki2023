@@ -488,7 +488,7 @@
     "date": "15th December 2023",
     "time": "11:00 AM",
     "imageurl": "/EventAssets/panel-ai.jpg",
-    "technical": false,
+    "technical": true,
     "poc": {
       "name": ["Renil Paulson", "Aditya"],
       "no": ["9385816950", "9746939153"]
@@ -505,7 +505,7 @@
     "date": "15th December 2023",
     "time": "3:00 PM",
     "imageurl": "/EventAssets/panel-ev.jpg",
-    "technical": false,
+    "technical": true,
     "poc": {
       "name": ["Renil Paulson", "Aditya"],
       "no": ["9385816950", "9746939153"]
